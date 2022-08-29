@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: auto;
+    height: auto;
+    font-family: "Raleway", sans-serif;
+}
+.container, header, main, .body, .body1, .body2, .body1-left, .body2-left, .side-bar, #move1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 800px;
+    height: 800px;
+    flex-direction: column;
+    border: 4px solid black;
+    padding: 5px;
+}
+    header {
+        flex: 1;
+        background-color: rgb(204, 204, 204);
+        width: 800px;
+    }
+        .s-header {
+            flex: 1;
+            text-align: center;
+        }
+        .m-header {
+            flex: 3;
+            text-align: center;
+        }
+            .search-bar {
+                width: 70%;
+                height: 30px;
+                text-align: center;
+                border: 3px solid black;
+                border-radius: 4px;
+            }
+        .e-header {
+            flex: 1;
+            text-align: center;
+        }
+        .e-header button {
+            width: 70px;
+            height: 30px;
+            color: aliceblue;
+            background-color: rgb(43, 120, 228);
+            border: 2px solid black;
+            font-weight: bolder;
+            box-shadow: 3px 3px black;
+            border-radius: 5px;
+        }
+    main {
+        flex: 8;
+        width: 800px;
+    }
+    .body {
+        flex: 3;
+        flex-direction: column;
+        height: 600px;
+    }
+        .body1 {
+            flex: 1;
+            background-color: aliceblue;
+            border: 4px solid black;
+            height: 250px;
+        }
+            .body1-left {
+                flex-direction: column;
+                flex: 2;
+                height: 250px;
+            }
+                #box1 {
+                    flex: 2;
+                    flex-direction: column;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+                #box2 {
+                    flex: 1;
+                }
+                    #box2 button {
+                        width: 70px;
+                        height: 30px;
+                        color: black;
+                        background-color: rgb(255, 217, 102);
+                        border: 2px solid black;
+                        font-weight: bolder;
+                        box-shadow: 3px 3px black;
+                        border-radius: 5px;
+                    }
+            .body1-right {
+                flex: 3;
+                text-align: center;
+            }
+        .body2 {
+            flex: 1;
+            background-color: aliceblue;
+            border: 4px solid black;
+            height: 250px;
+            margin-top: 20px;
+        }
+        .body2-left {
+            flex-direction: column;
+            flex: 2;
+            height: 250px;
+        }
+            #box3 {
+                flex: 2;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 30px;
+            }
+            #box4 {
+                flex: 1;
+            }
+                #box4 button {
+                    width: 70px;
+                    height: 30px;
+                    color: black;
+                    background-color: rgb(255, 217, 102);
+                    border: 2px solid black;
+                    font-weight: bolder;
+                    box-shadow: 3px 3px black;
+                    border-radius: 5px;
+                }
+        .body2-right {
+            flex: 3;
+            text-align: center;
+        }
+    .side-bar {
+        flex: 2;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 700px;
+    }
+        #move1 {
+            flex: 1;
+            height: 200px;
+            width: 280px;
+            flex-direction: column;
+            border: 4px solid black;
+            margin-top: 50px;
+            margin-left: 35px;
+        }
+            .side-bar-bottom {
+                width: 200px;
+                    height: 40px;
+                    color: black;
+                    background-color: rgb(147, 196, 125);
+                    border: 2px solid black;
+                    font-weight: bolder;
+                    box-shadow: 3px 3px black;
+                    border-radius: 5px
+            }
+        #move2 {
+            flex: 2;
+            height: 500px;
+        }

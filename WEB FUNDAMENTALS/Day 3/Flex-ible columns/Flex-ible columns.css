@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(154, 135, 172);
+    height: 600px;
+}
+.row1 {
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.col {
+    background-color: blue;
+    height: 50px;
+    flex: 1;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.row2 {
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.col-2 {
+    background-color: blue;
+    height: 50px;
+    flex: 2;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.row3 {
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.col-3 {
+    background-color: blue;
+    height: 50px;
+    flex: 3;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+}

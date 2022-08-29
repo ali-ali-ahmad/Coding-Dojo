@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: auto;
+    height: auto;
+}
+.container, header, .eheader, nav, .body1, .left-body1, .body2, .bottom, .bottom2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 970px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgb(36, 80, 118);
+    }
+    header {
+        flex: 2;
+    }
+        .sheader {
+            flex: 1;
+        }
+        .mheader {
+            flex: 1;
+            width: 300px;
+        }
+        .eheader {
+            flex: 1;
+            flex-direction: column;
+            width: 300px;
+        }
+            .eheader1 {
+                flex: 1;
+                display: flex;
+            }
+            .eheader1 > h4 {
+                color: white;
+                margin-left: 60px;
+            }
+            .eheader1 a {
+                color: orange;
+            }
+            .eheader2 {
+                flex: 1;
+                background-color: rgb(68, 68, 68);
+                width: 280px;
+                padding: 10px;
+                border-radius: 10px;
+                justify-content: center;
+            }
+                .eheader2 > input {
+                    margin-left: 30px;
+                }
+                .eheader2 button {
+                    font-weight: bold;
+                    font-size: larger;
+                    height: 40px;
+                    width: 50px;
+                    color: aliceblue;
+                    background-color: rgb(36, 80, 118);
+                    border: 1px solid white;
+                    border-radius: 10px;
+                }
+                .blank {
+                    height: 40px;
+                    border-radius: 10px;
+                    border: 1px solid white;
+                }
+            .eheader3 {
+                flex: 1;
+            }
+    nav {
+        background-color: rgb(72, 127, 174);
+        flex: 1;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 2px 2px black;
+    }
+        nav > a {
+            height: 30px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+        }
+    main {
+        flex: 12;
+        width: 970px;
+    }
+        .body1 {
+            height: auto;
+            width: 900px;
+            padding-bottom: 30px;
+        }
+            .left-body1 {
+                flex: 2;
+            }
+                .left-body1-list {
+                    list-style-type: none;
+                    color: gold;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .left-body1-list a {
+                    color: aliceblue;
+                    font-size: larger;
+                }
+            .right-body1 {
+                flex: 4;
+                text-align: center;
+                margin-top: 20px;
+            }
+                .right-body1 > h2 {
+                    color: gold;
+                    margin-bottom: 10px;
+                }
+                .right-body1 h3, p1 {
+                    color: white;
+                }
+        .body2 {
+            background-color: white;
+            flex: 3;
+            width: 970px;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+            .right-body2, .left-body2 {
+                flex: 3;
+                text-align: center;
+                border-top: 4px solid rgb(115, 167, 213);
+                width: 400px;
+                margin-top: 20px;
+            }
+            .mid-body2, .side-body2 {
+                flex: 1;
+            }
+                .left-body2-list, .right-body2-list {
+                    list-style: square;
+                }
+    .bottom {
+        flex: 2;
+        height: 100px;
+        flex-direction: column;
+        width: 970px;
+        background-color: rgb(50, 113, 168);
+    }
+        .bottom1 {
+            flex: 2;
+        }
+        .bottom2 {
+            flex: 3;
+            width: 600px;
+        }
+        .bottom2 > a, .bottom3 h6 {
+            color: white;
+            text-decoration: none;
+        }
+        .bottom3 {
+            flex: 1;
+        }

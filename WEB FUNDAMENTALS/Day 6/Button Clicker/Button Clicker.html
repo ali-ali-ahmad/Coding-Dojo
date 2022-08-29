@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="Button Clicker.css">
+    <script src="Button Clicker.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="s-header">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="m-header">
+                <input class="search-bar" type="search" id="site-search" name="q" placeholder="Search...">
+            </div>
+            <div class="e-header">
+                <button onclick="login(this)">Login</button>
+            </div>
+        </header>
+        <main>
+            <div class="body">
+                <div class="body1">
+                    <div class="body1-left">
+                        <div id="box1">
+                            <h1>ninja</h1>
+                            <h3>noun</h3>
+                            <h3>Plural: ninjas</h3>
+                        </div>
+                        <div id="box2"><button onclick="MyAlert()"><span id="clicksSpan1">13</span> Likes</button></div>
+                    </div>
+                    <div class="body1-right">
+                        <h3>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h3>
+                    </div>
+                </div>
+                <div class="body2">
+                    <div class="body2-left">
+                        <div id="box3">
+                            <h1>ninja</h1>
+                            <h3>noun</h3>
+                            <h3>Plural: ninjas</h3>
+                        </div>
+                        <div id="box4"><button onclick="addOneLike()"><span id="clicksSpan">17</span> Likes</button></div>
+                    </div>
+                    <div class="body2-right">
+                        <h3>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="side-bar">
+                <div id="move1">
+                    <div class="side-bar-top">
+                        <h2>Dojonary is</h2>
+                        <h2>defined by <em>YOU</em></h2>
+                    </div>
+                    <div>
+                        <button class="side-bar-bottom" onclick="hide(this)">Add Definition</button>
+                    </div>
+                </div>
+                <div id="move2"></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

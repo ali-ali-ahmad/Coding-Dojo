@@ -1,0 +1,21 @@
+h1 .hii{
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+h3 {
+    text-align: right;
+    color: brown;
+    background-color: aquamarine;
+    font-family: fantasy;
+}
+h1 {
+    background-color: rgb(5, 0, 1);
+    color: aqua;
+    font-family: cursive;
+    
+}

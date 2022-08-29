@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: monospace;
+}
+.container {
+    height: 350px;
+    width: 600px;
+    margin: 50px;
+    border-radius: 5px;
+    border: solid rgb(168, 165, 161);
+}
+.row1 {
+    height: 100px;
+    background-color: rgb(61, 52, 189);
+    padding-top: 20px;
+}
+.row2 {
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.pic {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 60px;
+    border: 4px solid white;
+    border-radius: 100%;
+}
+.mark, .gear {
+    width: 20px;
+    height: 20px;
+}
+h2 {
+    display: inline-block;
+}
+h1 {
+    padding-bottom: 10px;
+}
+p1 {
+    display: block;
+    margin-top: 20px;
+}
+.edit {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.edit > a {
+    font-size: larger;
+}
+h1 {
+    padding-top: 20px;
+}

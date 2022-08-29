@@ -1,0 +1,36 @@
+div {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.box1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: blue;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: rgb(31, 17, 233);
+}
+.box2 {
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 50px;
+    color: aliceblue;
+    background-color: aqua;
+    border: solid
+}
+.box3 {
+    height: 40px;
+    width: 120px;
+    color: aliceblue;
+    background-color: blue;
+    box-shadow: 5px 10px #888888;
+    border: solid blue;
+    border-radius: 50px;
+}
+.blank {
+    border-radius: 50px;
+    border-color: blueviolet;
+    height: 28px;
+}
