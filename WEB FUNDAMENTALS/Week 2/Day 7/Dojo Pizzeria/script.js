@@ -33,22 +33,72 @@ var p4 = pizzaOven("Wrapping It Up", "Buffalo Sauce", "Goat cheese", ["Spinach P
 console.log(p4);
 
 // 5. Bonus Challenge: Create a function called randomPizza that uses Math.random() to create a random pizza!
-// var pizza1 = {
-//     crustType: ["Stuffed Crust", "deep dish", "hand tossed", "Cracker Crust", "Wrapping It Up"],
-//     sauceType: ["Garlic Ranch Sauce", "traditional", "marinara", "White Garlic Sauce", "Buffalo Sauce"],
-//     cheeses: ["Gorgonzola", "mozzarella", "Gorgonzola", "feta", "Aged Havarti", "Goat cheese"],
-//     toppings: ["Onions", "Black Olives", "Mushrooms", "sausage", "pepperoni", "olives", "Chicken Cutlet Pizza", "pizza with red onions", "Spinach Pizza", "Bacon"]
-// };
-// function randomPizza(){
-//     var pizza = {};
-//         pizza1.crustType = crustType;
-//         pizza1.sauceType = sauceType;
-//         pizza1.cheeses = cheeses;
-//         pizza1.toppings = toppings;
-//     var array= Math.random() * 10;
-//     for (var x = 0; x < array; x++ ){
-//         pizza[Math.random()] = Math.random(); 
-//     }
-//     return pizza;
-// }
-// console.log(pizza);
+
+// solution from coding dojo
+var crustTypes = [
+    "deep dish",
+    "hand tossed",
+    "thin and crispy",
+    "cauliflower",
+    "gluten free",
+    "hawaiian bread"
+];
+
+var sauceTypes = [
+    "traditional",
+    "marinara",
+    "bbq",
+    "white sauce",
+    "nacho cheese",
+    "tikka masala"
+];
+
+var cheeses = [
+    "mozzarella",
+    "cheddar",
+    "feta",
+    "swiss cheese",
+    "blue cheese",
+    "goat cheese",
+    "provolone",
+    "parmesan",
+    "vegan cheese"
+];
+
+var toppings = [
+    "pepperoni",
+    "sausage",
+    "chicken",
+    "corn",
+    "olives",
+    "bell peppers",
+    "onions",
+    "mushrooms",
+    "anchovies"
+];
+
+function randomRange(max, min) {
+    return Math.floor(Math.random() * max - min) + min;
+}
+
+function randomPick(arr) {
+    var i = Math.floor(arr.length * Math.random());
+    return arr[i];
+}
+
+function randomPizza() {
+    var pizza = {};
+    pizza.crustType = randomPick(crustTypes);
+    pizza.sauceType = randomPick(sauceTypes);
+    pizza.cheeses = [];
+    pizza.toppings = [];
+    for(var i=0; i<randomRange(5, 1); i++) {
+        pizza.cheeses.push(randomPick(cheeses));
+    }
+    for(var i=0; i<randomRange(4, 0); i++) {
+        pizza.toppings.push(randomPick(toppings));
+    }
+    return pizza;
+}
+
+console.log(randomPizza());
