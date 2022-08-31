@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>DojoWeather</h1>
+        <ul class="city-select">
+            <li><button onclick="showThisCity1()" class="burbank">Burbank</button></li>
+            <li><button onclick="showThisCity2()" class="chicago">Chicago</button></li>
+            <li><button onclick="showThisCity3()" class="dallas">Dallas</button></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="nav-bar">
+            <h2 class="newCity">San Jose</h2>
+            <div class="show-temp">
+                <h4>Show temperature in</h4>
+                <select class="select-style" id="toC" onchange="changeToC()">
+                    <option value=24>°C</option>
+                    <option value="104">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="weather-display">
+            <div class="box1">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="some rain">
+                <h3>Some rain</h3>
+                <div class="temperature">
+                    <h3 id="maxtemp1">24°C</h3>
+                    <h3 id="mintemp1">18°C</h3>
+                </div>
+            </div>
+            <div class="box2">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="some sun">
+                <h3>Some sun</h3>
+                <div class="temperature">
+                    <h3 id="maxtemp2" vlaue="21°C">27°C</h3>
+                    <h3 id="mintemp2">19°C</h3>
+                </div>
+            </div>
+            <div class="box3">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="some clouds">
+                <h3>Some clouds</h3>
+                <div class="temperature">
+                    <h3 id="maxtemp3">21°C</h3>
+                    <h3 id="mintemp3">16°C</h3>
+                </div>
+            </div>
+            <div class="box4">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="some sun">
+                <h3>Some sun</h3>
+                <div class="temperature">
+                    <h3 id="maxtemp4">26°C</h3>
+                    <h3 id="mintemp4">21°C</h3>
+                </div>
+            </div>
+        </div>
+        <div class="alert" onclick="removeAlert(this)">
+            <img src="cookie.png" alt="cookie">
+            <div class="alert-text">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookie (sadly not the edible ones) to personalize contect and ads, to provide 
+                    social media features and to analyse our trafic. <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button>I accept</button>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

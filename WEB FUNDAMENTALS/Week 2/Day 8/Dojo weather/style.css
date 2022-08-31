@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+.header {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.header h1 {
+    flex: 2;
+    color: white;
+    margin-left: 10px;
+}
+.city-select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+.city-select button {
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;    
+}
+.container {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-bar {
+    width: 800px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar h2 {
+    flex: 3;
+    margin-left: 10px;
+}
+.show-temp {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-style {
+    appearance: none;
+    outline: 0;
+    background-color: darkred;
+    background-image: none;
+    width: 30px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+.weather-display {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 2px solid black;
+}
+.weather-display img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50rem;
+}
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    width: 20%;
+    height: 300px;
+
+}
+.temperature {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#maxtemp1, #maxtemp2, #maxtemp3, #maxtemp4 {
+    color: red;
+    font-weight: bold;
+}
+#mintemp1, #mintemp2, #mintemp3, #mintemp4 {
+    color: blue;
+    font-weight: bold;
+}
+.alert {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 50px;
+}
+.alert-text {
+    width: 500px;
+}
+.alert button {
+    width: 100px;
+    height: 30px;
+    background-color: cadetblue;;
+    box-shadow: 5px 5px 5px black;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
