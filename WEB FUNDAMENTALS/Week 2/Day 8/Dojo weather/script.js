@@ -10,7 +10,8 @@ function showThisCity3() {
     document.querySelector(".dallas");
     alert("you did it, didnt you, damn it");
 }
-function removeAlert(element) {
+function removeAlert() {
+    var element = document.querySelector(".alert");
     element.remove();
 }
 
