@@ -2,18 +2,19 @@
 // Write a function that is given an array and each time the value is "food" it should console log "yummy".
 // If "food" was not present in the array console log "I'm hungry" once.
 function alwaysHungry(arr) {
-    var newArray = [];
+    var status = "";
     var count = 0;
     for (i=0; i<arr.length; i++){
         if (arr[i] == "food"){
-            newArray.push("yummy");
+            status = "yummy";
             count++
+            console.log(status);
         }
     }
     if(count===0) {
-        newArray = ("I am humgry");
+        status = "I am humgry";
+        console.log(status);
     }
-    console.log(newArray);
 }
 alwaysHungry([3.14, "food", "pie", true, "food"]);
 // this should console log "yummy", "yummy"
@@ -59,13 +60,9 @@ console.log(result); // we expect back 4
 // Write a function that will reverse the values an array and return them.
 
 function reverse(arr) {
-    var newArray = [];
-    for (i=(arr.length-1); i>=0; i--){
-        newArray.push(arr[i]);
-    }
-    return newArray;
+    arr.reverse();
+    return arr;
 }
-   
 var result = reverse(["a", "b", "c", "d", "e"]);
 console.log(result); // we expect back ["e", "d", "c", "b", "a"]
 
