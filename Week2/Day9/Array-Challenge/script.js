@@ -42,11 +42,11 @@ function betterThanAverage(arr) {
     for(i=0; i<arr.length; i++){
         sum = sum + arr[i];
     }
-    sum = sum / arr.length;
-    console.log(sum);
+    let avg = sum / arr.length;
+    console.log(avg);
     var count = 0
     for (i=0; i < arr.length; i++){
-        if (arr[i] > sum) {
+        if (arr[i] > avg) {
             count = count + 1;
         }
     }

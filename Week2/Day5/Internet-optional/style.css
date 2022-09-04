@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: auto;
+    width: 800px;
+    height: fit-content;
+}
+    .header {
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .header img {
+            width: 30px;
+            height: 30px;
+        }
+        .header span {
+            color: blue;
+        }
+    .intro {
+        width: 800px;
+        color: white;
+        background-color: blue;
+    }
+    .container {
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .side-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1;
+            width: 200px;
+        }
+            .top-side-bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                flex: 1;
+            }
+            .lower-side-bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                flex: 1;
+            }
+                .lower-side-bar img {
+                    width: 50px;
+                    height: 50px;
+                }
+                .side-bar button {
+                    width: 100px;
+                }
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex: 4;
+            width: 600px;
+        }
+            .body-topNav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 600px;
+            }
+                .home-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex: 1;
+                }
+                    .home-button img {
+                        width: 10px;
+                        height: 10px;
+                    }
+                    .contact {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        flex: 1;
+                    }
+                        .contact img {
+                            height: 20px;
+                            width: 20px;
+                        }
+            main h2 {
+
+            }
+            main ul {
+
+            }
+            main img {
+                width: 50px;
+                height: 50px;
+            }
+        .page-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            .page-bottom img {
+                width: 50px;
+                height: 50px;
+                flex: 1;
+            }
+            .page-bottom-text {
+                flex: 5;
+            }
+        
+

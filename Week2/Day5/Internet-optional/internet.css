@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+    .header {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .header img {
+            width: 30px;
+            height: 30px;
+        }
+        .header span {
+            color: blue;
+        }
+    .intro {
+        width: 80%;
+        color: white;
+        background-color: blue;
+    }
+    .container {
+        width: 80%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .side-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            flex: 1;
+            height: 600px;
+        }
+            .top-side-bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 200px;
+                /* flex: 1; */
+                background-color: rgb(208, 208, 209);
+            }
+                .top-side-bar-text {
+
+                }
+                .top-side-bar-button {
+                    text-align: center;
+                }
+                .top-side-bar button {
+                    width: 200px;
+                    height: 40px;
+                    margin: 2px;
+                }
+            .lower-side-bar {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                height: 400px;
+                /* flex: 2; */
+                box-shadow: 1px 1px 1px 1px black;
+                background-color: rgb(255, 255, 255);
+                background-image: url("ad_background.png")
+                
+            }
+                .lower-side-bar img {
+                    width: 100px;
+                    height: 150px;
+                }
+                .lower-side-bar button {
+                    width: 200px;
+                    height: 50px;
+                }
+                .lower-side-bar h2 {
+                    text-align: center;
+                    color: aliceblue;
+                }
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex: 2;
+            height: 600px;
+        }
+            .body-topNav {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                margin-top: 5px;
+            }
+                .home-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex: 2;
+                }
+                    .home-button img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                .contact {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex: 1;
+                    }
+                    .number {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: end;
+                        flex-direction: column;
+                    }
+                        .number a {
+                            font-size: larger;
+                        }
+                        .number h6 {
+                            font-size: xx-small;
+                        }
+                        .contact img {
+                            height: 40px;
+                            width: 40px;
+                            margin-left: 15px;
+                        }
+            .main1 {
+                width: 90%;
+            }
+            .main1 ul {
+                width: 80%;
+            }
+            .main2 {
+                width: 90%;
+            }
+            .main2 ol {
+                width: 80%;
+            }
+            main img {
+                width: 400px;
+                height: 150px;
+            }
+            
+                
+                
+
+            /* main h2 {
+
+            }
+            main ul {
+
+            }
+            main img {
+                width: 50px;
+                height: 50px;
+            }
+        .page-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            .page-bottom img {
+                width: 50px;
+                height: 50px;
+                flex: 1;
+            }
+            .page-bottom-text {
+                flex: 5;
+            } */ */ */
