@@ -10,7 +10,7 @@ let op = "";
 function press(num) {
   num1 += num;
   num3 += num;
-  display.innerHTML = num3;
+  display.innerHTML = num1;
   if (num1 !== num3){
     display.innerHTML = num2 + op + num1;
   }
