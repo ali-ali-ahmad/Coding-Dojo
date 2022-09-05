@@ -1,0 +1,16 @@
+(making a new repo at github under the name "basic_repo")
+cd Coding_Dojo_Assignments
+mkdir basic_repo
+cd basic_repo
+git init
+touch index.html
+touch style.css
+(make some work on both html and css files)
+git add .
+git commit -m "my first edit"
+git remote add origin https://github.com/alirabah93/basic_repo.git
+git push origin master
+(make more changes on html and css files)
+git add .
+git commit -m "adding h4"
+git push origin master
