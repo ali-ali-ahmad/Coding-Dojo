@@ -16,8 +16,7 @@ function removeAlert() {
 }
 
 function changeToC() {
-    if (document.getElementById("toC").value == "24"){
-        document.getElementById("maxtemp1").innerHTML = "24°C";
+    
         document.getElementById("mintemp1").innerHTML = "18°C";
         document.getElementById("maxtemp2").innerHTML = "27°C";
         document.getElementById("mintemp2").innerHTML = "19°C";

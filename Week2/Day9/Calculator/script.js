@@ -12,6 +12,7 @@ let num5 = "";
 let op = "";
 
 function press(num) {
+  // num3 = "";
   num1 += num;
   num3 += num;
   num4 += num;
@@ -22,17 +23,21 @@ function press(num) {
   console.log("number3:" + num3);
   console.log("number4:" + num4);
   console.log("number5:" + num5);
+  console.log("action is:" + "first num");
 }
-
+// && num4 == num1
+// || num5 == num1
 function setOP(key) {
-  if (num1 == num2){
-    num2 = num1;
-  } else if (num3 !== num4){
+  
+  if (num1 == num4){
     calculate();
+    num4 = "";
+    // num3 = num5;
   } else num2 = num3;
     op = key;
     num1 = "";
     num4 = "";
+    
     display.innerHTML += op;
     console.log("number1:" + num1);
     console.log("number2:" + num2);
@@ -72,7 +77,13 @@ function calculate() {
   num1 = res;
   num5 = res;
   num2 = num5;
-  num4 = "";
+  // for (var i=0; i<100; i++){
+  //   if (i % 2 == 0){
+  //     num3 = "";
+  //   } else num4 = "";
+  // }
+  // num3 = "";
+  // num4 = "";
   op = "";
   display.innerHTML = res;
 }

@@ -1,0 +1,58 @@
+use world;
+select * from city;
+select * from country;
+select * from countrylanguage;
+
+-- 1. What query would you run to get all the countries that speak Slovene? Your query should return the name of the country, language and language percentage. Your query should arrange the result by language percentage in descending order. (1)
+
+select country.Name, countrylanguage.Language, countrylanguage.Percentage from country
+join countrylanguage on country.Code = countrylanguage.CountryCode where countrylanguage.Language = 'Slovene' order by Percentage desc;
+
+-----------------------------------------------------------------------------------------------------
+-- 2. What query would you run to display the total number of cities for each country? Your query should return the name of the country and the total number of cities. Your query should arrange the result by the number of cities in descending order. (3)
+
+select country.Name as Country_name, count(city.Name) as total_number_of_cities from country
+join city on country.Code = city.CountryCode
+GROUP BY country.Name
+ORDER BY total_number_of_cities DESC;
+
+--------------------------------------------------------------------------------------------------------------------
+-- 3. What query would you run to get all the cities in Mexico with a population of greater than 500,000? Your query should arrange the result by population in descending order. (1)
+
+select city.id, city.Name, city.Population, country.Name from city 
+left join country on city.CountryCode = country.Code 
+where country.Name = 'Mexico' and city.Population > 500000
+ORDER BY city.Population DESC;
+
+-------------------------------------------------------------------------------------------------------------------------
+-- 4. What query would you run to get all languages in each country with a percentage greater than 89%? Your query should arrange the result by percentage in descending order. (1)
+
+select country.Name as country_name, countrylanguage.Language as 'languages_greater_than_89%', countrylanguage.Percentage from country
+join countrylanguage on country.Code = countrylanguage.CountryCode where countrylanguage.Percentage > '89%'
+ORDER BY countrylanguage.Percentage DESC;
+
+---------------------------------------------------------------------------------------------------------------------------
+-- 5. What query would you run to get all the countries with Surface Area below 501 and Population greater than 100,000? (2)
+
+select country.Name as Country_name, country.SurfaceArea, country.Population from country 
+where country.SurfaceArea < 501 and country.Population > 100000;
+
+---------------------------------------------------------------------------------------------------------------
+-- 6. What query would you run to get countries with only Constitutional Monarchy with a capital greater than 200 and a life expectancy greater than 75 years? (1)
+
+select country.Name, country.GovernmentForm, country.LifeExpectancy, country.Capital from country
+where country.GovernmentForm like "%Constitutional Monarchy%" and country.Capital > 200 and country.LifeExpectancy > 75;
+
+--------------------------------------------------------------------------------------------------------------------------------
+-- 7. What query would you run to get all the cities of Argentina inside the Buenos Aires district and have the population greater than 500, 000? The query should return the Country Name, City Name, District and Population. (2)
+
+select country.Name as Country_name, city.Name as City_name, city.District, city.Population from country
+join city on country.Code = city.CountryCode
+where Country.Name = 'Argentina' and city.Population > 500000 and city.District = 'Buenos Aires';
+
+----------------------------------------------------------------------------------------------------------------------
+-- 8. What query would you run to summarize the number of countries in each region? The query should display the name of the region and the number of countries. Also, the query should arrange the result by the number of countries in descending order. (2)
+
+select country.Region, count(country.Name) as number_of_countires from country
+GROUP BY country.Region
+ORDER BY number_of_countires DESC;

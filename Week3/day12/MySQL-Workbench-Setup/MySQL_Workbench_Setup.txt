@@ -1,0 +1,10 @@
+-- use twitter;
+-- select * from users;
+-- insert into users (id, first_name, last_name, handle)
+-- values (30, "Mahmoud", "Nasser", "Axsos");
+-- update users set first_name = 'Alles' where id = 1;
+select * from tweets;
+-- SET SQL_SAFE_UPDATES = 0;
+
+
+DELETE from tweets WHERE id = 12;

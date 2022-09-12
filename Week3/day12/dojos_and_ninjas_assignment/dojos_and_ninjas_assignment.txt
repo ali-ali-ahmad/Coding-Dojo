@@ -1,0 +1,38 @@
+-- use dojos_and_ninjas_schema;
+
+select * from dojos;
+
+-- insert into dojos (id, name, created_at, updated_at) 
+-- values (1, "Michi", now(), now()),
+-- (2, "Jogn", now(), now()),
+-- (3, "Willi", now(), now());
+
+-- delete from dojos where id > 0;
+
+-- insert into dojos (id, name, created_at, updated_at) 
+-- values (1, "Hatem", now(), now()),
+-- (2, "Phill", now(), now()),
+-- (3, "Saeed", now(), now());
+
+select * from ninjas;
+-- insert into ninjas (id, first_name, last_name, created_at, updated_at, dojo_id) 
+-- values (1, "Malek", "Mustafa", now(), now(), 1), 
+-- (2, "Omer", "Barakat", now(), now(), 1), 
+-- (3, "Riena", "Jawdat", now(), now(), 1);
+
+-- insert into ninjas (id, first_name, last_name, created_at, updated_at, dojo_id) 
+-- values (4, "Baraaa", "Zakoot", now(), now(), 2), 
+-- (5, "Karam", "Waleed", now(), now(), 2), 
+-- (6, "Majd", "Hussam", now(), now(), 2);
+
+-- insert into ninjas (id, first_name, last_name, created_at, updated_at, dojo_id) 
+-- values (7, "Ali", "Batrawi", now(), now(), 3), 
+-- (8, "Mohammad", "Mahmoud", now(), now(), 3), 
+-- (9, "Maryam", "Shamma", now(), now(), 3);
+
+-- select * from ninjas where dojo_id = 1;
+
+-- select * from ninjas where dojo_id = 3;
+
+-- select * from ninjas
+-- JOIN dojos ON dojos.id = ninjas.dojo_id where dojo_id = 3;

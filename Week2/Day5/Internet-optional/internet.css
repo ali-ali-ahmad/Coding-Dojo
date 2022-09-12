@@ -1,63 +1,80 @@
 *{
     padding: 0;
     margin: auto;
-    width: 100%;
+    width: 1200px;
     height: fit-content;
 }
-    .header {
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-        .header img {
-            width: 30px;
-            height: 30px;
-        }
-        .header span {
-            color: blue;
-        }
-    .intro {
-        width: 80%;
-        color: white;
-        background-color: blue;
-    }
     .container {
-        width: 80%;
-        height: 800px;
+        width: 1000px;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
-        .side-bar {
+        .header {
+            width: 90%;
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
             flex-direction: column;
-            flex: 1;
-            height: 600px;
         }
-            .top-side-bar {
+        .header1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            .header1 img {
+                width: 30px;
+                height: 30px;
+            }
+            .header1 span {
+                color: blue;
+            }
+            .header1 h2 {
+                width: 80%;
+                color: white;
+                background-color: blue;
+            }
+        .body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+        }
+
+            .side-bar {
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-around;
                 flex-direction: column;
-                height: 200px;
                 /* flex: 1; */
-                background-color: rgb(208, 208, 209);
+                width: 30%;
             }
-                .top-side-bar-text {
-
+                .side-bar-top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    height: 200px;
+                    /* flex: 1; */
+                    background-color: rgb(208, 208, 209);
                 }
-                .top-side-bar-button {
-                    text-align: center;
+                .side-bar-top-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
-                .top-side-bar button {
+                .side-bar-top-bottom {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .side-bar-top button {
                     width: 200px;
                     height: 40px;
                     margin: 2px;
                 }
-            .lower-side-bar {
+            .side-bar-lower {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
@@ -69,67 +86,69 @@
                 background-image: url("ad_background.png")
                 
             }
-                .lower-side-bar img {
+                .side-bar-lower img {
                     width: 100px;
                     height: 150px;
                 }
-                .lower-side-bar button {
+                .side-bar-lower button {
                     width: 200px;
                     height: 50px;
                 }
-                .lower-side-bar h2 {
+                .side-bar-lower h2 {
                     text-align: center;
                     color: aliceblue;
                 }
-        main {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            flex: 2;
-            height: 600px;
-        }
-            .body-topNav {
+            main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                /* flex: 2; */
+                width: 60%;
+            }
+            .topNav {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 width: 90%;
                 margin-top: 5px;
             }
-                .home-button {
+                .topNav-home-button {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     flex: 2;
                 }
-                    .home-button img {
+                    .topNav-home-button img {
                         width: 20px;
                         height: 20px;
                     }
-                .contact {
+
+                .topNav-contact {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     flex: 1;
                     }
-                    .number {
+                    .topNav-contact img {
+                        height: 40px;
+                        width: 40px;
+                        margin-left: 15px;
+                    }
+                    .topNav-contact-number {
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         text-align: end;
                         flex-direction: column;
                     }
-                        .number a {
+                        .topNav-contact-number a {
                             font-size: larger;
                         }
-                        .number h6 {
+                        .topNav-contact-number h6 {
                             font-size: xx-small;
                         }
-                        .contact img {
-                            height: 40px;
-                            width: 40px;
-                            margin-left: 15px;
-                        }
+                        
             .main1 {
                 width: 90%;
             }
