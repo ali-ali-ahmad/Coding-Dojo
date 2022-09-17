@@ -1,0 +1,83 @@
+1)
+command: pip list
+result:
+Package    Version
+---------- -------
+pip        22.2.2
+setuptools 63.2.0
+-------------------------
+2)
+command: deactivate
+result:
+(py3Env) C:\Users\Hp\Desktop\Coding_Dojo_Assignments\python_stack\my_environments>deactivate
+C:\Users\Hp\Desktop\Coding_Dojo_Assignments\python_stack\my_environments>
+"(py3Env) disappeared"
+-------------------------
+3)
+command: pip3 list
+result: result are still the same
+Package    Version
+---------- -------
+pip        22.2.2
+setuptools 63.2.0
+--------------------------------------
+4)
+command: call py3Env/Scripts/activate
+result: "virtual environment has been activated"
+(py3Env) C:\Users\Hp\Desktop\Coding_Dojo_Assignments\python_stack\my_environments>
+------------------------------------------
+5)
+command: pip install Django==2.2.4
+result: "3 packages have been installed successfully (Django, sqlparse, pytz)
+Collecting Django==2.2.4
+  Downloading Django-2.2.4-py3-none-any.whl (7.5 MB)
+     ---------------------------------------- 7.5/7.5 MB 887.8 kB/s eta 0:00:00
+Collecting sqlparse
+  Downloading sqlparse-0.4.2-py3-none-any.whl (42 kB)
+     ---------------------------------------- 42.3/42.3 kB 2.0 MB/s eta 0:00:00
+Collecting pytz
+  Downloading pytz-2022.2.1-py2.py3-none-any.whl (500 kB)
+     ---------------------------------------- 500.6/500.6 kB 1.1 MB/s eta 0:00:00
+Installing collected packages: pytz, sqlparse, Django
+Successfully installed Django-2.2.4 pytz-2022.2.1 sqlparse-0.4.2
+--------------------------------------------------------------------
+6)
+command: pip freeze
+result: "it seems that this command tells you which modules you've installed with pip install 
+and the versions of these modules that you are currently have installed on your computer."
+Django==2.2.4
+pytz==2022.2.1
+sqlparse==0.4.2
+"if we use pip list, we will have all the packages that we have as shown below"
+Package    Version
+---------- --------
+Django     2.2.4
+pip        22.2.2
+pytz       2022.2.1
+setuptools 63.2.0
+sqlparse   0.4.2
+--------------------------------------------
+7)
+command: cd ~/Desktop
+result: "this command didnt work with me, I had to go back to desktop using "cd ..""
+------------------------------------
+8)
+command: pip freeze > requirements.txt
+result: " a .txt file opened with the list of the three new packages"
+Django==2.2.4
+pytz==2022.2.1
+sqlparse==0.4.2
+-----------------------------------------
+9)
+command: pip uninstall Django
+result: "Django is about to be uninstalled"
+info\*
+    c:\users\hp\desktop\coding_dojo_assignments\python_stack\my_environments\py3env\lib\site-packages\django\*
+    c:\users\hp\desktop\coding_dojo_assignments\python_stack\my_environments\py3env\scripts\django-admin.exe
+    c:\users\hp\desktop\coding_dojo_assignments\python_stack\my_environments\py3env\scripts\django-admin.py
+Proceed (Y/n)? y
+  Successfully uninstalled Django-2.2.4
+----------------------------------------------------------
+10)
+command: pip show Django
+result: WARNING: Package(s) not found: Django

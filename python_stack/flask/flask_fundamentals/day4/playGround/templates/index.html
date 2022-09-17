@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flash-testing</title>
+</head>
+<style>
+    body {
+    background-color: linen;
+    width: auto;
+    height: 1000px;
+    margin: auto;
+    padding: auto;
+    
+    }
+    h1 {
+        align-items: center;
+        font-weight: bold;
+    }
+    div {
+        height: 15%;
+        width: 15%;
+        background-color: {{color}};
+        border: 2px solid black;
+        align-items: center;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    </style>
+<body>
+
+    <h1>Welcome!</h1>
+    {% for x in range(0,boxesNum): %}
+    <div>{{ x }}</div>
+    {% endfor %}
+
+</body>
+</html>
