@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(95, 95, 104);
+    color: aliceblue;
+}
+.card {
+    width: auto;
+    margin: auto;
+    display: flex;
+    /* padding: 11%; */
+    align-items: center;
+    
+    background-color: rgb(60, 105, 105);
+    text-align: center;
+
+}
+.card-link {
+    color: rgb(47, 2, 73);
+    background-color: rgb(95, 95, 104);
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px;
+}
+.card-subtitle {
+    color: aliceblue;
+}
+.card-body {
+    width: 200%;
+}
