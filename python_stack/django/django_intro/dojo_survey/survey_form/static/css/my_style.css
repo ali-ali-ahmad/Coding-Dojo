@@ -1,0 +1,17 @@
+
+#my_adjustments {
+    margin: auto;
+    width: 600px;
+    background-color: rgb(60, 105, 105);
+}
+* {
+    background-color: rgb(95, 95, 104);
+}
+
+.input-group {
+    height: 100px;
+    align-items: center;
+}
+.form-control option {
+    color: aliceblue;
+}

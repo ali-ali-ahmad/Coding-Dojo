@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+</head>
+<body>
+    <div class="display">
+        <div>
+            <h3>Counter</h3>
+            <div>{{request.session.counter}} time(s)</div>
+        </div>
+        <div>
+            <h3>You visited this page:</h3>
+            <div>{{request.session.visits}} time(s)</div>
+        </div>
+    </div>
+    <div class="button1">
+        <form action="destroy_session/" method="post">
+            {% csrf_token %}
+            <button type="submit">Reset</button>
+        </form>
+        <form action="add_two/" method="post">
+            {% csrf_token %}
+            <button type="submit">+2</button>
+        </form>
+    </div>
+    <form action="random_number/" method="post" class="ran_num">
+        {% csrf_token %}
+        <label for="random_number/">add this</label>
+        <input type="number" name='newnumber'>
+        <button type="submit">add</button>
+    </form>
+</body>
+</html>

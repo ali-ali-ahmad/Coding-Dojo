@@ -1,0 +1,45 @@
+* {
+    margin: 0 auto;
+    /* width: auto; */
+
+}
+body {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: blueviolet;
+}
+.display {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+    flex: 1;
+}
+.button1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.ran_num {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+}
+body button {
+    color: aqua;
+    background-color: brown;
+    border: 1px solid brown;
+    box-shadow: 2px 2px rgb(167, 103, 9);
+}
