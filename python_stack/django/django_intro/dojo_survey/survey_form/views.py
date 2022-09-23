@@ -1,16 +1,14 @@
-from multiprocessing import context
-from urllib import request
 from django.shortcuts import render, redirect
 
 def index(request):
     return render(request,"index.html")
 
-def show_results(request):
+def results(request):
     name = request.POST['name']
     gender = request.POST['flexRadioDefault']
     location = request.POST['city_select']
     program = request.POST['program_select']
-    hobby = request.POST['flexCheckboxDefault']
+    hobby = request.POST['flexCheckboxDefault[i]']
     comment = request.POST['comment']
     context = {
         "name_on_template" : name,
@@ -20,9 +18,7 @@ def show_results(request):
         "hobby_on_template" : hobby,
         "comment_on_template" : comment,
     }
-    print(context)
-    return redirect("/results", "show.html", context)
+    return redirect("/results", context)
 
-def success(request):
-    show_results(request, context)
-    return render(request,"show.html", context)
+def show(request):
+    return render(request, 'show.html')
