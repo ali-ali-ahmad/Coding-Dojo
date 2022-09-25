@@ -9,9 +9,6 @@ def fillingForm():
 
 @app.route('/result', methods=['POST'])
 def submitingForm():
-    hobbies = []
-    print("Got survey Info")
-    print(request.form)
     name_form = request.form['name']
     gend_form = request.form['flexRadioDefault']
     location_form = request.form['city_select']

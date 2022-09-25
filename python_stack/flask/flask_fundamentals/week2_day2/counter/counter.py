@@ -2,20 +2,37 @@ from flask import Flask, render_template, request, redirect, session
 
 app = Flask(__name__)
 app.secret_key = 'codingdojo'
-@app.route('/')
-def counter():
-    return render_template("index.html")
+@app.route('/', methods=['GET', 'POST'])
+def lets_count():
+    if "clicks_counter" in session:
+        print("key is exists")
+    else:
+        print("key does not exists")
+        session["clicks_counter"]= 0
+    
+    count = session['clicks_counter']
+    count+=1
+    session['clicks_counter'] = count
 
-@app.route('/users', methods=['POST'])
-def counter_page():
-    print("Got Post Info")
-    session['clicks_counter'] = request.form['clicks']
-    session['default_value'] = request.form['reset']
-    return redirect('/show')
+    return render_template("index.html", clicks= session['clicks_counter'])
 
-@app.route('/show')
-def show_user():
-    return render_template('show.html', clicks_on_template=session['clicks'], rest_on_template=session['reset'])
+@app.route('/add_two', methods=['GET', 'POST'])
+def add_two():
+    count = session['clicks_counter']
+    count+=1
+    session['clicks_counter'] = count + 1
+
+    return redirect('/')
+
+@app.route('/destroy_session')
+def destroy():
+    if "clicks_counter" in session:
+        session['clicks_counter'] = 0
+
+    else:
+        session['clicks_counter'] = 0
+
+    return redirect('/')
 
 
 

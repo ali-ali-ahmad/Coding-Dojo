@@ -8,11 +8,18 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/my_style.css') }}">
 </head>
 <body>
-    <h1>Counter</h1>
-    <h2><span>{{ clicks_on_template }}</span>time(s)</h2>
-    <div>
-        <button name="clicks">Add two clicks</button>
-        <button name="reset">Reset {{ rest_on_template }}</button>
-    </div>
+    <form action="/" method="post"></form>
+        <h1>Counter</h1>
+        <h2 name="clicks_counter">how many again:{{ clicks }} time(s)</h2>
+        <form action="/add_two" method="post">
+            <input type="button" value="Add two clicks" name="clicks2">
+        </form>
+        <!-- <input type="button" value="Add two clicks" name="clicks2"> -->
+        <!-- <button type="submit" name="clicks_button">Add two clicks</button> -->
+    </form>
+    <form action="/destroy_session" method="post">
+        <button type="submit" name="reset">Reset</button>
+    </form>
+    
 </body>
 </html>
