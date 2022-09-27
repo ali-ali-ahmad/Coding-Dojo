@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+</head>
+<body id="body">
+    <div id="container">
+        <div id="left_side">
+            <div id="box1">
+                <h4>Add a Dojo</h4>
+                <br>
+                <form action="/submit_dojo/" method="post">
+                    {% csrf_token %}
+                    <div class="form-col">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Name" name="name" required>
+                        </div>
+                        <br>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="City" name="city" required>
+                        </div>
+                        <br>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="State" name="state" required>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+            <div id="box2">
+                <h4>Add a Ninja</h4>
+                <br>
+                <form action="/sub_nin/" method="post">
+                    {% csrf_token %}
+                    <div class="form-col">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" name="first_name" required>
+                        </div>
+                        <br>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" name="last_name" required>
+                        </div>
+                        <br>
+                        <div class="form-select">Dojo
+                            <select class="form-control" name='dojo_select' required>
+                                {% for dojo in dojos %}
+                                <option value="{{ dojo.id }}">{{ dojo.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="form-row, scrollbar scrollbar-secondary" id="right_side">
+            <form action="/delete/" method="post">
+                {% csrf_token %}
+                <h4>All the Ninjas</h4>
+                <div class="force-overflow">
+                {% for dojo in dojos %}
+                <div class="logs">
+                    <div class="header_right">
+                        <h5>Ninjas at the <span>{{dojo.name}}</span> Dojo <span name="counter" value="{{ dojo.id }}">{{counts}}</span></h5>
+                        <button type="submit" class="btn btn-primary" name="get.id" value="{{ dojo.id }}">X</button>
+                    </div>
+                    <ol class="display">
+                    {% for ninja in dojo.ninjas.all %}
+                        <li class="ninjas_list">{{ninja.first_name}}</li>
+                    {% endfor %}
+                    </ol>
+                </div>
+                {% endfor %}
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
