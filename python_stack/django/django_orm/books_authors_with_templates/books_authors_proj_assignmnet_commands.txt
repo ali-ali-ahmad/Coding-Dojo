@@ -1,0 +1,55 @@
+1)>>>>  python manage.py shell
+
+2)>>>>  from books_authors_app.models import *
+
+3)>>>>  Book.objects.create(title="C Sharp")
+	Book.objects.create(title="Java")
+	Book.objects.create(title="Python")
+	Book.objects.create(title="PHP")
+	Book.objects.create(title="Ruby")
+
+4)>>>>  Publisher.objects.create(name="Jane Austen")
+	Publisher.objects.create(name="Emily Dickinson")
+	Publisher.objects.create(name="Fyodor Dostoevsky")
+	Publisher.objects.create(name="William Shakespeare")
+	Publisher.objects.create(name="Lau Tzu")
+
+5)>>>>  Add a new text field in the authors table called 'notes'
+
+6)>>>>  exit "shell"
+	python manage.py makemigrations >>>> select 1 >>>> "add notes"
+	python manage.py migrate
+	python manage.py shell
+	from books_authors_app.models import *
+
+7)>>>>  c = Book.objects.get(title="C Sharp")
+	c.title = "C#"
+	c.save()
+
+8)>>>> 	c = Publisher.objects.get(name="Jane Austen")
+	c.name = "Bill Austen"
+	c.save()
+
+9)>>>>  Publisher.objects.get(id=1).books.add(Book.objects.get(id=1))
+	Publisher.objects.get(id=1).books.add(Book.objects.get(id=2))
+
+10)>>>> Publisher.objects.get(id=2).books.add(Book.objects.get(id=1))
+	Publisher.objects.get(id=2).books.add(Book.objects.get(id=2))
+	Publisher.objects.get(id=2).books.add(Book.objects.get(id=3))
+
+11)>>>> Publisher.objects.get(id=3).books.add(Book.objects.get(id=1))
+	Publisher.objects.get(id=3).books.add(Book.objects.get(id=2))
+	Publisher.objects.get(id=3).books.add(Book.objects.get(id=3))
+	Publisher.objects.get(id=3).books.add(Book.objects.get(id=4))
+
+12)>>>> Publisher.objects.get(id=4).books.add(*Book.objects.all())
+
+13)>>>> Book.objects.get(id=2).publishers.all()
+
+14)>>>> Book.objects.get(id=2).publishers.remove(Publisher.objects.first())
+
+15)>>>> Publisher.objects.get(id=5).books.add(Book.objects.get(id=2))
+
+16)>>>> Publisher.objects.get(id=3).books.all()
+
+17)>>>> Book.objects.get(id=5).publishers.all()
