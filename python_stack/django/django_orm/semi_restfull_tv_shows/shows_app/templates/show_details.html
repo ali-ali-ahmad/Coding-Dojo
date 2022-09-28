@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display the Show</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/book_style1.css' %}" />
+</head>
+<body>
+    <a href="/shows/">Go back</a>
+    <div id="container">
+        <div>
+            <h1>TV Show {{ show.id }}</h1>
+            <h3>Title: {{show.title }}</h3>
+            <h3>Network: {{show.network }}</h3>
+            <h3>Release Date: {{ show.release_date }}</h3>
+            <h3>Description:</h3>
+            <p>{{ show.description }}</p>
+        </div>
+        <div>
+            <h3>Last Updated: {{ show.updated_at }}</h3>
+        </div>
+        <div>
+            <a href="/shows/{{show.id}}/edit">Edit</a>
+            <a href="/shows/{{show.id}}/delete">Delete</a>
+        </div>
+    </div>
+</body>
+</html>
