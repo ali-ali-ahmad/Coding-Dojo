@@ -42,6 +42,16 @@ from django.test import TestCase
 
 
 
+# class Show(models.Model):
+#     title = models.CharField(max_length=255, blank=True, null = True)
+#     network = models.CharField(max_length=255)
+#     # release_date = models.DateField(auto_now_add=False, auto_now=False, blank=True)
+#     description = models.TextField()
+#     created_at = models.DateTimeField(auto_now_add=True)
+#     updated_at = models.DateTimeField(auto_now=True)
+#     objects = ShowManager()
+
+
 
 
     # class TimezoneMiddleware:
@@ -131,3 +141,35 @@ from django.test import TestCase
     #     if self.release_date > datetime.date.today():
     #         raise ValidationError("The date cannot be in the future!")
     #     super(Show, self).date_validator(*args, **kwargs)
+
+
+
+            # if post_data['release_date'] > datetime:
+        #     errors["release_date"] = "Release Date Should be in the Past"
+        # if datetime.datetime.today() < datetime.datetime.strptime(post_data['release_date'],date_format):
+        #     errors['release_date'] = "Date is not accurate and must be in the past"
+            
+        
+        # if  str(post_data['title']).isalpha() == False:
+        #     errors['title'] = "The titles should contains characters only"
+        # if  str(post_data['network']).isalpha() == False:
+        #     errors['network'] = "Network should contains characters only"
+        # if  str(post_data['description']).isalpha() == False:
+        #     errors['description'] = "Description should contains characters only"
+
+
+
+
+            # def basic_validator(self, post_data):
+    #     errors = {}
+    #     if len(post_data['title']) < 2:
+    #         errors['title'] = "The titles should contains characters only"
+    #     if len(post_data['network']) < 3:
+    #         errors["network"] = "Network should be at least 3 characters"
+    #     if len(post_data['description']) < 3:
+    #         errors["description"] = "description should be at least 10 characters"
+    #     return errors
+
+
+
+    # auto_now_add=False, auto_now=False, blank=True

@@ -1,9 +1,12 @@
+
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import Show
+from datetime import datetime, date
 
 
 def shows(request):
+    # print(start_datetime)
     context = {
         "shows": Show.objects.all(),
     }
@@ -17,20 +20,27 @@ def add_new(request):
 
 def submit_new(request):
 
-    errors = Show.objects.basic_validatorNew(request.POST)
+    errors = Show.objects.basic_validator(request.POST)
+    show_id = request.POST['show_id']
+
     if len(errors) > 0:
         for key, value in errors.items():
             messages.error(request, value)
         return redirect('/shows/new')
+
+    # if len(errors) == 0:
+    #     for key, value in errors.items():
+    #         messages.error(request, value)
+    #     return redirect('/shows/new')
+
     else:
-        show_id = request.POST['show_id']
         Show.objects.create(
-            title = request.POST['title'],
-            network = request.POST['network'],
-            release_date = request.POST['release_date'],
-            description = request.POST['description']
+        title = request.POST['title'],
+        network = request.POST['network'],
+        release_date = request.POST['release_date'],
+        description = request.POST['description']
         )
-    return redirect('/shows/'+show_id)
+        return redirect('/shows/'+show_id)
 
 
 def show_details(request, show_id):
@@ -53,7 +63,7 @@ def edit_page(request, show_id):
 
 
 def edit_show(request):
-    errors = Show.objects.basic_validatorEdit(request.POST)
+    errors = Show.objects.basic_validator(request.POST)
     show_id = request.POST['show_id']
     if len(errors) > 0:
         for key, value in errors.items():

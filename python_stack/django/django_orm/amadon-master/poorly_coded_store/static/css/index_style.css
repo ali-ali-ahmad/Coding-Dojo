@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+.table {
+    width: 400px;
+}
+
+.select {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    box-shadow: 3px 3px black;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    box-shadow: 3px 3px black;
+    border-radius: 3px;
+}
