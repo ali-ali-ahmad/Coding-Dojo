@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.header a {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+#message_post {
+    margin-top: 10px;
+    height: 180px;
+    border-bottom: 2px solid black;
+}
+
+
+.allMessages {
+    padding: 5px;
+}
+
+
+.logs {
+    border-top: 1px solid black;
+    padding: 5px;
+    /* display: flexbox;
+    flex-direction: column; */
+}
+
+#user_messages {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.messages {
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+.comment_display {
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    margin: 0;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header_name {
+    color: rgb(0, 0, 0);
+}
+
+#message_comment {
+    padding: 10px;
+}
+
+.comment_section {
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid rgb(51, 8, 8);
+}
+
+
+.user_display_message {
+    display: flex;
+    justify-content: space-between;
+}
