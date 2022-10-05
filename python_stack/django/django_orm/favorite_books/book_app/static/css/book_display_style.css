@@ -77,11 +77,14 @@
 .liked_books {
     overflow-y: scroll;
     height: 200px;
+    width: 300px;
 }
 
 .all_books_list {
-    width: 180px;
+    width: 300px;
     overflow-y: scroll;
+    border-bottom: 1px solid black;
+    height: 200px;
 }
 
 

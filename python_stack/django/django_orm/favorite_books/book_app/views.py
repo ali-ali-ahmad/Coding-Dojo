@@ -15,17 +15,13 @@ def book(request):
 # This method will do .....
 # input parameters
 # output result 
-def add_book(request, book_id):
-
+def add_book(request):
     Book.objects.create(
         title = request.POST['title'],
         description = request.POST['description'],
         uploaded_by = User.objects.get(id=request.session['userid'])
     )
-
-    user_id = request.session['userid']
-    User.objects.get(id=user_id).liked_books.add(Book.objects.get(id=book_id))
-
+    
     return redirect("/book")
 
 
@@ -64,21 +60,22 @@ def book_display(request, book_id):
         'logged_user': User.objects.get(id=request.session['userid']),
         'book_to_display': Book.objects.get(id=book_id),
         'rest_of_books': Book.objects.exclude(id=book_id)
-        # 'is_favorite_book': len(User.objects.get(id=request.session['userid']).liked_books),
     }
 
     return render(request, 'book_display.html', context)
 
 
 def edit_book(request, book_id):
-    print("this works here in the edit section")
-    models.edit_book(request, book_id)
+
+    d = Book.objects.get(id=book_id)
+    d.description = request.POST['description']
+    d.save()
+
     return redirect('/book/book_display/'+book_id)
 
 
 def delete_book(request, book_id):
 
-    print("this works here in the delete section")
     d = Book.objects.get(id=book_id)
     d.delete()
 
