@@ -1,0 +1,84 @@
+1. Create the src/main/webapp folder if it does not exist
+2. Create the src/main/webapp/WEB-INF folder
+3. Edit the src/main/resources/applications.properties file to contain the following code:
+		spring.mvc.view.prefix=/WEB-INF/
+
+inside your pom.xml file:
+for Java Server Pages (JSPs)
+        <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+for JSTL Tags:
+        <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+        </dependency>
+for bootstrap:
+    <!-- webjars locator dependency enables auto-detection of the version, so your .jsp 
+        file links are version-agnostic in case you update the versions here in your pom later -->
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>webjars-locator</artifactId>
+        <version>0.30</version>
+    </dependency>
+    
+    <!-- BOOTSTRAP DEPENDENCIES -->
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>bootstrap</artifactId>
+        <version>5.0.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>jquery</artifactId>
+        <version>3.6.0</version>
+    </dependency>
+-----------------------------------------------------------------
+
+example for JSP in jsp file:
+    <% for(int i = 0; i < 5; i++) { %>
+        <h1><%= i %></h1>
+    <% } %>
+    <p>The time is: <%= new Date() %></p>
+
+example for JSTL in jsp file:
+	<h1>Two plus two is: <h1>
+	<h2><c:out value="${2+2}"/></h2>
+
+add this in jsp file:
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core"%>
+
+example in any class:
+@Controller
+public class FruitController {
+	@RequestMapping("/")
+	public String index() {
+		return "index.jsp";
+	}
+}
+
+    @RequestMapping("/")
+    public String index(Model model) {
+        model.addAttribute("dojoName", "Burbank");
+        return "index.jsp";
+    }
+
+Create a new CSS file by going to new -> other -> then search for "css" in src/main/resources/static/css
+
+link in jsp file:
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script type="text/javascript" src="js/app.js"></script>
+
+
+Adding Bootstrap to Your Spring Projects:
+Inside the head section of any .jsp you want to add Bootstrap styling to:
+<!-- for Bootstrap CSS -->
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<!-- YOUR own local CSS -->
+<link rel="stylesheet" href="/css/main.css"/>
+<!-- For any Bootstrap that uses JS or jQuery-->
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+
+
