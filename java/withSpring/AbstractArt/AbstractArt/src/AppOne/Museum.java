@@ -3,10 +3,6 @@ package AppOne;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import AppOne.Art;
-import AppOne.Painting;
-import AppOne.Sculpture;
-
 
 public class Museum {
 

@@ -1,8 +1,6 @@
 package AppOne;
 
 
-import AppOne.Art;
-
 public class Painting extends Art {
 
 	private String paintType;

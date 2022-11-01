@@ -1,8 +1,6 @@
 package AppOne;
 
 
-import AppOne.Art;
-
 public class Sculpture extends Art {
 
 	private String material;
