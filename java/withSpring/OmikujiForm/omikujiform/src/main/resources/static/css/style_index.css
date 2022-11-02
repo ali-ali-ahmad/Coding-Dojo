@@ -1,0 +1,13 @@
+@charset "windows-1256";
+* {
+    margin: 0 auto;
+}
+.container {
+    width: 300px;
+	display: flex;
+    flex-direction: column;
+}
+
+.container label {
+	width: 200px;
+}
