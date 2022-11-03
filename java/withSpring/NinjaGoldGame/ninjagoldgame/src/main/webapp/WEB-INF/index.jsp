@@ -35,28 +35,52 @@
 	        <div>
 	            <h2>Farm</h2>
 	            <p>(earn 10-20 gold)</p>
-				<input type="hidden" name="findGold" value="${goldGenerator1}">
-				<input type="submit" name="find_gold" value="get gold" formaction="/collect/collect1" class="btn btn-warning">
+				<c:choose>
+				    <c:when test="${counter >'-1'}">
+						<input type="submit" name="find_gold" value="get gold" formaction="/collect/collect1" class="btn btn-warning">
+					    <br />
+				    </c:when>    
+				</c:choose>
 	        </div>
 	        <div>
 	            <h2>Cave</h2>
 	            <p>(earn 5-10 gold)</p>
+				<c:choose>
+				    <c:when test="${counter >'-1'}">
 				<input type="submit" name="find_gold" value="get gold" formaction="/collect/collect2" class="btn btn-warning">
+					    <br />
+				    </c:when>    
+				</c:choose>
 	        </div>
 	        <div>
 	            <h2>House</h2>
 	            <p>(earn 2-5 gold)</p>
+				<c:choose>
+				    <c:when test="${counter >'-1'}">
 				<input type="submit" name="find_gold" value="get gold" formaction="/collect/collect3" class="btn btn-warning">
+					    <br />
+				    </c:when>    
+				</c:choose>
 	        </div>
 	        <div>
 	            <h2>Quest</h2>
 	            <p>(earn/takes 0-50 gold)</p>
+				<c:choose>
+				    <c:when test="${counter >'-1'}">
 				<input type="submit" name="find_gold" value="get gold" formaction="/collect/collect4" class="btn btn-warning">
+					    <br />
+				    </c:when>    
+				</c:choose>
 	        </div>
 	        <div>
 	            <h2>Spa</h2>
 	            <p>(takes 5-20 gold)</p>
+				<c:choose>
+				    <c:when test="${counter >'-1'}">
 				<input type="submit" name="find_gold" value="get gold" formaction="/collect/collect5" class="btn btn-warning">
+					    <br />
+				    </c:when>    
+				</c:choose>
 	        </div>
 	    </form>
 	    </div>
