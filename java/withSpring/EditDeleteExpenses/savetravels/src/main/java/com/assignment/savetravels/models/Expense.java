@@ -33,7 +33,7 @@ public class Expense {
     
     @NotNull
     @Min(value=10, message="Amount must be at least 10$.")
-    private Integer amount;
+    private Double amount;
     
     @NotNull
     @Size(min = 10, max = 300, message="Description must be at least 10 characters.")
@@ -50,7 +50,7 @@ public class Expense {
     public Expense() {
     }
     
-    public Expense(String name, String vendor, int amount, String desc) {
+    public Expense(String name, String vendor, Double amount, String desc) {
         this.name = name;
         this.vendor = vendor;
         this.amount = amount;
@@ -91,11 +91,11 @@ public class Expense {
 		this.vendor = vendor;
 	}
 	
-	public Integer getAmount() {
+	public Double getAmount() {
 		return amount;
 	}
 	
-	public void setAmount(Integer amount) {
+	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
 	
