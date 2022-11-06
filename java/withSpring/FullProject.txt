@@ -10,11 +10,14 @@ create the schema that you intend to use in MySQL WorkBench
 3) In the application.properties, add the following (remember to change the schema name, username and password):
 
 spring.mvc.view.prefix=/WEB-INF/
+
 spring.datasource.url=jdbc:mysql://localhost:3306/<<YOUR_SCHEMA>>
 spring.datasource.username=<<dbuser>>
 spring.datasource.password=<<dbpassword>>
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
+
+spring.mvc.hiddenmethod.filter.enabled=true
 
 4) In pom.xml file, add the following dependency:
 
