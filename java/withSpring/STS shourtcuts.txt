@@ -1,0 +1,79 @@
+Indent lines: Crtl + I
+Click anywhere in a file and pressing this shortcut will indent the lines properly.\
+------------------------------
+Delete current line: Crtl + D
+Just move the cursor to the line that you would like to delete and press Crtl + D.
+-----------------------------------
+Autocomplete: Crtl + Space
+Just start writing any code and press Crtl + Space to get a list of possible variable, field, method, class etc. names that are available at that point.
+------------------------------
+Rename: Alt + Shift + R
+This shortcut opens the rename window for the element that is currently selected, or where you cursor currently is.
+--------------------------
+Go To Line Number: Crtl + L
+This shortcut can come in very useful if you just read a stack trace that told you which line is to be blamed for the exception. Open the file in question, hit Crtl + L, type in the line number and you are immediately taken to the proper row.
+----------------------------------
+Insert blank line before current line: Shift + Enter
+Inserts a blank line before the current line. It does not matter where the cursor is, it can even be in the middle of the line.
+After the insertion the cursor will be at the beginning of the new line.
+-----------------------------------------------
+Copy current line below: Crtl + Alt + Down arrow
+Very handy shortcut if you have a line of code and need one that is very similar to it. Just stand on the line and hit Crtl + Alt + Down arrow to have a copy of it below it’s current location.
+-----------------------------------------------
+Copy current line above: Crtl + Alt + Up arrow
+Same as the previous one but it copies the line above the current line.
+-----------------------------------------------
+Organize import statements: Crtl + Shift + O
+Organizes the import statements by removing the unused ones and adding the missing ones. This shortcut also sorts the imports alphabetically.
+-----------------------------------------------
+Format code: Crtl + Shift + F
+Formats the selected code block or the whole source file. If some code is selected in the source file, only that part gets formatted.
+If no selection is made, the whole source file is formatted.
+-----------------------------------------------
+Generate getters and setters: Alt + Shift + S, R
+Generate getters and setters for the fields of the class.
+-----------------------------------------------
+Generate contructor using fields: Alt + Shift + S, O
+Generate constructor using fields.
+-----------------------------------------------
+Quick System.out.println(): “sysout” + Crtl + Space
+To get System.out.println() quickly, just type in “sysout” and after that immediately press Crtl + Space.
+-----------------------------------------------
+Shift + Alt + ↑ selects enclosing elements.
+
+Shift + Alt + ↓ reverses Shift + Alt + ↑.
+
+Shift + Alt + ← selects enclosing elements moving up the file.
+
+Shift + Alt + → selects enclosing elements moving down the file.
+-----------------------------------------------
+ctrl + E to genegrate a tag for the selected word
+-----------------------------------------------
+Ctrl + Shift to select instead of the mouse
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
