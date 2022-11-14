@@ -1,8 +1,8 @@
 1) to have a full stack project you need to add the following when making a new project:
->>>> MySQL driver
->>>> Spring Boot DevTools
->>>> Spring Data JPA
->>>> Spring Web
+MySQL driver
+Spring Boot DevTools
+Spring Data JPA
+Spring Web
 
 2) next:
 create the schema that you intend to use in MySQL WorkBench
@@ -48,6 +48,22 @@ spring.mvc.hiddenmethod.filter.enabled=true
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<scope>runtime</scope>
+</dependency>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-tomcat</artifactId>
+	<scope>provided</scope>
+</dependency>
+<dependency>
+	<groupId>org.mindrot</groupId>
+	<artifactId>jbcrypt</artifactId>
+	<version>0.4</version>
+</dependency>
+
 
 5) Create the src/main/webapp/WEB-INF folder (in this folder you will be creating the JSP files):
 
