@@ -1,0 +1,41 @@
+
+
+import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.Before;
+import org.junit.Test;
+public class TestSLL {
+    
+    public SLL sll;
+    @Before
+    public void setUp() throws Exception {
+        sll = new SLL();
+    }
+    @Test
+    public void testHeadForNull() {
+        assertNull(sll.head);
+    }
+    
+    @Test
+    public void testHeadForNode() {
+        sll.addNode(8);
+        assertNotNull(sll.head);
+    }
+    
+//    @Test
+//    public void testHeadNextVal() {
+//        sll.addNode(5);
+//        sll.addNode(10);
+//        assertTrue(sll.head.next.value == 10);
+//    }
+//    
+//    @Test
+//    public void testHeadAfterRemove() {
+//        sll.addNode(10);
+//        sll.removeFront();
+//        // write test first, then write code to pass the test.
+//    }
+}
+
