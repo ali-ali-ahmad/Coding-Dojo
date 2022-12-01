@@ -19,7 +19,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 <code>
 <ul>
-  <li><input type="text">></li>
+  <code><li><input type="text">></li></code>
   <li><input type="password"></li>
   <li><input type="date"></li>
   <li><input type="radio"></li>
@@ -28,12 +28,11 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
   <li><textarea></li>
   <li><select></li>
 </ul>
-</code>
-<hr>
 
-<p>
+
+<h5>
 We'll get to use forms in one way or another in many later assignments during the bootcamp so don't feel the need to memorize all of the different form tags and attributes today. We can always come back to this chapter for reference!
-</p>
+</h5>
 <p>
   <strong>Important:</strong> don't worry too much about making the form look identical to the image. We will be learning about how exactly to do that tomorrow. For today, it's good enough that the form has all the inputs it needs.
 </p>
