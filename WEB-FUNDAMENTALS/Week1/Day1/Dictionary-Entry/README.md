@@ -15,3 +15,5 @@
   <li>ol</li>
   <li>li</li>
 </ul>
+
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry/wireframe.png?raw=true)
