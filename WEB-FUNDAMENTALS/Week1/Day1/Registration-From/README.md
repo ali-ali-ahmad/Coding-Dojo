@@ -20,13 +20,21 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 
 <ul>
   <li><code><input type="text"></code></li>
+  <code><br></code>
   <li><code><input type="password"></code></li>
+    <code><br></code>
   <li><code><input type="date"></code></li>
+    <code><br></code>
   <li><code><input type="radio"></code></li>
+    <code><br></code>
   <li><code><input type="checkbox"></code></li>
+    <code><br></code>
   <li><code><input type="submit"></code></li>
+    <code><br></code>
   <li><code><textarea></code></li>
+      <code><br></code>
   <li><code><select></code></li>
+      <code><br></code>
 </ul>
 <hr>
 <p>
