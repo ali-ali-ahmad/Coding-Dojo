@@ -8,7 +8,7 @@
 
 <hr>
 
-<h3>Using the tags displayed below, create HTML like shown in the wireframe</h3>
+<h3>Using the tags displayed below, create HTML like shown in the wireframe. You can use the pronunciation image from <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry/pronunciation.png">here</a></h3>
 <ul>
   <li>h1</li>
   <li>img</li>
