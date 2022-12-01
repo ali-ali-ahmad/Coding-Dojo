@@ -19,7 +19,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 
 <ul>
-  <li><code><input type="text"></code></li>
+  <li>::marker<code><input type="text"></code></li>
   <code><br></code>
   <li><code><input type="password"></code></li>
     <code><br></code>
