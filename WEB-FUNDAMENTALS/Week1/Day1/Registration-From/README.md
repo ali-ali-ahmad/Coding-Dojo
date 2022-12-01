@@ -19,24 +19,18 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 
 <ul>
-  <li><code>"<input type="text">"</code></li>
-  <code><br></code>
-  <li><code><input type="password"></code></li>
-    <code><br></code>
-  <li><code><input type="date"></code></li>
-    <code><br></code>
-  <li><code><input type="radio"></code></li>
-    <code><br></code>
-  <li><code><input type="checkbox"></code></li>
-    <code><br></code>
-  <li><code><input type="submit"></code></li>
-    <code><br></code>
-  <li><code><textarea></code></li>
-      <code><br></code>
-  <li><code><select></code></li>
-      <code><br></code>
+  <li><input type="text">></li>
+  <li><input type="password"></li>
+  <li><input type="date"></li>
+  <li><input type="radio"></li>
+  <li><input type="checkbox"></li>
+  <li><input type="submit"></li>
+  <li><textarea></li>
+  <li><select></li>
 </ul>
+
 <hr>
+
 <p>
 We'll get to use forms in one way or another in many later assignments during the bootcamp so don't feel the need to memorize all of the different form tags and attributes today. We can always come back to this chapter for reference!
 </p>
