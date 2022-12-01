@@ -6,7 +6,7 @@
   <li>Practice using Text, Image, and List HTML tags</li>
 </ul>
 
-<h2>Using the tags displayed below, create HTML like shown in the wireframe.png</h2>
+<h2>Using the tags displayed below, create HTML like shown in the wireframe</h2>
 <ul>
   <li>h1</li>
   <li>img</li>
