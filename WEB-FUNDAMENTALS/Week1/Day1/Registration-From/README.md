@@ -28,7 +28,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
   <li><code><textarea></code></li>
   <li><code><select></code></li>
 </ul>
-
+<hr>
 <p>
 We'll get to use forms in one way or another in many later assignments during the bootcamp so don't feel the need to memorize all of the different form tags and attributes today. We can always come back to this chapter for reference!
 </p>
