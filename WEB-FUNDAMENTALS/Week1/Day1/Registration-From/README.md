@@ -19,7 +19,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 <div align="center">
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/tags.jpg" align="start" style="width: 20%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/tags.jpg" style="width: 20%" />
 </div>
 
 <p>
