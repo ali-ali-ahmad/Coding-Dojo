@@ -1,5 +1,17 @@
 <h1>Assignment: Dictionary Entry</h1>
 
 <h2>Objectives:</h2>
-<ul>Practice writing HTML documents</ul>
-<ul>Practice using Text, Image, and List HTML tags</ul>
+<ul>
+  <li>Practice writing HTML documents</li>
+  <li>Practice using Text, Image, and List HTML tags</li>
+</ul>
+
+<h2>Using the tags displayed below, create HTML like shown in the wireframe.png</h2>
+<ul>
+  <li>h1</li>
+  <li>img</li>
+  <li>p</li>
+  <li>em</li>
+  <li>ol</li>
+  <li>li</li>
+</ul>
