@@ -10,20 +10,20 @@
 
 <p>Create a new file in your Text Editor (VS Code, Atom, Sublime...) and properly indent the code below:</p>
 <pre>
-<!DOCTYPE html>
-<html>
-<head>
-<title>
-Basic I
-</title>
-</head>
-<body>
-<h1>
-What language do you love?
-</h1>
-<p>
-I love HTML!
-</p>
-</body>
-</html>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>
+  Basic I
+  </title>
+  </head>
+  <body>
+  <h1>
+  What language do you love?
+  </h1>
+  <p>
+  I love HTML!
+  </p>
+  </body>
+  </html>
 </pre>
