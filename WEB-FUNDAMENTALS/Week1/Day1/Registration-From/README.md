@@ -17,22 +17,11 @@ Now that we've learned about all of the different types of form tags, let's crea
 Recreate all the HTML elements shown on the image above! As you haven't learned yet how to use CSS to make the form look nice, don't worry about how our registration form looks for now.
 </p>
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
-<code>
-<ul>
-  <code><li><input type="text">></li></code>
-  <li><input type="password"></li>
-  <li><input type="date"></li>
-  <li><input type="radio"></li>
-  <li><input type="checkbox"></li>
-  <li><input type="submit"></li>
-  <li><textarea></li>
-  <li><select></li>
-</ul>
 
 
-<h5>
+<p>
 We'll get to use forms in one way or another in many later assignments during the bootcamp so don't feel the need to memorize all of the different form tags and attributes today. We can always come back to this chapter for reference!
-</h5>
+</p>
 <p>
   <strong>Important:</strong> don't worry too much about making the form look identical to the image. We will be learning about how exactly to do that tomorrow. For today, it's good enough that the form has all the inputs it needs.
 </p>
