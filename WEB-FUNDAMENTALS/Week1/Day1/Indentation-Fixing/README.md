@@ -3,9 +3,7 @@
 <h2>Objectives:</h2>
 <ul>
   <li>Please fix the very ugly code!</li>
-  <li>For this assignment, you can use this project (linked below) as a starting point.</li>
 </ul>
-<a href="https://github.com/TheCodingDojo/webFun_html_indentation">GitHub</a>
 
 <hr>
 
