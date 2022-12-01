@@ -3,11 +3,10 @@
 <h2>Objectives:</h2>
 <ul>
   <li>Practice recreating the staple of many websites, a Registration Form</li>
-  <li>Practice using Text, Image, and List HTML tags</li>
+  <li>Practice using <code>form</code>, <code>input</code>, <code>select</code> and <code>textarea</code></li>
 </ul>
 
-Practice recreating the staple of many websites, a Registration Form
-Practice using <code>form</code>, <mark>input</mark>, select and textarea
+
 
 <hr>
 
