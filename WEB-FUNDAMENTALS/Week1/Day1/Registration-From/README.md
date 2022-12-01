@@ -17,7 +17,7 @@ Now that we've learned about all of the different types of form tags, let's crea
 Recreate all the HTML elements shown on the image above! As you haven't learned yet how to use CSS to make the form look nice, don't worry about how our registration form looks for now.
 </p>
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
-
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/tags.jpg?raw=true)
 
 <p>
 We'll get to use forms in one way or another in many later assignments during the bootcamp so don't feel the need to memorize all of the different form tags and attributes today. We can always come back to this chapter for reference!
