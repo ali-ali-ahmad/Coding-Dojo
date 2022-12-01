@@ -9,8 +9,8 @@
 <hr>
 
 <p>Create a new file in your Text Editor (VS Code, Atom, Sublime...) and properly indent the code below:</p>
-<textarea>
-  <!DOCTYPE html>
+<pre>
+<!DOCTYPE html>
 <html>
 <head>
 <title>
@@ -26,4 +26,4 @@ I love HTML!
 </p>
 </body>
 </html>
-</textarea>
+</pre>
