@@ -11,7 +11,8 @@
 ![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day2/Button-Up/wireframe.jpg?raw=true)
 
 <hr>
-<label class="container">>Recreate the look of the "Search Button"
+
+<div>
   <input type="checkbox">
-  <span class="checkmark"></span>
-</label>
+  <label for="scales">Recreate the look of the "Search Button"</label>
+</div>
