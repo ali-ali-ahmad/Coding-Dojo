@@ -11,5 +11,8 @@
 ![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day2/Button-Up/wireframe.jpg?raw=true)
 
 <hr>
-[ ] Recreate the look of the "Search Button"
+<div>
+- [ ] Recreate the look of the "Search Button"
+</div>
+
 
