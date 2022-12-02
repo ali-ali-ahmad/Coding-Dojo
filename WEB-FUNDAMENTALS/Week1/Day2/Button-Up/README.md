@@ -12,7 +12,7 @@
 
 <hr>
 <div>
-- [ ] Recreate the look of the "Search Button"
+- [] Recreate the look of the "Search Button"
 </div>
 
 
