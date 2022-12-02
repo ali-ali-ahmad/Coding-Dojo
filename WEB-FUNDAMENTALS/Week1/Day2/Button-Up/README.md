@@ -12,10 +12,10 @@
 
 <hr>
 <h4>To Do List</h4>
-- Recreate the look of the "Search Button"
-- Recreate the look of the "+" button, border-radius: 50%; may be useful for making a circle
-- Recreate the look of the "Create Account" button
-- (Optional) Try applying box-shadow to the "Create Account" button
+<p>Recreate the look of the "Search Button"</p>
+<p>Recreate the look of the "+" button, border-radius: 50%; may be useful for making a circle</p>
+<p>Recreate the look of the "Create Account" button</p>
+<p>(Optional) Try applying box-shadow to the "Create Account" button</p>
 
 
 
