@@ -7,9 +7,9 @@
 <h4>1) Web Fundamentals</h4>
 <p>HTML</p>
 <ol>
-  <li>Dictionary-Entry</li>
-  <li>Indentation-Fixing</li>
-  <li>Registration-From</li>
-  <li>Portfolio-Content</li>
+  <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry">Dictionary-Entry</a></li>
+  <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Indentation-Fixing">Indentation-Fixing</a></li>
+  <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Portfolio-Content">Registration-From</a></li>
+  <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From">Portfolio-Content</a></li>
 </ol>
 
