@@ -20,7 +20,7 @@
 2)
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code2.jpg" />
 3)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code3.jpg.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code3.jpg.jpg" />
 4)
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code4.jpg.jpg" style="width: 30%" />
 5)
