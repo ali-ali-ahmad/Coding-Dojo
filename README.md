@@ -31,7 +31,7 @@
       </ol>
   </div>
     <div>
-      <h4>2) <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN"></a>MERN Stack</h4>
+      <h4>2) <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN">MERN Stack</a></h4>
       <p> <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals">fundamentals</a></p>
       <ol>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/JavaScriptHoisting">JavaScriptHoisting</a></li>
