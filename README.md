@@ -14,8 +14,8 @@
 </ol>
 <p>HTML & CSS</p>
 <ol>
-  <li><a href="">Text-Styling</a></li>
-  <li><a href="">Button-Up</a></li>
-  <li><a href="">Plotting-Our-Blocks</a></li>
+  <li><a href="#">Text-Styling</a></li>
+  <li><a href="#">Button-Up</a></li>
+  <li><a href="#">Plotting-Our-Blocks</a></li>
 </ol>
 
