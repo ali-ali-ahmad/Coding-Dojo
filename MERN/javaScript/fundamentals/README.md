@@ -20,17 +20,17 @@
 2)
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code2.jpg" />
 3)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code3.jpg.jpg" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code3.jpg" />
 4)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code4.jpg.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code4.jpg" />
 5)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code5.jpg.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code5.jpg" />
 6)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code6.jpg.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code6.jpg" />
 7)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code7.jpg.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code7.jpg" />
 8) Bonus ES6: const
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code8.jpg.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code8.jpg" />
 
 <hr>
 
