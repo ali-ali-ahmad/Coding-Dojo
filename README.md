@@ -4,7 +4,7 @@
 <p>over 5 months and with high level of intensively, I was able to go throught  the basic of three stacks. below are the list and the of the flow if the boot camp</p>
 
 <hr>
-<div>
+<div class="d-flex">
   <div>
     <h4>1) Web Fundamentals</h4>
     <p>HTML</p>
