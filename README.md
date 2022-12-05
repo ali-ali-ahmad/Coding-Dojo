@@ -12,4 +12,10 @@
   <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Portfolio-Content">Registration-From</a></li>
   <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From">Portfolio-Content</a></li>
 </ol>
+<p>HTML & CSS</p>
+<ol>
+  <li><a href="">Text-Styling</a></li>
+  <li><a href="">Button-Up</a></li>
+  <li><a href="">Plotting-Our-Blocks</a></li>
+</ol>
 
