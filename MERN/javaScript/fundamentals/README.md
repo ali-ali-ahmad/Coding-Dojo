@@ -16,7 +16,7 @@
 <p>Even if <code>let</code> and <code>const</code> prevent a lot of the confusing behavior of JavaScript's hoisting, these are ES6 constructs and a huge amount of 
   the world's live JavaScript code is still ES5. Understanding how ES5 hoists <code>var</code> and the rules of scoping are important for every JavaScript developer!</p>
 1)
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code1.jpg"/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code1.jpg" />
 2)
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/fundamentals/readMeFiles/code2.jpg.jpg" style="width: 30%" />
 3)
