@@ -1,10 +1,10 @@
 <h1>Assignment: It's Time to Duel</h1>
 
 <h4>Unit Cards</h4>
-| name             | cost   | power | resilience |
-| ---             | ---  | --- |    ---   |
-| Red Belt Ninja   | 3      | 3     | 4          |
-| Black Belt Ninja | 4      | 5     | 4          |
+| name | cost | power | resilience |
+| --- | --- | --- | --- |
+| Red Belt Ninja | 3 | 3 | 4 |
+| Black Belt Ninja | 4 | 5 | 4 |
 
 <hr>
 
