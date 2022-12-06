@@ -22,12 +22,21 @@
     </ol>
   </div>
   <div>
-      <h4>2) Python Stack</h4>
-      <p>python_fundamentals</p>
+    <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack">2) Python Stack</a></h4>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/_python/python_fundamentals">python_fundamentals</a></p>
       <ol>
         <li><a href="#">hello_world</a></li>
         <li><a href="#">practice_using_pip_in_a_virtual_environment</a></li>
         <li><a href="#">used_codes</a></li>
+      </ol>
+  </div>
+    <div>
+      <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN">2) MERN Stack</a></h4>
+      <p> <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals">fundamentals</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/JavaScriptHoisting">JavaScriptHoisting</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/PredictDestructuring">PredictDestructuring</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/ConvertToArrow">ConvertToArrow</a></li>
       </ol>
   </div>
 </div>
