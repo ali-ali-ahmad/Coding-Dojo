@@ -1,7 +1,7 @@
 <h1>Assignment: Object Master</h1>
 
 <p>Lets use our new <code>map</code> and <code>filter</code> superpowers to get some data from this immutable pokémon array.</p>
-<p>use the following <a href="">link</a> to start the assignment</p>
+<p>use the following <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/javaScript/OOP/objectMaster/readMeFiles/startingCode.js">link</a> to start the assignment</p>
 
 
 <hr>
