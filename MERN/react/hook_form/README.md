@@ -2,7 +2,7 @@
 
 <p>Create a form like the following wireframe with a React Component and hooks. Then, show in real time, the data that is being inputted into the form below</p>
 
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/react//ninja/screenshots/example.jpg"/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/react/hook_form/screenshots/pic.jpg"/>
 
 <hr/>
 
