@@ -9,7 +9,7 @@
 <p>These messages can appear right when you render the page, and will disappear in real time.</p>
 <p>Hint: Use state and conditional rendering.</p>
 
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/react//ninja/screenshots/example.jpg"/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/MERN/react/more_forms/screenshots/pic.jpg"/>
 
 <hr/>
 
