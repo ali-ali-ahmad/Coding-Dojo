@@ -1,4 +1,4 @@
-<h1>Assignment: Form Validation with useReducer</h1>
+<h1>Assignment: Form Validation with useReducer (Optional)</h1>
 
 <p>Using what we learned in the last lesson about the <code>useReducer</code> hook, develop an application with a form, three inputs (firstName, lastName, and email), and validate the form as the user types in the inputs. Consider setting your initialState to an object like the following:</p>
 
