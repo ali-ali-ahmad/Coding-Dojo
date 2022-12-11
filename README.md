@@ -62,13 +62,57 @@
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/Sakila">Sakila (queries)</a></li>
     </ol>
   </div>
+  <br/>
   <div>
     <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack">2) Python Stack</a></h4>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/_python/python_fundamentals">python_fundamentals</a></p>
       <ol>
-        <li><a href="#">hello_world</a></li>
-        <li><a href="#">practice_using_pip_in_a_virtual_environment</a></li>
-        <li><a href="#">used_codes</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day1/practice_using_pip_in_a_virtual_environment.txt">practice_using_pip_in_a_virtual_environment</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day1/hello_world.py">hello_world</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day2/for_loop_basic1.py">For Loop Basic I</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day2/Functions_Basic1.py">Functions Basic I</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day2/Functions_Basic2.py">Functions Basic II</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day2/for_loop_basic2.py">For Loop Basic II</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day2/functions_intermediate1.py">Functions Intermediate I</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/python_fundamentals/week1_day2/functions_intermediate2.py">Functions Intermediate II</a></li>
+      </ol>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/_python/OOP">OOP</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/OOP/week1_day3/user.py">User</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/OOP/week1_day3/chaining_methods.py">Chaining Methods (Optional)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/OOP/week1_day3/bank_accounts.py">BankAccount</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/_python/OOP/week1_day3/users_with_bank_accounts.py">Users with Bank Accounts</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/_python/OOP/week1_day3/modularizing">Modular Practice</a></li>
+      </ol>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask">FLASK</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/flask/flask_fundamentals/week1_day4/understanding_routing.py">Understanding Routing</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week1_day4/playGround">Playground</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week1_day4/checkerboard">Checkerboard</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week2_day1/html_table">HTML Table</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week2_day2/dojo_survey">Dojo Survey</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week2_day2/counter">Counter</a></li>
+      </ol>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django">Django 2.2 v4</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/first_django_project">First Django Project</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/time_display">Time Display</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/dojo_survey">Dojo Survey</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/counter">Counter</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/great_number_game">Great Number Game</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/ninja_gold">Ninja Gold</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/single_model_orm">Users (Shell)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/User_with_templates">Users with Templates</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/dojo_ninjas_proj">Dojo & Ninjas (Shell)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/dojos_ninjas_with_template">Dojos & Ninjas with Template</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/books_authors_proj">Books/Authors (Shell)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/books_authors_with_templates">Books/Authors with Templates</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/semi_restfull_tv_shows">Semi-Restful TV Shows</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/semi_restfull_tv_shows_validated">Semi-Restful TV Shows Validated</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/amadon-master">Amadon (Optional)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/log_and_reg">Login and Registration</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/the_wall">The Wall</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/favorite_books">Favorite Books</a></li>
       </ol>
   </div>
     <div>
