@@ -1,25 +1,22 @@
 import React, { useState } from 'react';
 
-function BoxGenerator() {
-  // useState hook to manage the state of the form
+function ThreeInOne() {
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
   const [color, setColor] = useState('');
   const [boxes, setBoxes] = useState([]);
 
-  // function to handle form submission
+
   const handleSubmit = (e) => {
-    // prevent default form submission behavior
     e.preventDefault();
 
-    // create a new box object using the form values
+
     const newBox = {
       width: width,
       height: height,
       color: color,
     };
 
-    // add the new box to the list of boxes
     setBoxes([...boxes, newBox]);
   }
 
@@ -55,4 +52,4 @@ function BoxGenerator() {
   );
 }
 
-export default BoxGenerator;
+export default ThreeInOne;
