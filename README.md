@@ -115,7 +115,8 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/favorite_books">Favorite Books</a></li>
       </ol>
   </div>
-    <div>
+  <hr>
+  <div>
     <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java">3) Java Stack</a></h4>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals">Java Foundations</a></p>
       <ol>
@@ -166,6 +167,7 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/CountriesTheJPA">Queries and Joins</a></li>
       </ol>
     </div>
+    <hr>
     <div>
       <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN">4) MERN Stack</a></h4>
       <p> <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript">Javascript Node, OOP and fundamentals</a></p>
@@ -195,7 +197,6 @@
         <li><a href="#">Axios Pokemon API</a></li>
         <li><a href="#">Routing Practice</a></li>
         <li><a href="#">Luke APIwalker</a></li>
-
       </ol>
   </div>
 </div>
