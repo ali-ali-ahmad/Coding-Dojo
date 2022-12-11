@@ -191,7 +191,7 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/more_forms">More Forms</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/form_validation_with_use_reducer">Form Validation (Optional)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/box_generator">Box Generator</a></li>
-        <li><a href="#">Tabs</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/tabs">Tabs</a></li>
         <li><a href="#">Todo List</a></li>
         <li><a href="#">Pokemon API</a></li>
         <li><a href="#">Axios Pokemon API</a></li>
