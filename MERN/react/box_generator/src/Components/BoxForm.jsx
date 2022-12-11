@@ -3,11 +3,28 @@ import React, { useState } from 'react';
     
     
 const BoxForm = (props) => {
-    const [box, setBox] = useState("");
+    // const [box, setBox] = useState("");
     
+    const [width, setWidth] = useState(0);
+    const [height, setHeight] = useState(0);
+    const [color, setColor] = useState('');
+    const [boxes, setBoxes] = useState([]);
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.onNewBox( box );
+        props.width( width );
+        props.height( height );
+        props.color( color );
+
+        const newBox = {
+            width: width,
+            height: height,
+            color: color,
+        };
+    
+          // add the new box to the list of boxes
+        setBoxes([...boxes, newBox]);
+
     };
     
     return (
@@ -18,31 +35,21 @@ const BoxForm = (props) => {
             alignItems: 'center',
         }}
         >
-            <form onSubmit={ handleSubmit }>
-                <h1
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                    }}
-                >Add Box</h1>
-                <div
-                    style={{
-                        display: 'flex',
-                        width: '400px',
-                        justifyContent: 'space-around',
-                    }}
-                >
-                    <h3>Color</h3>
-                    <input 
-                    type="text" 
-                    placeholder="Enter your Color here"
-                    onChange={ (e) => setBox(e.target.value) }
-                    name="box"
-                    value={ box }
-                    />
-                    <input type="submit" value="Add Box" />
-                </div>
-            </form>
+        <form onSubmit={handleSubmit}>
+            <label>
+                Width:
+                <input type="number" value={width} onChange={e => setWidth(e.target.value)} />
+            </label>
+            <label>
+                Height:
+                <input type="number" value={height} onChange={e => setHeight(e.target.value)} />
+            </label>
+            <label>
+                Color:
+                <input type="text" value={color} onChange={e => setColor(e.target.value)} />
+            </label>
+            <input type="submit" value="Generate Box" />
+        </form>
         </div>
     );
 };

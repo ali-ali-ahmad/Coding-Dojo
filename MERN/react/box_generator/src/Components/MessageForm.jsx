@@ -2,28 +2,50 @@ import React, { useState } from 'react';
 
     
     
-const MessageForm = (props) => {
-    const [msg, setMsg] = useState("");
+const BoxForm = (props) => {
+    const [box, setBox] = useState("");
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.onNewMessage( msg );
+        props.onNewBox( box );
     };
     
     return (
-        <form onSubmit={ handleSubmit }>
-            <h1>Set Message</h1>
-            <textarea 
-                rows="4"
-                cols="50"
-                placeholder="Enter your message here"
-                onChange={ (e) => setMsg(e.target.value) }
-                name="msg"
-                value={ msg }
-            ></textarea>
-            <input type="submit" value="Send Message" />
-        </form>
+        <div
+        style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        }}
+        >
+            <form onSubmit={ handleSubmit }>
+                <h1
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+
+                    }}
+                >Add Box</h1>
+                <div
+                    style={{
+                        display: 'flex',
+                        width: '400px',
+                        justifyContent: 'space-around',
+                    }}
+                >
+                    <h3>Color</h3>
+                    <input 
+                    type="text" 
+                    placeholder="Enter your Color here"
+                    onChange={ (e) => setBox(e.target.value) }
+                    name="box"
+                    value={ box }
+                    />
+                    <input type="submit" value="Add Box" />
+                </div>
+            </form>
+        </div>
     );
 };
     
-export default MessageForm;
+export default BoxForm;
