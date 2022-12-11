@@ -62,7 +62,7 @@
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/Sakila">Sakila (queries)</a></li>
     </ol>
   </div>
-  <br/>
+  <hr/>
   <div>
     <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack">2) Python Stack</a></h4>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/_python/python_fundamentals">python_fundamentals</a></p>
@@ -116,12 +116,86 @@
       </ol>
   </div>
     <div>
-      <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN">2) MERN Stack</a></h4>
-      <p> <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals">fundamentals</a></p>
+    <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java">3) Java Stack</a></h4>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals">Java Foundations</a></p>
       <ol>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/JavaScriptHoisting">JavaScriptHoisting</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/PredictDestructuring">PredictDestructuring</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/ConvertToArrow">ConvertToArrow</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/YourOwnJavaProgram">First Java Program</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/CafeJava">Café Java</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/alfredBot">Alfred Bod</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/CafeBusinessLogic">Café Business Logic</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/Puzzling">Puzzling</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/MapOfTheHashMatique">Map of the Hashmatique</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/java_fundamentals/ListsOfExceptions">Lists of Exception</a></li>
+      </ol>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP">Java OOP</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/Orders%26Items">Orders and Items</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/Barista'sChallenge">Barista's Challenge</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/BankAccount">BankAccount</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/Coffeedore64">Coffeedore 64</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ZooKeeperPartOne">Zoo Keeper 1</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ZooKeeperPartTwo">Zoo Keeper 2</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/CareSoftInterfaces">CareSoft Interfaces</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/AbstractArt">Abstract Art</a></li>
+      </ol>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring">Java Spring</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/DaikichiRoutes">Daikichi Routes</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/HelloHuman">Hello Human</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/DaikichiPathVariables">Daikichi Path Variables</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/HoppersReceipt">Hopper's Reciept</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/DisplayDate">Display Date</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/FruityLoops">Fruity Loops</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/Counter">Counter</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/OmikujiForm">Omikuki Form</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/NinjaGoldGame">Ninja Gold Game</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/booksAPI">Books API</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/RenderingBooks">Rendering Books</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/RenderingAllBooks">All Books</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/SaveTravels">Save Travels</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/EditDeleteExpenses">Edit Expenses</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/EditDeleteExpenses">Full CRUD Save Travels</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/Languages">Languages</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/DojoAndNinjas">Dojos and Ninjas</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ProductsAndCategories">Product and Categories</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/LoginAndRegistration">Login and Registration</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/BookClub">Book Club</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/BookBroker">Book Broker</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ProjectManager">Project Manager Extra Belt Reviewer</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/auth">Admin Dashboard</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/CountriesTheJPA">Queries and Joins</a></li>
+      </ol>
+    </div>
+    <div>
+      <h4><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN">4) MERN Stack</a></h4>
+      <p> <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript">Javascript Node, OOP and fundamentals</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/JavaScriptHoisting">Hoist</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/PredictDestructuring">Predict Destructuring</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/fundamentals/ConvertToArrow">Convert To Arrow</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/OOP/ninja">Ninja</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/OOP/superNinja">Super Ninja</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/OOP/ItsTimeToDuel">It's Time to Duel</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/javaScript/OOP/objectMaster">Object Master</a></li>
+      </ol>
+      <p> <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react">REACT</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/firstReact">First React</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/firstJSX/your-project-name-here">First JSX</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/PropItUp/first_jsx">Prop It Up</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/putting_it_together">Putting it Together</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/big_inversion">Big Inversion</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/hook_form">Hook Form</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/more_forms">More Forms</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/form_validation_with_use_reducer">Form Validation (Optional)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/box_generator">Box Generator</a></li>
+        <li><a href="#">Tabs</a></li>
+        <li><a href="#">Todo List</a></li>
+        <li><a href="#">Pokemon API</a></li>
+        <li><a href="#">Axios Pokemon API</a></li>
+        <li><a href="#">Routing Practice</a></li>
+        <li><a href="#">Luke APIwalker</a></li>
+
       </ol>
   </div>
 </div>
