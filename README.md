@@ -28,20 +28,6 @@
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day5/About-Python">About Python</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day5/Internet-optional">Internet (Optional)</a></li>
     </ol>
-    <p>HTML & CSS</p>
-    <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day2/Text-Styling">Text-Styling</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day2/Button-Up">Button-Up</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day2/Plotting-Our-Blocks">Plotting-Our-Blocks</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Flex-Our-Blocks">Flex our Blocks</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Github-B-locks">GitHub Blocks</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Flex-Navbar">Flex Navbar</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Flex-ible%20columns">FLEX-ible Columns</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day4/User-Card">User Card</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day4/Profile-Page">Profile Page</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day5/About-Python">About Python</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day5/Internet-optional">Internet (Optional)</a></li>
-    </ol>
     <p>+ JS</p>
     <ol>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day6/FizzBuzz">Fizzbuzz</a></li>
