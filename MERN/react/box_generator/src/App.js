@@ -9,8 +9,8 @@ function App() {
 
     
     const addingNewBox = ( newBox ) => {
-        const allBoxes = [...currentBox, newBox];
-        setCurrentBox( allBoxes );
+        // const allBoxes = [...currentBox, newBox];
+        setCurrentBox( [...currentBox, newBox] );
     }
     
     return (

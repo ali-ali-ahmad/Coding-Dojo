@@ -6,6 +6,7 @@ const BoxForm = (props) => {
     const [box, setBox] = useState("");
     
     const handleSubmit = (e) => {
+        console.log(e);
         e.preventDefault();
         props.onNewBox( box );
         setBox("");
@@ -24,13 +25,13 @@ const BoxForm = (props) => {
                     style={{
                         display: 'flex',
                         justifyContent: 'center',
-
                     }}
                 >Add Box</h1>
                 <div
                     style={{
                         display: 'flex',
                         width: '400px',
+                        height: '30px',
                         justifyContent: 'space-around',
                     }}
                 >
