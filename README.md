@@ -192,8 +192,9 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/form_validation_with_use_reducer">Form Validation (Optional)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/box_generator">Box Generator</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/tabs">Tabs</a></li>
-        <li><a href="#">Todo List</a></li>
-        <li><a href="#">Pokemon API</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/to_do_list">Todo List</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/coin_flipping">Coin Flipping (Optional)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/react/pokemon_api">Pokemon API</a></li>
         <li><a href="#">Axios Pokemon API</a></li>
         <li><a href="#">Routing Practice</a></li>
         <li><a href="#">Luke APIwalker</a></li>
