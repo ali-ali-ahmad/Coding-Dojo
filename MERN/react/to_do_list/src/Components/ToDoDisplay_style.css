@@ -1,0 +1,5 @@
+
+.checklist input:checked + label {
+    text-decoration: line-through;
+}
+
