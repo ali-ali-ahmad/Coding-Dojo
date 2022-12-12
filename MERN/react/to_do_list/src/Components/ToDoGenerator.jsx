@@ -12,27 +12,15 @@ const ToDoGenerator = (props) => {
     };
     
     return (
-        <div
-        // style={{
-        //     display: 'flex',
-        //     justifyContent: 'center',
-        //     alignItems: 'center',
-        // }}
-        >
+        <div>
             <form onSubmit={ handleSubmit }>
                 <h1
-                    // style={{
-                    //     display: 'flex',
-                    //     justifyContent: 'center',
-                    // }}
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                    }}
                 >Add To Do</h1>
-                <div
-                    // style={{
-                    //     display: 'flex',
-                    //     width: '400px',
-                    //     justifyContent: 'space-around',
-                    // }}
-                >
+                <div>
                     <h3>ADD something here</h3>
                     <input 
                     type="text" 
