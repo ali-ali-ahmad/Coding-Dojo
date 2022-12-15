@@ -1,6 +1,6 @@
 <h1>Assignment: Postman + Pokemon</h1>
 
-<p>With what we just learned, let's go ahead and use Postman with the Pokemon API. Use Postman to perform 5 different GET requests to retrieve 5 different Pokemon of your choice. Here is a link to the <a href="https://swapi.dev/">Pokemon API DOCS</a>.</p>
+<p>With what we just learned, let's go ahead and use Postman with the Pokemon API. Use Postman to perform 5 different GET requests to retrieve 5 different Pokemon of your choice. Here is a link to the <a href="https://pokeapi.co/docs/v2">Pokemon API DOCS</a>.</p>
 
 <p>For instance if we want to find a Pokemon named "Bulbasaur" we could make a request like this.</p>
 
