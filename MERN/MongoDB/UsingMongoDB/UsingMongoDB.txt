@@ -1,0 +1,52 @@
+1) use my_first_db
+
+2) db.createCollection("students")
+
+3) db.students.insert({name:"Waleed", home_state:"Nablus", lucky_number:1, birthday:{month:10, day:22, year:1994}})
+   db.students.insert({name:"Hasan", home_state:"Tulkarem", lucky_number:3, birthday:{month:6, day:1, year:1988}})
+   db.students.insert({name:"Omer", home_state:"Bethlehem", lucky_number:5, birthday:{month:3, day:30, year:1970}})
+   db.students.insert({name:"Ayesh", home_state:"Khalil", lucky_number:17, birthday:{month:5, day:16, year:1999}})
+   db.students.insert({name:"Ali", home_state:"Ramallah", lucky_number:77, birthday:{month:10, day:17, year:1993}})
+
+4) db.students.find({}).pretty()
+
+5) db.students.find({home_state: "Ramallah"}).pretty()
+
+6) db.students.find({lucky_number: {$gt: 3}}).pretty()
+
+7) db.students.find({lucky_number: {$lte: 10}}).pretty()
+
+8) db.students.find({$and: [{ lucky_number: { $gte: 1 }},{lucky_number:{ $lte:9 }}]}).pretty()
+
+9) db.students.updateMany({}, {$set: {interests: ['coding', 'brunch', 'MongoDB']}})
+
+10)db.students.update({name: "Waleed"}, {$push: {interests:"swimming"}})
+   db.students.update({name: "Hasan"}, {$push: {interests:"sky diving"}})
+   db.students.update({name: "Omer"}, {$push: {interests:"hourse riding"}})
+   db.students.update({name: "Ayesh"}, {$push: {interests:"football"}})
+   db.students.update({name: "Ali"}, {$push: {interests:"volleyball"}})
+
+11)db.students.update({name: "Ali"},{$push: {interests: "taxes"}})
+
+12)db.students.update({name: "Ali"}, {$pop: {interests:{array_key:1}}})
+
+13)db.students.updateOne({ name: "Ali" }, { $pop: { interests: 1 }})
+
+14)db.students.remove({home_state: "Ramallah"}, false)
+
+15)db.students.remove({name: "Waleed"}, false)
+
+16)db.students.remove({lucky_number: {$gt: 5}}, true)
+
+17)db.students.updateMany({}, {$set: {number_of_belts: 0}})
+
+18)db.students.updateMany({home_state: "Ramallah"}, {$set: {number_of_belts: +1}})
+
+19)db.students.updateMany({}, {$rename: {number_of_belts: "belts_earned"}})
+
+20)db.students.updateMany({}, {$unset: {lucky_number: ""}})
+
+21)db.students.updateMany({}, {$set: {updatedAt: new Date().toISOString()}})
+
+
+
