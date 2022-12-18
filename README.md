@@ -205,9 +205,9 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/express/postman%2Bpokemon">Postman + Pokemon</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/express/faker_api">Faker API</a></li>
       </ol>
-      <p><a href="#">MongoDB</a></p>
+      <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB">MongoDB</a></p>
       <ol>
-        <li><a href="#">Using MongoDB</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB/UsingMongoDB">Using MongoDB</a></li>
         <li><a href="#">Jokes API</a></li>
       </ol>
   </div>
