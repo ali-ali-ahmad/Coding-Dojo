@@ -1,73 +1,77 @@
+const { faker } = require('@faker-js/faker');
 const express = require("express");
 const app = express();
 
-app.use( express.json() );
-app.use( express.urlencoded({ extended: true }) );
 
-// req is short for request
-// res is short for response
+const createUser = () => {
+    const newUser = {
+        _id:faker.datatype.uuid(),
+        firstName: faker.name.firstName(),
+        lastName: faker.name.lastName(),
+        email: faker.internet.email(),
+        password: faker.internet.password(),
+        phoneNumber: faker.phone.number(),
+    };
+    return newUser;
+};
+const createCompany = () => {
+    const newCompany = {
+        _id:faker.datatype.uuid(),
+        name: faker.company.name(),
+        address:{
+            street:faker.address.street(),
+            city:faker.address.cityName(),
+            state:faker.address.state(),
+            zipCode:faker.address.zipCode(),
+            country:faker.address.country()
+        },
+    };
+    return newCompany;
+};
+
 app.get("/api", (req, res) => {
-  res.send("Our express api server is now sending this over to the browser");
+    res.json(createUser())
+    res.send("Our express api server is now sending this over to the browser");
 });
 
 const server = app.listen(8000, () =>
-  console.log(`Server is locked and loaded on port ${server.address().port}!`)
+    console.log(`Server is locked and loaded on port ${server.address().port}!`)
 );
 
-// const express = require("express");
-// const app = express();
-// const port = 8000;
-// app.get("/api", (req, res) => {
-//     res.json({ message: "Hello World" });
-// });
-// app.listen( port, () => console.log(`Listening on port: ${port}`) );
-
-const users = [
-    { firstName: "Reimu",  lastName: "Hakurei"    },
-    { firstName: "Marisa", lastName: "Kirisame"   },
-    { firstName: "Sanae",  lastName: "Kochiya"    },
-    { firstName: "Sakuya", lastName: "Izayoi"     },
-    { firstName: "Momiji", lastName: "Inubashiri" }
-];
-    
-// app.get("/api/users", (req, res) => {
-//     res.json( users );
-// });
-
-// app.post("/api/users", (req, res) => {
-//     // req.body will contain the form data from Postman or from React
-//     console.log(req.body);
-//     // we can push it into the users array for now...
-//     // later on this will be inserted into a database
-//     users.push(req.body);
-//     // we always need to respond with something
-//     res.json( { status: "ok" } );
-// });
-
-// app.get("/api/users/:id", (req, res) => {
-//     // we can get this `id` variable from req.params
-//     console.log(req.params.id);
-//     // assuming this id is the index of the users array we could return one user this way
-//     res.json( users[req.params.id] );
-// });
-
-
-// Updating Data
-app.put("/api/users/:id", (req, res) => {
-    // we can get this `id` variable from req.params
-    const id = req.params.id;
-    // assuming this id is the index of the users array we can replace the user like so
-    users[id] = req.body;
+app.post("/api/users",(req,res)=>{
+    console.log(req.body);
+    users.push(req.body);
     // we always need to respond with something
     res.json( { status: "ok" } );
 });
 
-// Deleting Data 
-app.delete("/api/users/:id", (req, res) => {
-    // we can get this `id` variable from req.params
-    const id = req.params.id;
-    // assuming this id is the index of the users array we can remove the user like so
-    users.splice(id, 1);
-    // we always need to respond with something
-    res.json( { status: "ok" } );
+app.get("/api/company" ,(req,res)=>{
+    res.json( createCompany())
+})
+
+app.get("/api/user/" ,(req,res)=>{
+    res.json(createUser())
+})
+
+app.get("/api/user/company" ,(req,res)=>{
+    var va1 ={
+        user:createUser() ,
+        company:createCompany()
+    }
+    res.json(va1);
+})
+
+app.get("/api/users/:id", (req, res) => {
+  // we can get this `id` variable from req.params
+    console.log(req.params.id);
+    console.log(users[users.length-1].firstName)
+
+    // assuming this id is the index of the users array we could return one user this way
+    res.json( users[req.params.id] );
 });
+
+const newuser = createUser();
+console.log(newuser);
+
+const newcompany = createCompany();
+console.log(newcompany);
