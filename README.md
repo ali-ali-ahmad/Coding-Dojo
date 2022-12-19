@@ -208,7 +208,7 @@
       <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB">MongoDB</a></p>
       <ol>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB/UsingMongoDB">Using MongoDB</a></li>
-        <li><a href="#">Jokes API</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB/jokes">Jokes API</a></li>
       </ol>
   </div>
 </div>
