@@ -5,22 +5,6 @@ const ProductForm = () => {
     const [title, setTitle] = useState();
     const [price, setPrice] = useState();
     const [description, setDescription] = useState();
-    // const [products, setProducts] = useState();
-
-    // const newProduct = {
-    //     title: title,
-    //     price: price,
-    //     description: description,
-    // };
-    // setProducts( newProduct );
-
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     props.onNewToDo( toDo );
-    //     props.onNewProduct(title, price, description);
-    //     setToDo("");
-    // };
 
 
     const onSubmitHandler = e => {
@@ -38,26 +22,6 @@ const ProductForm = () => {
             )
         .catch(err => console.log(err))
     }
-
-    // const onSubmitHandler = (props, e) => {
-    //     e.preventDefault();
-    //     axios.post('http://localhost:8000/api/products', {
-    //         title,
-    //         price,
-    //         description
-    //     })
-    //     .then(res => 
-    //         console.log(res), 
-    //         // props.onNewProduct(products),
-    //         // props.onNewTitle(title),
-    //         // props.onNewPrice(price),
-    //         // props.onNewDescription(description),
-    //         setTitle(""),
-    //         setPrice(""),
-    //         setDescription("")
-    //         )
-    //     .catch(err => console.log(err))
-    // }
 
     return  (
         <form onSubmit={onSubmitHandler}>
