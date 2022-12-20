@@ -1,0 +1,378 @@
+mkdir myNewProject
+cd myNewProject
+
+-----------
+npm init -y
+
+-----------
+npm install express
+npm install mongoose
+
+----------
+copy nul server.js
+in this file add the following 
+
+const express = require('express');
+const app = express();
+const port = 8000;
+    
+app.listen(port, () => console.log(`Listening on port: ${port}`) );
+-----------
+Let's create our modularized project structure by making a folder called 
+"server" and then create four more folders within that called "config", "controllers", "models" and "routes".
+----------
+This is how we create the project structure for our backend. Now, let's create our React project via create-react-app.
+ Since React is used for the client side code, we can call our project "client". Make sure you are in the same folder level as your "server.js".
+
+npx create-react-app client
+
+----------
+controllers/person.controller.js
+code:
+module.exports.index = (request, response) => {
+    response.json({
+       message: "Hello World"
+    });
+}
+
+-----------
+routes/person.routes.js
+code:
+const PersonController = require('../controllers/person.controller');
+module.exports = function(app){
+    app.get('/api', PersonController.index);
+}
+
+----------
+server.js >>>>> add new lines
+code:
+const express = require('express');
+const app = express();
+require('./server/routes/person.routes')(app); >>>>>>>>> // This is new
+app.listen(8000, () => {
+    console.log("Listening at Port 8000")
+})
+
+------------
+Let's now start setting up our React project. Change directories into your React project, called client, and run the following:
+npm install axios
+------------
+client/src/views/Main.js
+code:
+import React, {useState, useEffect} from 'react'
+import axios from 'axios';
+
+const Main = () => {
+    const [message, setMessage] = useState("Loading....")
+    useEffect ( ()=> {
+        axios.get("http://localhost:8000/api")
+        .then(res => setMessage(res.data.message))
+    }, []);
+    return (
+        <div>
+            <h2>Message from the back-end: {message}</h2>
+        </div>
+    )
+};
+
+export default Main;
+
+------------
+App.js
+code:
+import React from 'react';
+import Main from './Main';
+function App() {
+  return (
+    <div className="App">
+      <Main />
+    </div>
+  );
+}
+export default App;
+
+-----------
+Cors >>>> server folder
+npm install cors
+
+-----------
+server.js >>>> add new lines
+code: 
+const express = require('express');
+const cors = require('cors') // This is new
+const app = express();
+app.use(cors()) // This is new
+require('./server/routes/person.routes')(app);
+app.listen(8000, () => {
+    console.log("Listening at Port 8000")
+})
+
+-------------------
+config/mongoose.config.js
+code:
+const mongoose = require('mongoose');
+mongoose.connect("mongodb://localhost/crmdb", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
+    .then(() => console.log("Established a connection to the database"))
+    .catch(err => console.log("Something went wrong when connecting to the database", err));
+
+--------------
+models/person.model.js
+code :
+const mongoose = require('mongoose');
+const PersonSchema = new mongoose.Schema({
+    firstName: { type: String },
+    lastName: { type: String }
+}, { timestamps: true });
+module.exports.Person = mongoose.model('Person', PersonSchema);
+
+-------------
+server.js >>> add new lines
+code:
+const express = require('express');
+const cors = require('cors');
+const app = express();
+require('./server/config/mongoose.config'); // This is new
+app.use(cors());
+app.use(express.json()); // This is new
+app.use(express.urlencoded({ extended: true })); // This is new
+require('./server/routes/person.routes')(app);
+app.listen(8000, () => {
+    console.log("Listening at Port 8000")
+})
+
+
+---------
+controllers/person.controller.js >>> add new lines
+code:
+const { Person } = require('../models/person.model');
+module.exports.index = (request, response) => {
+    response.json({
+        message: "Hello World"
+    });
+}
+>>>>new start
+    // The method below is new
+module.exports.createPerson = (request, response) => {
+    const { firstName, lastName } = request.body;
+    Person.create({
+        firstName,
+        lastName
+    })
+        .then(person => response.json(person))
+        .catch(err => response.json(err));
+}
+>>>new end
+
+-------------
+Now, let's update our routes: >>>> add new lines
+code:
+
+const PersonController = require('../controllers/person.controller');
+module.exports = function(app){
+    app.get('/api', PersonController.index);
+    app.post('/api/people', PersonController.createPerson);
+}
+
+----------------
+components/PersonForm.js
+code:
+import React, { useState } from 'react'
+import axios from 'axios';
+export default () => {
+    //keep track of what is being typed via useState hook
+    const [firstName, setFirstName] = useState(""); 
+    const [lastName, setLastName] = useState("");
+    //handler when the form is submitted
+    const onSubmitHandler = e => {
+        //prevent default behavior of the submit
+        e.preventDefault();
+        //make a post request to create a new person
+        axios.post('http://localhost:8000/api/people', {
+            firstName,
+            lastName
+        })
+            .then(res=>console.log(res))
+            .catch(err=>console.log(err))
+    }
+    //onChange to update firstName and lastName
+    return (
+        <form onSubmit={onSubmitHandler}>
+            <p>
+                <label>First Name</label><br/>
+                <input type="text" onChange={(e)=>setFirstName(e.target.value)} value={firstName}/>
+            </p>
+            <p>
+                <label>Last Name</label><br/>
+                <input type="text" onChange={(e)=>setLastName(e.target.value)} value={lastName}/>
+            </p>
+            <input type="submit"/>
+        </form>
+    )
+}
+
+------------
+main.js >>>> change to:
+code:
+import React, { useEffect, useState } from 'react';
+import PersonForm from '../components/PersonForm';
+export default () => {
+    return (
+        <div>
+           <PersonForm/>
+        </div>
+    )
+}
+
+----------------
+server/controllers/person.controller.js >>>> add
+code:
+module.exports.getAllPeople = (request, response) => {
+    Person.find({})
+        .then(persons => response.json(persons))
+        .catch(err => response.json(err))
+}
+
+----------------
+routes >>>>> add
+code:
+// ...
+app.get('/api/people', PersonController.getAllPeople);
+// ...
+
+---------------
+new component, called PersonList.js.
+code:
+import React from 'react'
+import axios from 'axios';
+    
+const PersonList = (props) => {
+    return (
+        <div>
+            {props.people.map( (person, i) =>
+                <p key={i}>{person.lastName}, {person.firstName}</p>
+            )}
+        </div>
+    )
+}
+    
+export default PersonList;
+
+------------------
+views/Main.js >>>>> update
+code:
+import React, { useEffect, useState } from 'react'
+import PersonForm from '../components/PersonForm';
+import PersonList from '../components/PersonList';
+    
+const Main = (props) => {
+    const [people, setPeople] = useState([]);
+    const [loaded, setLoaded] = useState(false);
+    
+    useEffect(()=>{
+        axios.get('http://localhost:8000/api/people')
+            .then(res=>{
+                setPeople(res.data);
+                setLoaded(true);
+            })
+            .catch(err => console.error(err));
+    },[]);
+    
+    return (
+        <div>
+           <PersonForm/>
+           <hr/>
+           {loaded && <PersonList people={people}/>}
+        </div>
+    )
+}
+    
+export default Main;
+
+--------------
+server/controllers/person.controller.js >>>>> add
+code:
+module.exports.getPerson = (request, response) => {
+    Person.findOne({_id:request.params.id})
+        .then(person => response.json(person))
+        .catch(err => response.json(err))
+}
+
+------------
+And add another route: >>> add
+code:
+app.get('/api/people/:id', PersonController.getPerson);
+
+
+------------
+Back to React. We will need to create a new file called Detail.js in our views folder:
+
+views/Detail.js
+code:
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
+import { useParams } from "react-router-dom";
+    
+const Detail = (props) => {
+    const [person, setPerson] = useState({})
+    const { id } = useParams();
+    
+    useEffect(() => {
+        axios.get('http://localhost:8000/api/people/' +id)
+            .then(res => setPerson(res.data))
+            .catch(err => console.error(err));
+    }, []);
+    
+    return (
+        <div>
+            <p>First Name: {person.firstName}</p>
+            <p>Last Name: {person.lastName}</p>
+        </div>
+    )
+}
+    
+export default Detail;
+
+-------------
+npm install react-router-dom
+
+----------------
+index.js
+code:
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </React.StrictMode>
+);
+--------------
+App.js
+code:
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Main from './views/Main';
+import Detail from './components/Detail';
+function App() {
+    return (
+    <div className="App">
+         <Routes>
+             <Route element={<Main/>} path="/people/" />
+             <Route element={<Detail/>} path="/people/:id" />
+         <Routes/>                         
+    </div>
+    );
+}
+export default App;
+
+------------
+
