@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useParams, useNavigate } from "react-router-dom";
 import ProductForm from '../components/ProductForm';
 import DeleteButton from '../components/DeleteButton';
+import { Link } from 'react-router-dom';
     
 const Update = (props) => {
     const { id } = useParams();
@@ -28,6 +29,7 @@ const Update = (props) => {
     return (
         <>
             <div>
+                <Link to={'/products/'}>back</Link>
                 <h1>Update a Person</h1>
                 {loaded && (
                     <>

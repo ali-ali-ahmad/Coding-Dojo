@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios';
 import ProductForm from '../components/ProductForm';
 import ProductList from '../components/ProductList';
+import './css/main.css'
 
 const Main = (props) => {
     const [products, setProducts] = useState();
@@ -31,11 +32,13 @@ const Main = (props) => {
     }
 
     return (
-        <div>
-            <ProductForm onSubmitProp={createProduct} initialTitle="" initialPrice="" initialDescription=""/>
-            <hr/>
-            <br/>
-            {loaded && <ProductList products={products} removeFromDom={removeFromDom}/>}
+        <div className='mainPage'>
+            <div>
+                <ProductForm onSubmitProp={createProduct} initialTitle="" initialPrice="" initialDescription=""/>
+            </div>
+            <div>
+                {loaded && <ProductList products={products} removeFromDom={removeFromDom}/>}
+            </div>
         </div>
     )
 };

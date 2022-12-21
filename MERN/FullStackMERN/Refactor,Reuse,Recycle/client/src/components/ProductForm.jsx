@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 const ProductForm = (props) => {
     const {initialTitle, initialPrice, initialDescription, onSubmitProp} = props;
@@ -16,19 +19,48 @@ const ProductForm = (props) => {
 
     return  (
         <form onSubmit={onSubmitHandler}>
+            <Box
+                component="form"
+                sx={{
+                    '& .MuiTextField-root': { m: 1, width: '25ch' },
+                }}
+                noValidate
+                autoComplete="off"
+            ></Box>
             <p>
-                <label>Title</label><br/>
-                <input type='text' onChange={(e) => setTitle(e.target.value)} value={title}/>
+                <TextField
+                    // error
+                    id="outlined-error-helper-text"
+                    label="Title"
+                    value={title}
+                    // helperText="Incorrect entry."
+                    type='text'
+                    onChange={(e) => setTitle(e.target.value)}
+                />
             </p>
             <p>
-                <label>Price</label><br/>
-                <input type="number" onChange={(e) => setPrice(e.target.value)} value={price}/>
+                <TextField
+                    // error
+                    id="outlined-error-helper-text"
+                    label="Price"
+                    value={price}
+                    // helperText="Incorrect entry."
+                    type="number"
+                    onChange={(e) => setPrice(e.target.value)}
+                />
             </p>
             <p>
-                <label>Description</label><br/>
-                <input type="text" onChange={(e) => setDescription(e.target.value)} value={description}/>
+                <TextField
+                    // error
+                    id="outlined-error-helper-text"
+                    label="Description"
+                    value={description}
+                    // helperText="Incorrect entry."
+                    type='text'
+                    onChange={(e) => setDescription(e.target.value)}
+                />
             </p>
-            <input type="submit" value="Submit"/>
+            <Button type='submit' variant="contained" color="success">Submit</Button>
         </form>
     )
 }

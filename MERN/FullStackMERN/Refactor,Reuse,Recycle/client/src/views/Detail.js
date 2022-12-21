@@ -3,6 +3,13 @@ import axios from "axios";
 import {useParams} from "react-router";
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
+import DeleteButton from '../components/DeleteButton';
+import EditIcon from '@mui/icons-material/Edit';
+import Fab from '@mui/material/Fab';
+import CardContent from '@mui/material/CardContent';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import Typography from '@mui/material/Typography';
 
 const Detail = (props) => {
     const [product, setProduct] = useState();
@@ -20,34 +27,32 @@ const Detail = (props) => {
             .catch(err => console.error(err))
     }, [id]);
 
-    const deleteProduct = (productId) => {
-        axios.delete('http://localhost:8000/api/products/' + productId)
-            .then(res => 
-                setProduct(""),
-                navigate("/products")
-            )
-            .catch(err => console.error(err));
-    }
-
     return (
         <div>
+            <Link to={'/products'}>back</Link>
             {loaded && 
-            <div>
-                <div>
-                    <p>Product title: {product.title}</p>
-                    <p>Product price: {product.price}$</p>
-                    <p>Product Description: {product.description}</p>
-                </div>
-                <Link to={'/products'}>back</Link>
-                |
-                <Link to={"/products/" + product._id + "/edit"}>
-                    Edit
-                </Link>
-                |
-                <button onClick={(e)=>{deleteProduct(product._id)}}>
-                    Delete
-                </button>
-            </div>
+            <Card sx={{ maxWidth: 345 }}>
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                        {product.title}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        Description:
+                        {product.description}
+                    </Typography>
+                    <Typography gutterBottom variant="h5" component="div">
+                        Price: {product.price}$
+                    </Typography>
+                </CardContent>
+                <CardActions>
+                    <Link to={"/products/" + product._id + "/edit"}>
+                        <Fab color="secondary" aria-label="edit">
+                            <EditIcon/>
+                        </Fab>
+                    </Link>
+                    <DeleteButton productId={product._id} successCallback={() => navigate("/products")} />
+                </CardActions>
+            </Card>
             }
         </div>
     )
