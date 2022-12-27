@@ -15,9 +15,7 @@ const Chat = () => {
         // this ensures that the underlying socket will be closed if App is unmounted
         // this would be more critical if we were creating the socket in a subcomponent
         return () => socket.disconnect(true);
-    }, 
-    // []
-    );
+    }, []);
 
     return (
         <div className="App">
