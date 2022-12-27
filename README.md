@@ -210,6 +210,20 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB/UsingMongoDB">Using MongoDB</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/MongoDB/jokes">Jokes API</a></li>
       </ol>
+      <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN">Full Stack MERN</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN/productManagerI">Product Manager (Part I)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN/productManagerII">Product Manager (Part II)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN/productManagerIII">Product Manager (Part III)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN/Refactor%2CReuse%2CRecycle">Refactor, Reuse, Recycle</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN/Authors">Authors</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/FullStackMERN/TeamManager">Team Manager</a></li>
+      </ol>
+      <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/Socket">Socket.io</a></p>
+      <ol>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/Socket/TheHandShake">Creating the Handshake</a></li>
+        <li><a href="">Chat App</a></li>
+      </ol>
   </div>
 </div>
 
