@@ -1,4 +1,4 @@
-<h1>Assignment: Team Manager</h1>
+<h1>Assignment: Classic Chat App</h1>
 
 <p>Building off of the previous assignment, your task is to create a fully functional chat application. Have your cohort mates help test your application throughout your development process.</p>
 <p><strong>There is ONE unspoken, not found on the internet, hard to fix, not straightforward bug when building your chat app.</strong></p>
