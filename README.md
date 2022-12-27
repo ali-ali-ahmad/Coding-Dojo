@@ -222,7 +222,7 @@
       <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/Socket">Socket.io</a></p>
       <ol>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/Socket/TheHandShake">Creating the Handshake</a></li>
-        <li><a href="">Chat App</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/MERN/Socket/ClassicChatApp">Chat App</a></li>
       </ol>
   </div>
 </div>
