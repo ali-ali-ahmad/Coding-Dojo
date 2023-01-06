@@ -45,24 +45,24 @@
     <p>MySQL</p>
     <p>ERD</p>
     <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/user">Users</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/dojos_and_ninjas_schema">Dojos and Ninjas</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/books">Books</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/friendships">Friendships</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/event_planner">Event Planner</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/blogs_schema">Blogs</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/user_dashboard_schema">User Dashboard</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/normalization_schema">Normalization (Optional)</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/users">Users</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/dojos_and_ninjas">Dojos and Ninjas</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/books">Books</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/friendships">Friendships</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/event_planner">Event Planner</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/blogs">Blogs</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/user_dashboard">User Dashboard</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/normalization">Normalization (Optional)</a></li>
     </ol>
     <p>Queries</p>
     <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/MySQL-Workbench-Setup">MySQL Workbench Setup</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/users_assignment">Users</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/dojos_and_ninjas_assignment">Dojo and Ninjas</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/books">Books</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/friendships">Friendships</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/MySQL_Countries">MySQL Countries</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/Sakila">Sakila</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/MySQL-Workbench-Setup">MySQL Workbench Setup</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/users">Users</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/dojos_and_ninjas">Dojo and Ninjas</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/books">Books</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/friendships">Friendships</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/MySQL_Countries">MySQL Countries</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/queries/Sakila">Sakila</a></li>
     </ol>
   </div>
   <hr/>
