@@ -89,14 +89,14 @@
       </ol>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask">FLASK</a></p>
       <ol>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/python_stack/flask/flask_fundamentals/week1_day4/understanding_routing.py">Understanding Routing</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week1_day4/playGround">Playground</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week1_day4/checkerboard">Checkerboard</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week2_day1/html_table">HTML Table</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week2_day2/dojo_survey">Dojo Survey</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/flask/flask_fundamentals/week2_day2/counter">Counter</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/understanding_routing">Understanding Routing</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/playGround">Playground</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/checkerboard">Checkerboard</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/html_table">HTML Table</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/dojo_survey">Dojo Survey</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/counter">Counter</a></li>
       </ol>
-    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django">Django 2.2 v4</a></p>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django">Django 2.2 v4</a></p>
       <ol>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/first_django_project">First Django Project</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/time_display">Time Display</a></li>
