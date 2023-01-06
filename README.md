@@ -10,41 +10,40 @@
     <h4>1) Web Fundamentals</h4>
     <p>HTML</p>
     <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry">Dictionary-Entry</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Indentation-Fixing">Indentation-Fixing</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Portfolio-Content">Registration-From</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From">Portfolio-Content</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/html/Dictionary-Entry">Dictionary-Entry</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/html/Indentation-Fixing">Indentation-Fixing</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/html/Registration-From">Registration-From</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/html/Portfolio-Content">Portfolio-Content</a></li>
     </ol>
     <p>HTML & CSS</p>
     <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day2/Text-Styling">Text-Styling</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day2/Button-Up">Button-Up</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day2/Plotting-Our-Blocks">Plotting-Our-Blocks</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Flex-Our-Blocks">Flex our Blocks</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Github-B-locks">GitHub Blocks</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Flex-Navbar">Flex Navbar</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day3/Flex-ible%20columns">FLEX-ible Columns</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day4/User-Card">User Card</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week1/Day4/Profile-Page">Profile Page</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day5/About-Python">About Python</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day5/Internet-optional">Internet (Optional)</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Text-Styling">Text-Styling</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Button-Up">Button-Up</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks">Plotting-Our-Blocks</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Flex-Our-Blocks">Flex our Blocks</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Github-B-locks">GitHub Blocks</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Flex-Navbar">Flex Navbar</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Flex-ible%20columns">FLEX-ible Columns</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/User-Card">User Card</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Profile-Page">Profile Page</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/About-Python">About Python</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/css/Internet-optional">Internet (Optional)</a></li>
     </ol>
     <p>+ JS</p>
     <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day6/FizzBuzz">Fizzbuzz</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day6/Loop-Challenges">Loop Challenges</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day6/Button-Clicker">Button Clicker</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day7/video-preview">Video Preview</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day7/Dojo-Pizzeria">Dojo Pizzeria</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day7/Likes">Liking Likes</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day8/profile-page">Making Connections</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day8/Dojo-weather">DojoWeather</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day9/Array-Challenge">Array Challenges</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week2/Day9/Calculator">4 Function Calculator</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week3/Day10/Git%20bash%20testing.txt">Learning to Commit</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week3/Day10/basic_repo.txt">Remote Repo</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/FizzBuzz">Fizzbuzz</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Loop-Challenges">Loop Challenges</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Button-Clicker">Button Clicker</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/video-preview">Video Preview</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Dojo-Pizzeria">Dojo Pizzeria</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Likes">Likes</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/profile-page">Making Connections</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Dojo-weather">Dojo Weather</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Array-Challenge">Array Challenges</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Calculator">Calculator</a></li>
     </ol>
     <p>MySQL</p>
+    <p>ERD</p>
     <ol>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/MySQL_user_assignment">Users</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/dojos_and_ninjas_schema">Dojos and Ninjas</a></li>
@@ -54,13 +53,16 @@
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/blogs_schema">Blogs</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/user_dashboard_schema">User Dashboard</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/normalization_schema">Normalization (Optional)</a></li>
+    </ol>
+    <p>Queries</p>
+    <ol>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/MySQL-Workbench-Setup">MySQL Workbench Setup</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/users_assignment">Users (queries)</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/dojos_and_ninjas_assignment">Dojo and Ninjas (queries)</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/books">Books (queries)</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/friendships">Friendships (queries)</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/MySQL_Countries">MySQL Countries (queries)</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/Sakila">Sakila (queries)</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/users_assignment">Users</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/dojos_and_ninjas_assignment">Dojo and Ninjas</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/books">Books</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/friendships">Friendships</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/MySQL_Countries">MySQL Countries</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/day12/Sakila">Sakila</a></li>
     </ol>
   </div>
   <hr/>
