@@ -45,7 +45,7 @@
     <p>MySQL</p>
     <p>ERD</p>
     <ol>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/MySQL_user_assignment">Users</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/MySQL/ERD/user">Users</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/dojos_and_ninjas_schema">Dojos and Ninjas</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/books">Books</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/Week3/Day11/friendships">Friendships</a></li>
