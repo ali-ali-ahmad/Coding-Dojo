@@ -37,7 +37,7 @@
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/video-preview">Video Preview</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Dojo-Pizzeria">Dojo Pizzeria</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Likes">Likes</a></li>
-      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/profile-page">Making Connections</a></li>
+      <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Making_Connections">Making Connections</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Dojo-weather">Dojo Weather</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Array-Challenge">Array Challenges</a></li>
       <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/Calculator">Calculator</a></li>
