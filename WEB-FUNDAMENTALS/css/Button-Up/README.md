@@ -8,7 +8,7 @@
 </ul>
 <p>Recreate the look of the <code>button</code> tags in the image below.</p>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day2/Button-Up/wireframe.jpg?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Button-Up/wireframe.jpg?raw=true)
 
 <hr>
 <h4>To Do List</h4>

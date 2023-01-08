@@ -18,4 +18,4 @@
   <li>li</li>
 </ul>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry/wireframe.png?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Dictionary-Entry/wireframe.png?raw=true)

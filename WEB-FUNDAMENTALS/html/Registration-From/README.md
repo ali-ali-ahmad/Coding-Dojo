@@ -11,7 +11,7 @@ Now that we've learned about all of the different types of form tags, let's crea
 
 <hr>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Registration-From/wireframe.jpg?raw=true)
 
 <p>
 Recreate all the HTML elements shown on the image above! As you haven't learned yet how to use CSS to make the form look nice, don't worry about how our registration form looks for now.
@@ -19,7 +19,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 <div align="center">
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/tags.jpg" style="width: 30%" />
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Registration-From/tags.jpg" style="width: 30%" />
 </div>
 
 <p>

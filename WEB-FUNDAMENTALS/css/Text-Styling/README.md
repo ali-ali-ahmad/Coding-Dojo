@@ -7,6 +7,6 @@
 </ul>
 <p>Recreate the look of the <code>h1</code>, <code>h2</code>, and <code>h3</code> tags in the image below</p>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day2/Text-Styling/wireframe.jpg?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Text-Styling/wireframe.jpg?raw=true)
 
 <p><strong>Hint:</strong> we may need to use an additional <code>span</code> element to wrap text inside of an <code>h1</code> that we would like to apply a different color to.</p>

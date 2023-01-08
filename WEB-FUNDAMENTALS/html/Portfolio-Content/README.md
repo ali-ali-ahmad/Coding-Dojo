@@ -24,7 +24,7 @@ form, label, textarea, input type="text", input type="submit"
 
 <p>Below is an example of how we may want our portfolio to look (for now):</p>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Portfolio-Content/wireframe.jpg?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Portfolio-Content/wireframe.jpg?raw=true)
 
 <p>During the rest of the bootcamp, we'll get to use these HTML tags a lot. Don't feel pressured to memorize all of these HTML tags and how they exactly work, as we can refer to this section later and we'll feel more comfortable with HTML as we learn more about CSS and other topics in the curriculum. Once we have done the basic assignment, move on to the next chapter and we'll gain a deeper understanding on these HTML tags we've just learned.</p>
 
