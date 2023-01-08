@@ -6,15 +6,15 @@ Try to duplicate the image below by adjusting the CSS code provided. Use <strong
 
 <hr>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks/screenshots/pic1.jpg?raw=true)
 
 <p>
 Here's the HTML code:
 </p>
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/tags.jpg"/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks/screenshots/pic2.jpg"/>
 
 <p>And CSS:</p>
-<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/tags.jpg"/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks/screenshots/pic3.jpg"/>
 
 <p>
 While we do this assignment, we can make use <code>height</code> as well as the <code>vertical-align</code> property to give the necessary height to the division and also to vertically align some of the inline-blocks.
