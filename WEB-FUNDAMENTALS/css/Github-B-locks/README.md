@@ -11,7 +11,7 @@ Use <code>margin</code> and <code>padding</code> to adjust the spaces between th
 </p>
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Github-B-locks/screenshots/pic1.jpg"/>
 
-<p>Pick your favorite colors and your favorite images from the <a href="https://octodex.github.com/">Octodex</a> to recreate the layout you see below.</p>
+<p>Pick your favorite colors and your favorite images from <a href="https://octodex.github.com/">the Octodex</a> to recreate the layout you see below.</p>
 
 ![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Github-B-locks/screenshots/pic2.jpg?raw=true)
 
