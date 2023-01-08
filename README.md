@@ -97,13 +97,14 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/flask/counter">Counter</a></li>
       </ol>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django">Django 2.2 v4</a></p>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro">Django Intro</a></p>
       <ol>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/first_django_project">First Django Project</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/time_display">Time Display</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/dojo_survey">Dojo Survey</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/counter">Counter</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/great_number_game">Great Number Game</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/ninja_gold">Ninja Gold</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/first_django_project">First Django Project</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/time_display">Time Display</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/dojo_survey">Dojo Survey</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/counter">Counter</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/great_number_game">Great Number Game</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/ninja_gold">Ninja Gold</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_intro/single_model_orm">Users (Shell)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/User_with_templates">Users with Templates</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/dojo_ninjas_proj">Dojo & Ninjas (Shell)</a></li>
