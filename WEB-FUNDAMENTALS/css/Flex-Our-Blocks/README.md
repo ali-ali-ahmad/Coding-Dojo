@@ -1,4 +1,4 @@
-<h1>Assignment: </h1>
+<h1>Assignment: Flex our Blocks</h1>
 
 <p>
 Try to duplicate the image below by adjusting the CSS code provided. Use <code>margin</code> and <code>padding</code> to adjust the spaces between divisions and use <code>display: flex;</code> to be able to put each block in its proper place.
