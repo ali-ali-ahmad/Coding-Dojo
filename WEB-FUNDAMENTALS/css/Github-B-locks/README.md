@@ -9,11 +9,11 @@
 <p>
 Use <code>margin</code> and <code>padding</code> to adjust the spaces between the rows and use <code>flexbox</code> properties to be able to put each image in its proper place. Set the images to all have a uniform size.
 </p>
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Github-B-locks/screenshots/pic1.jpg"/>
 
 <p>Pick your favorite colors and your favorite images from the <a href="https://octodex.github.com/">Octodex</a> to recreate the layout you see below.</p>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Github-B-locks/screenshots/pic2.jpg?raw=true)
 
 
 
