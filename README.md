@@ -105,6 +105,9 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/counter">Counter</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/great_number_game">Great Number Game</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_intro/ninja_gold">Ninja Gold</a></li>
+      </ol>
+    <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm">Django orm</a></p>
+      <ol>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/Users(Shell)">Users (Shell)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/User_with_templates">Users with Templates</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/dojo_ninjas_proj">Dojo & Ninjas (Shell)</a></li>
@@ -116,7 +119,7 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/amadon-master">Amadon (Optional)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/log_and_reg">Login and Registration</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/the_wall">The Wall</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python_stack/django/django_orm/favorite_books">Favorite Books</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/favorite_books">Favorite Books</a></li>
       </ol>
   </div>
   <hr>
