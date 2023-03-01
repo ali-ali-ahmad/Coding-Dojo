@@ -1,4 +1,4 @@
-<h1>Assignment: Fix Indentation</h1>
+<h1>Fix Indentation</h1>
 
 <hr>
 
@@ -10,7 +10,7 @@
 
 <p>Create a new file in your Text Editor (VS Code, Atom, Sublime...) and properly indent the code below:</p>
 
-```HTML
+```html
 <!DOCTYPE html>
 <html>
 <head>

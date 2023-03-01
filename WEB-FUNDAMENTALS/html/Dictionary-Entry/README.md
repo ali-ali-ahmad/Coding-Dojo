@@ -1,4 +1,4 @@
-<h1>Assignment: Dictionary Entry</h1>
+<h1>Dictionary Entry</h1>
 
 <h2>Objectives:</h2>
 <ul>
