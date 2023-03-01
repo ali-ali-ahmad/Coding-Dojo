@@ -1,34 +1,17 @@
 <h1>Assignment: </h1>
 
-<p>
+<h3>Objectives</h3>
 
-</p>
-
-<hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
-
-<p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Add JavaScript functionality to a previous assignment</li>
+    <li>Use JavaScript to remove <code>elements</code> from the webpage</li>
 </ul>
+
+<p>We've spent a lot of time working on some past projects and that hard work is something we can reuse. Let's return to the Profile Page assignment and add the types of <strong>JavaScript</strong> functionality we've previously learned onto it!</p>
+
+<p>If we weren't happy with how ours turned out then feel free to use this already completed HTML and CSS<a href="">code</a>.</p>
+
+<img src=""/>
+
 
 
