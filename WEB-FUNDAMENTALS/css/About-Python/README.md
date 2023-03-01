@@ -12,4 +12,4 @@
     <li><strong>Do NOT make this responsive.  Just make this work for a fixed width (set the width to be 970px)</strong>.  You will go through our responsive design course later. For now, try to master the CSS principles for fixed width first.</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/About-Python/screenshots/pic.jpg"/>
