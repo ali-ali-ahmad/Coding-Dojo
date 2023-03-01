@@ -10,7 +10,7 @@
 
 <p>This assignment may take us upwards of 4 hours to complete, this is normal as CSS can be time consuming. We strongly suggest working in groups, pair programming is a common programming practice.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Profile-Page/screenshots/pic.jpg"/>
 
 
 <p>You can find the avatar images and the icons within the folder</p>
