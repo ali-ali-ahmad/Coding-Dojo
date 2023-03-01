@@ -2,18 +2,6 @@
 
 <p>Using what we've learned about loops and conditionals, solve this classic coding challenge (it's been a favorite in interviews for years).</p>
 
-<hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
 <p>Write code that will go through each number from 1 to 100 and:</p>
 
 <ul>
