@@ -14,15 +14,6 @@
         <h4>Always Hungry</h4>
         <p>Write a function that is given an array and each time the value is "food" it should console log "yummy". If "food" was not present in the array console log "I'm hungry" once.</p>
     </li>
-    ```javaScript
-    function alwaysHungry(arr) {
-        // your code here 
-    }
-    alwaysHungry([3.14, "food", "pie", true, "food"]);
-    // this should console log "yummy", "yummy"
-    alwaysHungry([4, 1, 5, 7, 2]);
-    // this should console log "I'm hungry"
-    ```
     <li>
         <h4>High Pass Filter</h4>
         <p>Given an array and a value cutoff, return a new array containing only the values larger than cutoff.</p>
@@ -78,3 +69,12 @@
         ```
     </li>
 </ol>
+```javascript
+function alwaysHungry(arr) {
+    // your code here 
+}
+alwaysHungry([3.14, "food", "pie", true, "food"]);
+// this should console log "yummy", "yummy"
+alwaysHungry([4, 1, 5, 7, 2]);
+// this should console log "I'm hungry"
+```
