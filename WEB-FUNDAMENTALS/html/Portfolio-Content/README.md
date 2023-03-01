@@ -1,4 +1,4 @@
-<h1>Assignment: Personal Portfolio - Content</h1>
+<h1>Personal Portfolio - Content</h1>
 
 <p>
 We'll be learning a lot about how to style our website soon, but that doesn't mean we can't get started on our personal portfolio today! 
