@@ -6,8 +6,8 @@ Try to duplicate the image below by adjusting the CSS code provided. Use <strong
 
 <hr>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks/screenshots/pic1.jpg?raw=true)
 
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks/screenshots/pic1.jpg"/>
 <p>Here's the HTML code:</p>
 
 ```html
