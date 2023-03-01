@@ -18,7 +18,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 </p>
 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
-```text
+```html
 <ul>
   <li>'<input type="text">'</li>
   <li><input type="password"></li>
