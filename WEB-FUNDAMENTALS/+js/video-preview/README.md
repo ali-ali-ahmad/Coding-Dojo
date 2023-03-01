@@ -8,12 +8,12 @@
 
 </ul>
 
-<p>For this assignment we'll be working with some existing code (download <a href="">here</a>) to add a video in. We'll want to find a free video that we want to work with from</p>
+<p>For this assignment we'll be working with some existing code (<a href="https://github.com/alirabah93/Coding-Dojo/tree/master/WEB-FUNDAMENTALS/%2Bjs/video-preview/startingCode">here</a>) to add a video in. We'll want to find a free video that we want to work with from</p>
 
 <p>https://www.pexels.com/videos/.  Next we'll want to add the video into a video tag in the HTML. To make the website more interactive add hover events to play and pause the video when hovering.</p>
 
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/%2Bjs/video-preview/screenshots/pic.jpg"/>
 
 <h2>Hints:</h2>
 
