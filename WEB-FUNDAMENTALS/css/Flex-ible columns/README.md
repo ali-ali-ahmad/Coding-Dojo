@@ -12,7 +12,7 @@
     <li><code>.col-3</code></li>
 </ul>
 
-![Alt Text](path/to/your/gif.gif)
+![Alt Text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Flex-ible%20columns/screenshots/gif.gif)
 
 <h2>Part I</h2>
 
