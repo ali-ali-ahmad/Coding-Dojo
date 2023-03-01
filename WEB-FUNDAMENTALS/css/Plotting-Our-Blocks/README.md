@@ -34,7 +34,7 @@ Try to duplicate the image below by adjusting the CSS code provided. Use <strong
 
 <p>And CSS:</p>
 
-```html
+```
 .container{
     width: 950px;
     background-color: silver;
@@ -64,6 +64,7 @@ Try to duplicate the image below by adjusting the CSS code provided. Use <strong
     width: 660px;
     background-color: purple;
 }
+
 ```
 
 <p>
