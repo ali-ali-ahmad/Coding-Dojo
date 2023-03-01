@@ -19,16 +19,16 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 ```
-<ul>
-  <li><p><code><input type="text"></code></p></li>
-  <li><code><p><input type="password"></p></code></li>
-  <li><code><p><input type="date"></p></code></li>
-  <li><code><p><input type="radio"></p></code></li>
-  <li><code><p><input type="checkbox"></p></code></li>
-  <li><code><p><input type="submit"></p></code></li>
-  <li><code><p><textarea></p></code></li>
-  <li><code><p><select></p></code></li>
-</ul>
+<code><ul>
+  <li><input type="text"></li>
+  <li><input type="password"></li>
+  <li><input type="date"></li>
+  <li><input type="radio"></li>
+  <li><input type="checkbox"></li>
+  <li><input type="submit"></li>
+  <li><textarea></li>
+  <li><select></li>
+</ul></code>
 ```
 <div align="center">
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Registration-From/tags.jpg" style="width: 30%" />
