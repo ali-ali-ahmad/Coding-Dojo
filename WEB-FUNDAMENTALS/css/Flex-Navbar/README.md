@@ -22,7 +22,7 @@
 
 <h2>Style it using CSS to resemble the following navigation bar</h2>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Flex-Navbar/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
