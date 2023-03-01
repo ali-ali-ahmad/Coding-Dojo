@@ -9,6 +9,7 @@ Try to duplicate the image below by adjusting the CSS code provided. Use <strong
 ![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Plotting-Our-Blocks/screenshots/pic1.jpg?raw=true)
 
 <p>Here's the HTML code:</p>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +33,8 @@ Try to duplicate the image below by adjusting the CSS code provided. Use <strong
 ```
 
 <p>And CSS:</p>
-```css
+
+```html
 .container{
     width: 950px;
     background-color: silver;
