@@ -26,7 +26,7 @@ Here's the HTML code:
 
 <p>A short segment should look like</p>
 
-```
+```html
 1
 2
 "Fizz"
