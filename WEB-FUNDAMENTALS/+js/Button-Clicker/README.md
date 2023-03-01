@@ -1,34 +1,17 @@
-<h1>Assignment: </h1>
+<h1>Button Clicker</h1>
 
-<p>
+<h2>Objectives:</h2>
 
-</p>
-
-<hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
-
-<p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Practice using the <code>onclick</code> event</li>
+    <li>Combine what we've learned of HTML, CSS and JS</li>
 </ul>
+
+<p>Recreate the layout you see below. It may be helpful to focus on getting the HTML and CSS completed before adding the JS functionality to the page.</p>
+
+<img src=""/>
+
+<img src=""/>
+
 
 
