@@ -1,34 +1,30 @@
-<h1>Assignment: </h1>
+<h1>Video Preview</h1>
 
-<p>
+<h2>Objectives:</h2>
 
-</p>
+<ul>
+  <li>Practice using <code>onmouseover</code> and <code>onmouseout</code></li>
+  <li>Practice working from an existing code base</li>
 
-<hr>
+</ul>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+<p>For this assignment we'll be working with some existing code (download <a href="">here</a>) to add a video in. We'll want to find a free video that we want to work with from</p>
 
-<p>
-Here's the HTML code:
-</p>
+<p>https://www.pexels.com/videos/.  Next we'll want to add the video into a video tag in the HTML. To make the website more interactive add hover events to play and pause the video when hovering.</p>
+
+
 <img src=""/>
 
-<p></p>
-<img src=""/>
+<h2>Hints:</h2>
 
-<p>
+<p>We may need to make use of the <code>.play()</code> and <code>.pause()</code> methods - <a href="https://www.w3schools.com/jsref/dom_obj_video.asp">reference</a></p>
 
-</p>
+<p>We may also need the video to be <code>muted</code> as modern browsers want users to interact with (click) videos for them to start playing.</p>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Add a <code><video></code> into the existing project</li>
+    <li>When hovering the video it should preview the content by playing the video on mute</li>
 </ul>
 
 
