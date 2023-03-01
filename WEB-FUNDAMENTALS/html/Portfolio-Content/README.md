@@ -1,4 +1,4 @@
-<h1>Assignment: Personal Portfolio - Content</h1>
+<h1>Personal Portfolio - Content</h1>
 
 <p>
 We'll be learning a lot about how to style our website soon, but that doesn't mean we can't get started on our personal portfolio today! 
@@ -7,11 +7,6 @@ We'll be learning a lot about how to style our website soon, but that doesn't me
   as many of the following tags as we can:
 </p>
 
-HTML
-head, title, meta description,
-body, div, a, p, h1, ul, li, table, tr, th, td
-At the bottom of the page, include a form that uses the following tags:
-form, label, textarea, input type="text", input type="submit"
 <ul>
   <li>HTML</li>
   <li>head, title, meta description,</li>
