@@ -10,7 +10,7 @@
 
 <p>Create a new file in your Text Editor (VS Code, Atom, Sublime...) and properly indent the code below:</p>
 
-```html
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
