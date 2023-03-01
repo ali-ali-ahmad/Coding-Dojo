@@ -18,8 +18,8 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 </p>
 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
-```
-<ul>
+
+<ul><code>
   <li><input type="text"></li>
   <li><input type="password"></li>
   <li><input type="date"></li>
@@ -28,8 +28,8 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
   <li><input type="submit"></li>
   <li><textarea></li>
   <li><select></li>
-</ul>
-```
+  </code></ul>
+  
 <div align="center">
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Registration-From/tags.jpg" style="width: 30%" />
 </div>
