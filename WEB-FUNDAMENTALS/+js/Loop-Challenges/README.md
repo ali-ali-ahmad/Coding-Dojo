@@ -8,11 +8,6 @@
 
 <p>Please work on the following challenges and upload your work when done.</p>
 
-<hr>
-
-<p></p>
-
-<p>To Do List:</p>
 <ol>
     <li>
         <h3>Print odds 1-20</h3>
