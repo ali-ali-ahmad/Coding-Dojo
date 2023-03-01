@@ -9,9 +9,9 @@
 
 <p>Recreate the layout you see below. It may be helpful to focus on getting the HTML and CSS completed before adding the JS functionality to the page.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/%2Bjs/Button-Clicker/screenshots/pic1.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/%2Bjs/Button-Clicker/screenshots/pic2.jpg"/>
 
 
 
