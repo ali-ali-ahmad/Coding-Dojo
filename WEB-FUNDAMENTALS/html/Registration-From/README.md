@@ -20,7 +20,7 @@ Recreate all the HTML elements shown on the image above! As you haven't learned 
 <p>Our <strong>HTML</strong> should contain the following tags:</p>
 
 <ul><code>
-  <li><input type="text"></li></code>
+  <li>"<input type="text">"</li></code>
   <li><input type="password"></li>
   <li><input type="date"></li>
   <li><input type="radio"></li>
