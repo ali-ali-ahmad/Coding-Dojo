@@ -69,7 +69,7 @@
         ```
     </li>
 </ol>
-```javascript
+```javaScript
 function alwaysHungry(arr) {
     // your code here 
 }
