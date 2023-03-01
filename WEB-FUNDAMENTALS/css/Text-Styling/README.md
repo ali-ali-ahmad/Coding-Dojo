@@ -9,4 +9,4 @@
 
 ![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Text-Styling/wireframe.jpg?raw=true)
 
-<p><strong>Hint:</strong> we may need to use an additional <code>&lt;span&gt;&lt;/span&gt;</code> element to wrap text inside of an <code>h1</code> that we would like to apply a different color to.</p>
+<p><strong>Hint:</strong> we may need to use an additional <code>&lt;span&gt;&lt;/span&gt;</code> element to wrap text inside of an <code>&lt;h1&gt;&lt;/h1&gt;</code> that we would like to apply a different color to.</p>
