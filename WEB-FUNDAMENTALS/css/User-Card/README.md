@@ -7,4 +7,4 @@
 
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/User-Card/screenshots/pic.jpg"/>
 
-<p>We can find any icons needed within the folder.</p>
+<p>You can find any icons needed within the folder.</p>
