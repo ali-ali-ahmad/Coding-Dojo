@@ -1,5 +1,4 @@
 <h1>Profile Page</h1>
-<hr>
 
 <h2>Objectives:</h2>
 <ul>
