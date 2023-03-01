@@ -8,14 +8,14 @@
 
 <hr>
 
-<h3>Using the tags displayed below, create HTML like shown in the wireframe. You can use the pronunciation image from <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry/pronunciation.png">here</a></h3>
+<p>Using the tags displayed below, create HTML like shown in the wireframe. You can use the pronunciation image from <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Dictionary-Entry/pronunciation.png">here</a></p>
 <ul>
-  <li>h1</li>
-  <li>img</li>
-  <li>p</li>
-  <li>em</li>
-  <li>ol</li>
-  <li>li</li>
+  <li><code>h1</code></li>
+  <li><code>img</code></li>
+  <li><code>p</code></li>
+  <li><code>em</code></li>
+  <li><code>ol</code></li>
+  <li><code>li</code></li>
 </ul>
 
 ![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/html/Dictionary-Entry/wireframe.png?raw=true)
