@@ -23,7 +23,7 @@
 
 <p>To Do List:</p>
 <ul>
-    <li>Add a <code><video></code> into the existing project</li>
+    <li>Add a <code>&lt;video&gt;</code> into the existing project</li>
     <li>When hovering the video it should preview the content by playing the video on mute</li>
 </ul>
 
