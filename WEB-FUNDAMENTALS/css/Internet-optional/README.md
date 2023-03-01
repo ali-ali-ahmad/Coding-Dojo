@@ -31,7 +31,7 @@
 
 <p>Now, duplicate the page below while considering what you've learned above.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/css/Internet-optional/screenshots/pic.jpg"/>
 
 <ul>
     <li>It's recommended that you reset and normalize the CSS attributes before you add your own CSS attributes.</li>
