@@ -1,34 +1,10 @@
-<h1>Assignment: </h1>
-
-<p>
-
-</p>
-
+<h1>User Card</h1>
 <hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
-
-<p>To Do List:</p>
+<h2>Objectives:</h2>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Use what we've learned about <strong>CSS</strong> to recreate this layout</li>
 </ul>
 
+<img src=""/>
 
+<p>We can find any icons needed within the folder.</p>
