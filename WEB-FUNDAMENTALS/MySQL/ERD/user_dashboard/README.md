@@ -10,7 +10,7 @@
 
 <p>Create an ERD for the User Dashboard wireframe.</p>
 
-<p>You can download the <a href="">wireframe here</a>.</p>
+<p>You can download the <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/ERD/user_dashboard/MVC-advanced-assignment.pdf">wireframe here</a>.</p>
 
 <p>Note: There are many ways to approach structuring data for large web applications. Try thinking through some of the actions a user can do and make your ERD fit the functionality.</p>
 
