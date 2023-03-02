@@ -6,7 +6,7 @@
     <li>Practice using MySQL workbench to run sql commands to manipulate our database</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/users/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>

@@ -7,15 +7,15 @@
     <li>Practice SQL queries and self joins</li>
 </ol>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/friendships/screenshots/pic1.jpg"/>
 
 <p>After adding users to the database and creating some relationships, your results should look like below:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/friendships/screenshots/pic2.jpg"/>
 
 <p>Your actual query will look something similar to this:</p>
 
-```
+```MySQL
 SELECT * FROM users 
 JOIN friendships ON ____=____ 
 LEFT JOIN users as user2 ON ____ = ____
@@ -25,7 +25,7 @@ LEFT JOIN users as user2 ON ____ = ____
 
 <p>You can also rename the fields that are displayed on the result by using the as keyword, like the below example:</p>
 
-```
+```MySQL
 SELECT user2.first_name as friend_first_name, user2.last_name as friend_last_name, ...  FROM ...
 ```
 
