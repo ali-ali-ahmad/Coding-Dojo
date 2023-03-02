@@ -25,7 +25,7 @@ LEFT JOIN users as user2 ON ____ = ____
 
 <p>You can also rename the fields that are displayed on the result by using the as keyword, like the below example:</p>
 
-```
+```MySQL
 SELECT user2.first_name as friend_first_name, user2.last_name as friend_last_name, ...  FROM ...
 ```
 
