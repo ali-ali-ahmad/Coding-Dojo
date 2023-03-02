@@ -15,7 +15,7 @@
     <li><code>displayDiv.innerText = "Some new value";</code></li>
 </ul>
 
-<p>Try to build a <strong title="Addition, Substraction, Multiplication, Division">4 Function Calculator</strong> from scratch.</p>
+<p>Try to build a <u title="Addition, Substraction, Multiplication, Division">4 Function Calculator</u> from scratch.</p>
 
 <p>We'll provide some HTML to get you started, and check out a working demo embedded below!</p>
 
