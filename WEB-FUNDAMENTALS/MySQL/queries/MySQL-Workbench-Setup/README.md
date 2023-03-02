@@ -1,34 +1,11 @@
-<h1>Assignment: </h1>
+<h1>MySQL Workbench Setup</h1>
 
-<p>
 
-</p>
+<p>Use MySQLWorkbench to connect to your localhost.</p>
 
-<hr>
+<p>Learn how to use MySQL workbench to do queries directly in the database. To connect to a specific database, run <code>USE [databasename];</code> in the query box.</p>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+<p>Once you've connected the database, try the queries that you would need to make a CRUD application (create, read, update, delete). In other words, use the SQL commands INSERT, SELECT, UPDATE, and DELETE</p>
 
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
-
-<p>To Do List:</p>
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-
+<p>Create a text file with the commands you used to query the database. Upload the text file below.</p>
 

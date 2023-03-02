@@ -1,34 +1,28 @@
-<h1>Assignment: </h1>
+<h1>Dojos and Ninjas</h1>
 
-<p>
+<h3>Objectives:</h3>
 
-</p>
+<ul>
+    <li>Practice using MySQL workbench to run SQL commands to manipulate our database</li>
+    <li>Practice one-to-many relationships</li>
+</ul>
 
-<hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
 <img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Forward engineer the dojos_and_ninjas_schema from the previous chapter</li>
+    <li>Create a .txt file where you'll save each of your queries from below</li>
+    <li>Query: Create 3 new dojos</li>
+    <li>Query: Delete the 3 dojos you just created</li>
+    <li>Query: Create 3 more dojos</li>
+    <li>Query: Create 3 ninjas that belong to the first dojo</li>
+    <li>Query: Create 3 ninjas that belong to the second dojo</li>
+    <li>Query: Create 3 ninjas that belong to the third dojo</li>
+    <li>Query: Retrieve all the ninjas from the first dojo</li>
+    <li>Query: Retrieve all the ninjas from the last dojo</li>
+    <li>Query: Retrieve the last ninja's dojo</li>
+    <li>Submit your .txt file that contains all the queries you ran in the shell</li>
 </ul>
 
 
