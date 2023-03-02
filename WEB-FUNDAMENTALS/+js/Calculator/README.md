@@ -1,34 +1,58 @@
-<h1>Assignment: </h1>
+<h1>4 Function Calculator</h1>
 
-<p>
+<p>Using what we've learned about:</p>
 
-</p>
-
-<hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
-
-<p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>variables</li>
+    <li>conditionals</li>
+    <li>onclick</li>
 </ul>
 
+<p>And the following code snippets:</p>
 
+<ul>
+    <li><code>var displayDiv = document.querySelector("#display");</code></li>
+    <li><code>displayDiv.innerText = "Some new value";</code></li>
+</ul>
+
+<p>Try to build a <strong title="Addition">4 Function Calculator</strong> from scratch.</p>
+
+<p>We'll provide some HTML to get you started, and check out a working demo embedded below!</p>
+
+<h4>Starter HTML</h4>
+
+```html
+<div id="calculator">
+    <div id="display">0</div>
+    <div class="row">
+        <button onclick="press(7);">7</button>
+        <button onclick="press(8);">8</button>
+        <button onclick="press(9);">9</button>
+        <button class="operator" onclick="setOP('/');">÷</button>
+    </div>
+    <div class="row">
+        <button onclick="press(4);">4</button>
+        <button onclick="press(5);">5</button>
+        <button onclick="press(6);">6</button>
+        <button class="operator" onclick="setOP('*');">×</button>
+    </div>
+    <div class="row">
+        <button onclick="press(1);">1</button>
+        <button onclick="press(2);">2</button>
+        <button onclick="press(3);">3</button>
+        <button class="operator" onclick="setOP('-');">−</button>
+    </div>
+    <div class="row">
+        <button onclick="clr();">C</button>
+        <button onclick="press(0);">0</button>
+        <button onclick="press('.');">.</button>
+        <button class="operator" onclick="setOP('+');">+</button>
+    </div>
+    <div class="row">
+        <button id="equals" onclick="calculate()">=</div>
+    </div>
+<div>
+```
+
+<iframe src="https://codepen.io/wgoode3/full/pobBOzj" width="100%" height="500"></iframe>
+<!-- <iframe src="https://login.codingdojo.com/m/385/10423/70658" width="100%" height="500"></iframe> -->
