@@ -11,7 +11,7 @@
 
 <p>You will need to use your terminal to run these commands. Open up terminal, command prompt, or git bash to continue. Activate your virtual environment before running any of these commands! Remember that you can tell whether your virtual environment is activated by the prompt in your terminal. Here, we can see that the virtual environment py3Env is activated:</p>
 
-<img scr=""/>
+<img scr="https://github.com/alirabah93/Coding-Dojo/blob/master/python/python_fundamentals/practice_using_pip_in_a_virtual_environment/screenshots/pic.jpg"/>
 
 <p>Run these commands in the order instructed. Your assignment submission should be a .txt file that includes a short explanation of what you were able to learn about each command by doing a brief (1-2 min) web search for each term. If it is relevant, include the output of your command and your understanding of what it means. It is important to always read your terminal output and try to understand it.</p>
 
