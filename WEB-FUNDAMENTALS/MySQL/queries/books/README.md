@@ -7,7 +7,7 @@
     <li>Practice many-to-many relationships</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/books/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
