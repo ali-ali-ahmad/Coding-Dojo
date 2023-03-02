@@ -1,34 +1,25 @@
-<h1>Assignment: </h1>
+<h1>Users</h1>
 
-<p>
+<h3>Objectives:</h3>
 
-</p>
+<ol>
+    <li>Practice designing ERDs</li>
+</ol>
 
 <hr>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+<p>Create an ERD to represent the database for an application that track users.</p>
 
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
+<p>Each user should have an id, first_name, last_name, email, created_at and updated_at. Use the MySQL Workbench for creating this diagram.</p>
 
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create a new model (ERD)</li>
+    <li>Create a table called users</li>
+    <li>Name the schema users_schema</li>
+    <li>Add the following fields to the users table: id, first_name, last_name, email, created_at and updated_at</li>
+    <li>Take a screen shot of the ERD and upload the .png file</li>
 </ul>
 
 

@@ -1,34 +1,23 @@
-<h1>Assignment: </h1>
+<h1>Event Planner</h1>
 
-<p>
+<h3>Objectives:</h3>
 
-</p>
+<ol>
+    <li>Practice designing ERDs</li>
+</ol>
 
 <hr>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+<p>Create an ERD to represent the database for an application that allows users to plan events and rsvp to others' events.</p>
 
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
+<p>Each event should have a title, a description, location, a start time, and an end time. Each user should have a name and an address. Use the MySQL Workbench for creating this diagram.</p>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create a new model (ERD)</li>
+    <li>Name the schema event_planner_schema</li>
+    <li>Create the tables and relationships based on the above information</li>
+    <li>Take a screen shot of the ERD and upload the .png file</li>
 </ul>
 
 

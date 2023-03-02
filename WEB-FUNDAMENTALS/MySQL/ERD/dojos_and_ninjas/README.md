@@ -1,34 +1,28 @@
-<h1>Assignment: </h1>
+<h1>Dojos and Ninjas</h1>
 
-<p>
+<h3>Objectives:</h3>
 
-</p>
+<ol>
+    <li>Practice designing ERDs with one-to-many relationships.</li>
+</ol>
 
 <hr>
 
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
+<p>Create an ERD to represent the database for an application that tracks dojos and the ninjas that belong to each.</p>
 
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
+<p>Each dojo should have an id, name, created_at and updated_at; each ninja should have an id, first_name, last_name, age, created_at, updated_at and belong to a specific dojo. Use the MySQL Workbench for creating this diagram.</p>
 
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create a new model (ERD)</li>
+    <li>Name the schema dojos_and_ninjas_schema</li>
+    <li>Create a table called dojos</li>
+    <li>Add the following fields to the dojos table: id, name, created_at and updated_at</li>
+    <li>Create a table called ninjas</li>
+    <li>Add the following fields to the ninjas table: id, first_name, last_name, age, created_at, updated_at and create an one to many relationship to the dojos table</li>
+    <li>Change the name of the relationship field to the singular pronoun. ie dojo_id</li>
+    <li>Take a screen shot of the ERD and upload the .png file</li>
 </ul>
 
 
