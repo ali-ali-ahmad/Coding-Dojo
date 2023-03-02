@@ -10,7 +10,7 @@
 
 <p>Using the Sakila database, complete the below queries.</p>
 
-<p>You can get the Sakila database and ERD here (<a href="">sakila-data.sql</a> and <a href="">sakila-db-model.png</a>), please use these for reference.</p>
+<p>You can get the Sakila database and ERD here (<a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/Sakila/startingFiles/sakila-data.sql">sakila-data.sql</a> and <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/Sakila/startingFiles/sakila-db-model.png">sakila-db-model.png</a>), please use these for reference.</p>
 
 <h3>Note</h3>
 
@@ -29,4 +29,4 @@
     <li>What query would you run to get all the action films which are joined by SANDRA KILMER? Your query should return film title, description, release year, rating, special features, genre (category), and actor's first name and last name.</li>
 </ol>
 
-<p>Note: You may download this PDF file displaying the expected results from the questions above - <a href="">Expected Result (Sakila)</a></p>
+<p>Note: You may download this PDF file displaying the expected results from the questions above - <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/Sakila/startingFiles/mysql_sakila_expected_output.pdf">Expected Result (Sakila)</a></p>
