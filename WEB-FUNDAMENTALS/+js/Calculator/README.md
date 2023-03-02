@@ -54,7 +54,5 @@
 <div>
 ```
 ## Demo Calculator
-<!-- <iframe src="https://codepen.io/wgoode3/full/pobBOzj" width="100%" height="500"></iframe> -->
-<!-- <iframe src="https://login.codingdojo.com/m/385/10423/70658" width="100%" height="500"></iframe> -->
-<iframe src="https://codepen.io/wgoode3/full/pobBOzj" width="360px" height="400px"><span id="selection-marker-1" class="redactor-selection-marker"></span><span id="selection-marker-1" class="redactor-selection-marker"></span>
-</iframe>
+
+Click [here](https://codepen.io/wgoode3/full/pobBOzj) to view the demo on CodePen.
