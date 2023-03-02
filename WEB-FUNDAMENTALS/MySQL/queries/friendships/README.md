@@ -15,7 +15,7 @@
 
 <p>Your actual query will look something similar to this:</p>
 
-```
+```MySQL
 SELECT * FROM users 
 JOIN friendships ON ____=____ 
 LEFT JOIN users as user2 ON ____ = ____
