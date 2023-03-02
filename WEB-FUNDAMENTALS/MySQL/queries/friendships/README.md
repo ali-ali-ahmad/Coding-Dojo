@@ -7,11 +7,11 @@
     <li>Practice SQL queries and self joins</li>
 </ol>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/friendships/screenshots/pic1.jpg"/>
 
 <p>After adding users to the database and creating some relationships, your results should look like below:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/friendships/screenshots/pic2.jpg"/>
 
 <p>Your actual query will look something similar to this:</p>
 
