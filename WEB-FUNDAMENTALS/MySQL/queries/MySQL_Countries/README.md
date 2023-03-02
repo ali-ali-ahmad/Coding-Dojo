@@ -8,10 +8,10 @@
 
 <p>Using the world database and the pictured ERD, complete all 8 of the below queries.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/MySQL_Countries/screenshots/pic.jpg"/>
 
 
-<p>First grab the world database (<a href="">download the file here</a>)</p>
+<p>First grab the world database (<a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/MySQL_Countries/startingFiles/startingDataBase.sql">download the file here</a>)</p>
 
 <p>If possible, work in groups and use MySQL Workbench to do the queries. We want you to get familiar with using MySQL workbench. The questions are of varying difficulty level. Do the easier ones first.</p>
 
@@ -28,4 +28,4 @@
     <li>What query would you run to summarize the number of countries in each region? The query should display the name of the region and the number of countries. Also, the query should arrange the result by the number of countries in descending order. (2)</li>
 </ol>
 
-<p>Note: You may download this PDF file displaying the expected results from the queries - <a href="">Expect Results (World)</a></p>
+<p>Note: You may download this PDF file displaying the expected results from the queries - <a href="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/queries/MySQL_Countries/startingFiles/mysql_countries_expected_output.pdf">Expect Results (World)</a></p>
