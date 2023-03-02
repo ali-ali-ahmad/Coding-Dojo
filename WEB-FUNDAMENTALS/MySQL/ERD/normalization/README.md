@@ -14,7 +14,7 @@
 
 <p><strong>Hint: You will need to create a new type of relationship.</strong></p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/MySQL/ERD/normalization/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
