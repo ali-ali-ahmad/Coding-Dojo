@@ -1,4 +1,8 @@
-
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="background-color: lightblue; padding: 20px;">Element 1</div>
+  <div style="background-color: pink; padding: 20px;">Element 2</div>
+  <div style="background-color: lightgreen; padding: 20px;">Element 3</div>
+</div>
 <div class="d-flex">
   <div>
     <h4>1) Web Fundamentals</h4>
