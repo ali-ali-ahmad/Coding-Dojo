@@ -1,5 +1,4 @@
 
-<hr>
 <div class="d-flex">
   <div>
     <h4>1) Web Fundamentals</h4>
