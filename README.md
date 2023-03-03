@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: center; align-items: center; width: 200px">
   <div style="background-color: lightblue; padding: 20px;">Element 1</div>
   <div style="background-color: pink; padding: 20px;">Element 2</div>
   <div style="background-color: lightgreen; padding: 20px;">Element 3</div>
