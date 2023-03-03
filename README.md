@@ -3,6 +3,13 @@
   <div style="background-color: pink; padding: 20px;">Element 2</div>
   <div style="background-color: lightgreen; padding: 20px;">Element 3</div>
 </div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 20px;">
+  <div style="background-color: lightblue; padding: 20px;">Element 1</div>
+  <div style="background-color: pink; padding: 20px;">Element 2</div>
+  <div style="background-color: lightgreen; padding: 20px;">Element 3</div>
+  <div style="background-color: orange; padding: 20px;">Element 4</div>
+  <div style="background-color: purple; padding: 20px;">Element 5</div>
+</div>
 <div class="d-flex">
   <div>
     <h4>1) Web Fundamentals</h4>
