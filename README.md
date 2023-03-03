@@ -1,3 +1,13 @@
+<head>
+  <style>
+    p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p>This text will be red.</p>
+</body>
 <div style="display: flex; justify-content: center; align-items: center; width: 200px">
   <div style="background-color: lightblue; padding: 20px;">Element 1</div>
   <div style="background-color: pink; padding: 20px;">Element 2</div>
