@@ -1,25 +1,4 @@
-<head>
-  <style>
-    p {
-      color: red;
-    }
-  </style>
-</head>
-<body>
-  <p>This text will be red.</p>
-</body>
-<div style="display: flex; justify-content: center; align-items: center; width: 200px">
-  <div style="background-color: lightblue; padding: 20px;">Element 1</div>
-  <div style="background-color: pink; padding: 20px;">Element 2</div>
-  <div style="background-color: lightgreen; padding: 20px;">Element 3</div>
-</div>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 20px;">
-  <div style="background-color: lightblue; padding: 20px;">Element 1</div>
-  <div style="background-color: pink; padding: 20px;">Element 2</div>
-  <div style="background-color: lightgreen; padding: 20px;">Element 3</div>
-  <div style="background-color: orange; padding: 20px;">Element 4</div>
-  <div style="background-color: purple; padding: 20px;">Element 5</div>
-</div>
+<p style="color: red;">This text will be red.</p>
 <div class="d-flex">
   <div>
     <h4>1) Web Fundamentals</h4>
