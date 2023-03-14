@@ -1,7 +1,6 @@
 
 
 <div class="d-flex">
-  **Hello**
   <div>
     <h4>1) Web Fundamentals</h4>
     <p>HTML</p>
