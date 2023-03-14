@@ -8,8 +8,6 @@
 </ul>
 
 <hr>
-<code></code>
-<strong></strong>
 
 <p>For this assignment, create a folder called modularizing and follow all the steps outlined below.</p>
 
@@ -68,13 +66,13 @@ import parent
 ```python
 print(__name__)
 ```
-<p>2. execute parent.py from the command line</p>
+<p>2. execute <code>parent.py</code> from the command line</p>
 
 <p>3. You should see __main__ printed to the console</p>
-<p>4. In child.py you should already have imported parent, if not, add that line now</p>
-<p>5. Execute child.py from the command line</p>
+<p>4. In <code>child.py</code> you should already have imported parent, if not, add that line now</p>
+<p>5. Execute <code>child.py</code> from the command line</p>
 <p>6. You should see parent printed to the console.</p>
-<p>7. In parent.py add the following:</p>
+<p>7. In <code>parent.py</code> add the following:</p>
 <h4>modularizing/parent.py</h4>
 
 ```python
@@ -84,7 +82,7 @@ else:
     print("The file is being executed because it is imported by another file. The file is called: ", __name__)
 ```
 <p>8. Now try running the file directly. You should see the file is being executed directly printed in the console.</p>
-<p>9. Execute child.py You should see The file is being executed because it is imported by another file. The file is called: parent</p>
+<p>9. Execute <code>child.py</code> You should see The file is being executed because it is imported by another file. The file is called: parent</p>
 
 <p>10. How is this useful? We can use this conditional to prevent blocks of code from executing unless the file is being run directly. Why would we want to do this? Consider a situation where one class depends on another, as in the Users with Bank Accounts assignment. In our product document we might create a lot of test code to make sure we can create new products and execute methods. When we import products to the store file as a module, we don’t want to see all of those tests run every time we execute the store file, so inside of our product document, we might have something like below:</p>
 
