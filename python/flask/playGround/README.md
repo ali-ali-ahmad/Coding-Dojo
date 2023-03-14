@@ -10,19 +10,19 @@
 
 <hr>
 
-<h3>Internal Styling</h3>
+<h2>Internal Styling</h2>
 
 <p>Just for this assignment, use an internal stylesheet or inline CSS (<a href="https://www.w3schools.com/css/css_howto.asp">review here</a>).</p>
 
-<h4>Level 1</h4>
+<h3>Level 1</h3>
 <p>When a user visits <strong>http://localhost:5000/play</strong>, have it render three beautiful looking blue boxes. Please use a template to render this.</p>
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/flask/playGround/screenshots/pic1.jpg"></img>
 
-<h4>Level 2</h4>
+<h3>Level 2</h3>
 <p>When a user visits <strong>localhost:5000/play/(x)</strong>, have it display the beautiful looking blue boxes x times. For example, localhost:5000/play/7 should display these blue boxes 7 times. Calling localhost:5000/play/35 would display these blue boxes 35 times. Please remember that x originally is a string, and if you want to use it as an integer, you must first convert it to integer using int(). For example int("7") returns 7.</p>
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/flask/playGround/screenshots/pic2.jpg"></img>
 
-<h4>Level 3</h4>
+<h3>Level 3</h3>
 <p>When a user visits <strong>localhost:5000/play/(x)/(color)</strong>, have it display beautiful looking boxes x times, but this time where the boxes appear in (color). For example, localhost:5000/play/5/green would display 5 beautiful green boxes. Calling localhost:5000/play/35/red would display 35 beautiful red boxes.</p>
 <img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/flask/playGround/screenshots/pic3.jpg"></img>
 
