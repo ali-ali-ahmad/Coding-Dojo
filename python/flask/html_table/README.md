@@ -24,7 +24,7 @@ users = [
 
 <p>Pass users to your template and have your template output an HTML table like this:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/flask/html_table/screenshots/pic.jpg"/>
 
 <p>As you need to get into the habit of making your assignment look nice, we challenge you to use either <a href="https://getbootstrap.com/">Bootstrap</a> or <a href="https://get.foundation/">Foundation</a>. If you haven't dabbled with these frameworks, start by learning just enough to do this assignment (creating a nice looking table).</p>
 
