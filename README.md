@@ -1,10 +1,5 @@
-<h1>Welcome Stranger</h1>
 
-<p>At this repository you will have access to all my work within my participation at Coding Dojo full stack boot camp.</p>
-<p>Over 5 months and with high level of intensively, I was able to go throught the basic of three stacks.</p>
-<p>You can check my progress throught the links below with that oder.</p>
 
-<hr>
 <div class="d-flex">
   <div>
     <h4>1) Web Fundamentals</h4>
