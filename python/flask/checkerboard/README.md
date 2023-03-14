@@ -13,7 +13,7 @@
 
 
 <p>Now let's practice linking static files to our template. For this project, we'll render a template that displays a checkerboard:</p>
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/flask/checkerboard/screenshots/pic.jpg"/>
 
 <p>Your program should have the following output</p>
 
