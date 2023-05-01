@@ -14,7 +14,7 @@
 
 <p>The goal is to help you get familiar with sending POST requests through a form and displaying that information. Consider the below example as a guide.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/dojo_survey/screenshots/pic.jpg"/>
 
 <p>When you build this, please make sure that your program meets the following criteria:</p>
 <ul>
