@@ -11,7 +11,7 @@
 
 <p>Create a Django project with a single app called time_display. When you go to <code>localhost:8000</code> or <code>localhost:8000/time_display</code>, this should run a method in your controller file (views.py) that renders a template displaying the current date and time.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/time_display/screenshots/pic.jpg"/>
 
 <p>There are many ways to get the current time in Python. For example, you could have views.py import <code>gmtime, strftime</code> from 'time' and pass the appropriate string to the render method. For example, your views.py might look something like this:</p>
 
