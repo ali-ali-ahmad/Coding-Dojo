@@ -9,7 +9,7 @@
 
 <p>Say we wanted to create a website where users can upload their favorite books and other users on the website can indicate whether that book is also one of their favorites. For the database diagram, we come up with the following, realizing that there can be more than one relationship between two tables:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/favorite_books/screenshots/pic.jpg"/>
 
 <p>Let's review the two distinct relationships between the users and books tables.</p>
 
@@ -35,7 +35,7 @@ class Book(models.Model):
 
 <p>This is exactly what related_name provides!</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/favorite_books/screenshots/pic2.jpg"/>
 
 <p>According to this,</p>
 
@@ -48,7 +48,7 @@ class Book(models.Model):
 
 <p>Create an application that performs the following:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/favorite_books/screenshots/pic3.jpg"/>
 
 <p>To Do List:</p>
 <ul>
