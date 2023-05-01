@@ -23,7 +23,7 @@
     <li>For now, save the activity log in session</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/ninja_gold/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
