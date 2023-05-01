@@ -14,7 +14,7 @@
 
 <p>This assignment is to test your understanding of session.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/counter/screenshots/pic.jpg"/>
 
 <p>As part of this assignment, please start with the following features first:</p>
 <ul>
