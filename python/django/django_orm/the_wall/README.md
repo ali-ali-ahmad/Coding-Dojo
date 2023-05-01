@@ -16,7 +16,7 @@
 
 <p>Download the <a href="https://assets.codingdojo.com/boomyeah2015/codingdojo/curriculum/content/chapter/flask_wall.png">handout</a> for the wireframe/ERD:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/the_wall/screenshots/pic.jpg"/>
 
 <p>Once you get the messages functionality working, allow users to post comments for any message. Comments should be in a separate database table from messages.</p>
 
