@@ -18,7 +18,7 @@
     <li>What we should put in our forms versus what should be handled by the server in the backend</li>
 </ol>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/amadon/screenshots/pic.jpg"/>
 
 <h3>IMPORTANT LESSON 1</h3>
 
