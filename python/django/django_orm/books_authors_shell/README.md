@@ -10,7 +10,7 @@
 
 <p>Create a new project called books_authors_proj and an app called books_authors_app. Use the following diagram as a guide for designing your models:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/books_authors_shell/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
