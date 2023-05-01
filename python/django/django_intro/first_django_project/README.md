@@ -16,7 +16,7 @@
 
 <p>***Bonus*** result:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/first_django_project/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
