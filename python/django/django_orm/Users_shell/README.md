@@ -9,7 +9,7 @@
 
 <p>Create a new project called single_model_orm with an app called users_app. Using the following ERD, complete the tasks listed below:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/Users_shell/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
