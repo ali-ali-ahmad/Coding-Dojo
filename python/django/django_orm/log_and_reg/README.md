@@ -22,7 +22,7 @@
     <li>Password - required; at least 8 characters; matches password confirmation</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/log_and_reg/screenshots/pic.jpg"/>
 
 <h4>Something to Consider</h4>
 
