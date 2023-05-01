@@ -24,13 +24,13 @@ import random 	                # import the random module
 random.randint(1, 100) 		# random number between 1-100
 ```
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/great_number_game/screenshots/pic1.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/great_number_game/screenshots/pic2.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/great_number_game/screenshots/pic3.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_intro/great_number_game/screenshots/pic4.jpg"/>
 
 <p>To Do List:</p>
 <ul>
