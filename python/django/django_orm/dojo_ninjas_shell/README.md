@@ -10,7 +10,7 @@
 
 <p>Create a new project called dojo_ninjas_proj and an app called dojo_ninjas_app. For this project, use the following diagram as a guide for creating your models:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/dojo_ninjas_shell/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
