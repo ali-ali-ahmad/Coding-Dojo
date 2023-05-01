@@ -103,15 +103,15 @@
       </ol>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm">Django orm</a></p>
       <ol>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/Users(Shell)">Users (Shell)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/Users_shell">Users (Shell)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/User_with_templates">Users with Templates</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/dojo_ninjas_proj">Dojo & Ninjas (Shell)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/dojo_ninjas_shell">Dojo & Ninjas (Shell)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/dojos_ninjas_with_template">Dojos & Ninjas with Template</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/books_authors_proj">Books/Authors (Shell)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/books_authors_shell">Books/Authors (Shell)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/books_authors_with_templates">Books/Authors with Templates</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/semi_restfull_tv_shows">Semi-Restful TV Shows</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/semi_restfull_tv_shows_validated">Semi-Restful TV Shows Validated</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/amadon-master">Amadon (Optional)</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/amadon">Amadon (Optional)</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/log_and_reg">Login and Registration</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/the_wall">The Wall</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/python/django/django_orm/favorite_books">Favorite Books</a></li>
