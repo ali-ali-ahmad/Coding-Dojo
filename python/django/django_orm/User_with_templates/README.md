@@ -11,7 +11,7 @@
 
 <p>Working with the same Users project and app from the previous assignment, add a route that renders a template that looks something like this:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/User_with_templates/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
