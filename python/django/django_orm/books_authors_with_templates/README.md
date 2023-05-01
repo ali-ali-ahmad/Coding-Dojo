@@ -9,7 +9,7 @@
 
 <p>Using the same project from the previous assignment, create an application that does the following:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/books_authors_with_templates/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
