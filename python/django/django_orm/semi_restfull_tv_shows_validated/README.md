@@ -9,7 +9,7 @@
 
 <p>Let's add validations to your existing Semi-Restful TV Shows assignment! Building off of your existing assignment, implement the validations indicated on the green sticky notes to prevent dirty data from getting into your database. If a submission is invalid, display errors on the appropriate page.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/semi_restfull_tv_shows_validated/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
