@@ -9,7 +9,7 @@
 
 <p>Using the same project from the previous assignment, add a template and the necessary routes to perform these actions:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/python/django/django_orm/dojos_ninjas_with_template/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
