@@ -22,7 +22,7 @@
 
 <p>Implement the four methods below. Important: Code all of the following methods in your <code>CafeUtil.java</code> file. </p>
 
-<table style="text-align: left;">
+<table style="text-align: start;">
     <tr>
         <th>
             <p><strong>int getStreakGoal()</strong></p>
