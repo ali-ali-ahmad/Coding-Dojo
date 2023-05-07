@@ -131,7 +131,7 @@ public class TestCafe {
 
 <p>Note: The output does not need to be formatted exactly the same as the given examples, as long as all the information is provided.</p>
 
-![Alt Text](https://link-to-your-gif-file.gif)
+![Alt Text](https://github.com/alirabah93/Coding-Dojo/blob/master/java/java_fundamentals/CafeBusinessLogic/screenshots/gif.gif)
 
 <h2>Ninja Bonuses!</h2>
 
