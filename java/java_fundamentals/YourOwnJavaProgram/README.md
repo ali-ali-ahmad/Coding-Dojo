@@ -10,7 +10,7 @@ My hometown is Burbank, CA
 
 <p>Objectives:</p>
 <ul>
-    <li>● Start coding java right away.</li>
+    <li>Start coding java right away.</li>
 </ul>
 
 <p>To Do List:</p>
