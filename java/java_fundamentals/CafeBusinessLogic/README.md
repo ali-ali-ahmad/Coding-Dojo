@@ -22,13 +22,13 @@
 
 <p>Implement the four methods below. Important: Code all of the following methods in your <code>CafeUtil.java</code> file. </p>
 
-<table style="text-align: start;">
+<table>
     <tr>
-        <th>
+        <td>
             <p><strong>int getStreakGoal()</strong></p>
             <p>Each week, a customer needs to purchase 1 more drink than they bought the previous week to get some free drinks after 10 weeks. For this method, <strong>sum together every integer from 1 to 10 and return the sum</strong> after it has been calculated. </p>
             <p><strong>Ninja Bonus:</strong>  Add a parameter, <code>numWeeks</code> so that an admin can change the number from 10 to whatever they want.</p>
-        </th>
+        </td>
     </tr>
 </table>
 
