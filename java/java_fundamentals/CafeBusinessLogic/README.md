@@ -48,7 +48,10 @@
             <p>Given an <code>ArrayList</code> of menu items (strings), print out each index and menu item.</p>
             <p>Sample output, with the argument <code>{ "drip coffee", "cappuccino", "latte", "mocha" }</code> :</p>
             <pre>
-{ "drip coffee", "cappuccino", "latte", "mocha" }
+0 drip coffee
+1 cappuccino
+2 latte
+3 mocha
             </pre>
         </td>
     </tr>
