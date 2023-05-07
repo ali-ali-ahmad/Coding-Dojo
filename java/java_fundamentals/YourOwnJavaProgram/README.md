@@ -1,34 +1,24 @@
-<h1>Assignment: </h1>
+<h1>Your Own Java Program</h1>
 
-<p>
+<p>In this assignment, you will create your own Java Program that will print your name, age, and hometown. Once you run your bytecode, you should see the following output:</p>
 
-</p>
+```
+My name is Coding Dojo
+I am 100 years old
+My hometown is Burbank, CA
+```
 
-<hr>
-
-![alt text](https://github.com/alirabah93/Coding-Dojo/blob/master/WEB-FUNDAMENTALS/Week1/Day1/Registration-From/wireframe.jpg?raw=true)
-
-<p>
-Here's the HTML code:
-</p>
-<img src=""/>
-
-<p></p>
-<img src=""/>
-
-<p>
-
-</p>
+<p>Objectives:</p>
+<ul>
+    <li>● Start coding java right away.</li>
+</ul>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create a new source file inside your Java Fundamentals assignments folder</li>
+    <li>In the main method, implement the code to print your name, age, and hometown on different lines.</li>
+    <li>Compile your code and clear any errors, until it compiles without errors.</li>
+    <li>Run your .class file to see the output.</li>
 </ul>
 
 
