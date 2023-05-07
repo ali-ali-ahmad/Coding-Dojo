@@ -32,6 +32,30 @@
     </tr>
 </table>
 
+<table>
+    <tr>
+        <td>
+            <p><strong>double getOrderTotal(double[] prices)</strong></p>
+            <p>Given an array of order prices, sum the prices and return the total.</p>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <p>void displayMenu(ArrayList&lt;String&gt; menuItems)</strong></p>
+            <p>Given an <code>ArrayList</code> of menu items (strings), print out each index and menu item.</p>
+            <p>Sample output, with the argument <code>{ "drip coffee", "cappuccino", "latte", "mocha" }</code> :</p>
+            <div>
+                ```
+                { "drip coffee", "cappuccino", "latte", "mocha" }
+                ```
+            </div>
+        </td>
+    </tr>
+</table>
+
 <p></p>
 <p></p>
 <p></p>
