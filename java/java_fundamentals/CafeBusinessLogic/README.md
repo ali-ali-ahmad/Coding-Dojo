@@ -22,6 +22,14 @@
 
 <p>Implement the four methods below. Important: Code all of the following methods in your <code>CafeUtil.java</code> file. </p>
 
+<hr/>
+
+<p><strong>int getStreakGoal()</strong></p>
+<p>Each week, a customer needs to purchase 1 more drink than they bought the previous week to get some free drinks after 10 weeks. For this method, <strong>sum together every integer from 1 to 10 and return the sum</strong> after it has been calculated. </p>
+<p><strong>Ninja Bonus:</strong>  Add a parameter, <code>numWeeks</code> so that an admin can change the number from 10 to whatever they want.</p>
+
+<hr/>
+
 <table>
     <tr>
         <td>
@@ -44,7 +52,7 @@
 <table>
     <tr>
         <td>
-            <p>void displayMenu(ArrayList&lt;String&gt; menuItems)</strong></p>
+            <p><strong>void displayMenu(ArrayList&lt;String&gt; menuItems)</strong></p>
             <p>Given an <code>ArrayList</code> of menu items (strings), print out each index and menu item.</p>
             <p>Sample output, with the argument <code>{ "drip coffee", "cappuccino", "latte", "mocha" }</code> :</p>
 <pre>
@@ -53,6 +61,26 @@
 2 latte
 3 mocha
 </pre>
+            <h3>Re-cap of ArrayList Syntax:</h3>
+            <pre>String name = myArray.get(0); // to access an element in an ArrayList using an index</pre>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <p><strong>addCustomer(ArrayList&lt;String&gt;)</strong></p>
+            <p>Given an <code>ArrayList</code> of menu items (strings), print out each index and menu item.</p>
+            <p>Sample output, with the argument <code>{ "drip coffee", "cappuccino", "latte", "mocha" }</code> :</p>
+<pre>
+0 drip coffee
+1 cappuccino
+2 latte
+3 mocha
+</pre>
+            <h3>Re-cap of ArrayList Syntax:</h3>
+            <pre>String name = myArray.get(0); // to access an element in an ArrayList using an index</pre>
         </td>
     </tr>
 </table>
