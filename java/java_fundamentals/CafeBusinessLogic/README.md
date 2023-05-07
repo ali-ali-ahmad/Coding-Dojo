@@ -22,8 +22,8 @@
 
 <p>Implement the four methods below. Important: Code all of the following methods in your <code>CafeUtil.java</code> file. </p>
 
-<div style="border: 1px solid #ccc; padding: 10px;">
-    This div has a border and padding.
+<div style="border: 1px solid black; padding: 10px;">
+  This is a div with a border and padding.
 </div>
 <p></p>
 
