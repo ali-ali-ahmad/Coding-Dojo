@@ -47,11 +47,11 @@
             <p>void displayMenu(ArrayList&lt;String&gt; menuItems)</strong></p>
             <p>Given an <code>ArrayList</code> of menu items (strings), print out each index and menu item.</p>
             <p>Sample output, with the argument <code>{ "drip coffee", "cappuccino", "latte", "mocha" }</code> :</p>
-            <div>
-                ```
-                { "drip coffee", "cappuccino", "latte", "mocha" }
-                ```
-            </div>
+            <pre>
+            ```
+            { "drip coffee", "cappuccino", "latte", "mocha" }
+            ```
+            </pre>
         </td>
     </tr>
 </table>
