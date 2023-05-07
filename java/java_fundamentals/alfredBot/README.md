@@ -126,26 +126,101 @@ public class AlfredTest {
     </tr>
 </table>
 
-<p></p>
-<p></p>
-<p><strong></strong></p>
+<h3>Date Announcement</h3>
 
-<code></code>
+<table>
+    <tr>
+        <th><strong>Description:</strong></th>
+        <th>Returns a polite announcement of the current date and time.</th>
+    </tr>
+    <tr>
+        <td><strong>Inputs:</strong></td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td><strong>Return Type:</strong></td>
+        <td><code>String</code></td>
+    </tr>
+    <tr>
+        <td><strong>Example Output:</strong></td>
+        <td>"It is currently Wed Aug 11 16:34:59 PDT 2022."</td>
+    </tr>
+</table>
 
-<strong></strong>
+<h3>Respond Before Alexis</h3>
 
-<img src=""/>
+<ul>
+    <li>Tip: Use the <code>indexOf</code> String method</li>
+</ul>
+
+<table>
+    <tr>
+        <th><strong>Description:</strong></th>
+        <th>AlfredBot will periodically process audio (Alfred is listening.) Write a method that accepts any string of conversation and responds appropriately.</th>
+    </tr>
+    <tr>
+        <td><strong>Specifications</strong></td>
+        <td>
+            <ul>
+                <li>If "Alexis" appears in the conversation (in the string) return a snarky response, such as, "Right away, sir. She certainly isn't sophisticated enough for that."</li>
+                <li>If "Alfred" is in the conversation return an obliging response, for example, "At your service. As you wish, naturally."</li>
+                <li>If neither name is found, return an appropriate response, for instance, "Right. And with that I shall retire."</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Inputs:</strong></td>
+        <td><code>String conversation</code></td>
+    </tr>
+    <tr>
+        <td><strong>Return Type:</strong></td>
+        <td><code>String</code></td>
+    </tr>
+</table>
+
+<h2>Product Back Log (PBL) ~ Ninja Bonuses</h2>
+
+<h3>Guest Greeting (Ninja Bonus Version!)</h3>
+
+<ul>
+    <li><strong>Description:</strong> Use method overloading to write another guestGreeting method that returns a greeting including the person's name as well as the day period. Note: It must have the same method name but will have a different method signature.</li>
+    <li><strong>Inputs:</strong> String name, String dayPeriod ("morning", "afternoon" or "evening")</li>
+    <li>
+        <p><strong>Return Type:</strong> String</p>
+        <ul>
+            <li>Example Output: "Good evening, Beth Kane. Lovely to see you."</li>
+        </ul>
+    </li>
+    <li><strong>SENSEI VERSION:</strong> Instead of a string for the day period, write the overloaded method with no parameters, and use a Date object to determine the day period.</li>
+</ul>
+
+<p><strong>Hint:</strong> Use your google-kung-fu! You can use the <code>SimpleDateFormat</code> class and the <code>Format</code> class to help. Both are part of the <code>java.text</code> library. To the <a href="https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html">bat-documentation</a>!</p>
+
+
+<h4>Sensei Bonus</h4>
+
+<p>Write your own AlfredQuote method using any of the String methods you have learned! For example, maybe he sometimes yells when he's angry.</p>
+
+<h2>A Note About Commenting Your Code</h2>
+
+<p>As you go through this bootcamp, it's a good idea to use comments liberally. Not only will you make your own life easier, but down the line, if you're working on a project and someone else ends up maintaining your code, they will thank you for well-commented code. Likewise, you will appreciate well-commented code in any project you inherit. Many teams and companies will have a style guide for commenting code that you will need to adhere to. In fact, commenting code can also contribute to the autogeneration of documentation in human-readable form. If you're curious about a tool the JDK uses to do this, check out the link for an intro to Javadoc below.</p>
+
+<p><strong>Useful Links</strong></p>
+<ul>
+    <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html">java.util</a></li>
+    <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html">Java String documentation</a></li>
+    <li><a href="https://www.baeldung.com/javadoc">Javadoc</a></li>
+</ul>
 
 <p>To Do List:</p>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create a project folder in your Java course folder called "alfredBot"</li>
+    <li>Create an AlfredQuotes.java class file that will hold all of Alfred bot's functionality.</li>
+    <li>Create an AlfredTest.java main program file that will execute code to test our AlfredQuotes class.</li>
+    <li>Implement the guestGreeting method, and test it by first compiling the test file with the javac command and then running the test file with the java command in your terminal.</li>
+    <li>Implement the dateAnnouncement method, and test it.</li>
+    <li>Implement the answeringBeforeAlexis method, and test it.</li>
+    <li>NINJA BONUS: Implement your own method for the Alfred bot using any of the built-in String methods you've learned. Maybe he can yell..</li>
 </ul>
 
 
