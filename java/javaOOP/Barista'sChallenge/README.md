@@ -90,8 +90,6 @@
 
 <p>Note: This time, you do not need to pass in a list of prices, because each item object in <code>this</code> order's <code>items</code> array has its own price, that you can access using a getter!</p>
 
-<code></code>
-
 <p>To Do List:</p>
 <ul>
     <li>Implement the Order and Item classes as described above.</li>
