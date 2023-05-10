@@ -291,4 +291,4 @@ public class User {
 
 <p>Your test results should look like the following:</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/javaOOP/CareSoftInterfaces/screenshots/pic.jpg"/>
