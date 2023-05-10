@@ -136,10 +136,9 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/Barista'sChallenge">Barista's Challenge</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/BankAccount">BankAccount</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/Coffeedore64">Coffeedore 64</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ZooKeeperPartOne">Zoo Keeper 1</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ZooKeeperPartTwo">Zoo Keeper 2</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/CareSoftInterfaces">CareSoft Interfaces</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/AbstractArt">Abstract Art</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/ZooKeeper">Zoo Keeper</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/CareSoftInterfaces">CareSoft Interfaces</a></li>
+        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/javaOOP/AbstractArt">Abstract Art</a></li>
       </ol>
     <p><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring">Java Spring</a></p>
       <ol>
