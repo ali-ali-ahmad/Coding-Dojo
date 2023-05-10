@@ -165,7 +165,7 @@ Columbian Coffee Grounds
 
 <hr/>
 
-<h2>boolean displayMenu(ArrayList;String&gt; menuItems, ArrayList&lt;Double&gt; prices)</h2>
+<h2>boolean displayMenu(ArrayList&lt;String&gt; menuItems, ArrayList&lt;Double&gt; prices)</h2>
 
 <p>Let's overload the display menu! Given 2 arrays, an ArrayList of menu items (strings), and an ArrayList of prices (doubles) print a menu! </p>
 
