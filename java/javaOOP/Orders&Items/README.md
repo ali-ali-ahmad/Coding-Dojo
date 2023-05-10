@@ -8,7 +8,7 @@
     <li>Be able to instantiate a new instance of a class (initialize a custom data type).</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/javaOOP/Orders%26Items/screenshots/pic.jpg"/>
 
 <p>Let's take Cafe Java to the next level and add in some custom data types! Create 2 new classes <code>Order</code> and <code>Item</code>. They should have the following member variables:</p>
 
