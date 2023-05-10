@@ -15,7 +15,7 @@
 
 <p>Now that you've shown the capabilities of your code, the Cafe Java owners want you to make it a full-fledged interactive app. However, they want it to be retro, like an old computer, an Apple II or Commodore 64, where users are shown some text questions in a terminal and can answer or press 'q' to quit. Here's an example of what it will look like:</p>
 
-![Alt Text](https://github.com/alirabah93/Coding-Dojo/blob/master/java/java_fundamentals/CafeBusinessLogic/screenshots/gif.gif)
+![Alt Text](https://github.com/alirabah93/Coding-Dojo/blob/master/java/javaOOP/Coffeedore64/screenshots/gif.gif)
 
 <p>We'll be using the code base we already have but will be adding one member variable to the <code>Item</code> class, <code>int index</code>. Don't forget to give it a getter and setter.</p>
 
