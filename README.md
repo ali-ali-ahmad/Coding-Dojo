@@ -155,8 +155,6 @@
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/RenderingBooks">Rendering Books</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/RenderingAllBooks">All Books</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/SaveTravels">Save Travels</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/EditDeleteExpenses">Edit Expenses</a></li>
-        <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/EditDeleteExpenses">Full CRUD Save Travels</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/Languages">Languages</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/DojoAndNinjas">Dojos and Ninjas</a></li>
         <li><a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/ProductsAndCategories">Product and Categories</a></li>
