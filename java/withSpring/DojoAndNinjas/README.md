@@ -4,9 +4,9 @@
 
 <h3>ERD and Wireframe</h3>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/DojoAndNinjas/screenshots/pic1.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/DojoAndNinjas/screenshots/pic2.jpg"/>
 
 <h3>Topics:</h3>
 <ul>
