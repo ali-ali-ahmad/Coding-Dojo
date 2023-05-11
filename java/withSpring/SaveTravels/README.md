@@ -13,7 +13,7 @@
 
 <p>This is a three-part assignment. For the first part, you will be creating an app to track a user's expenses, a digital pocketbook. You'll need to create a new project that will store the details for every expense and allow users to add new expenses from a form.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/SaveTravels/screenshots/pic1.jpg"/>
 
 <hr/>
 
@@ -21,7 +21,7 @@
 
 <p>The next step is to add the ability to update expenses.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/SaveTravels/screenshots/pic2.jpg"/>
 
 <hr/>
 
@@ -31,7 +31,7 @@
 
 <p>Note: While it is a good idea to practice using RESTful routing by adding delete mapping, the aim of this assignment is for you to understand how to implement a delete feature, so if you find yourself stuck and need to use a POST or GET mapping for your delete, that's fine</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/SaveTravels/screenshots/pic3.jpg"/>
 
 <p>To Do List:</p>
 <ul>
