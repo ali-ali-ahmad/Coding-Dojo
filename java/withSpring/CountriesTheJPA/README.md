@@ -7,15 +7,15 @@
 
 <hr/>
 
-<p>In this assignment, you will create the queries for MySQL Countries using JPA native queries. If you do not have the world database yet, download it <a href="">here</a>, and run it in MySQL Workbench.</p>
+<p>In this assignment, you will create the queries for MySQL Countries using JPA native queries. If you do not have the world database yet, download it <a href="https://github.com/alirabah93/Coding-Dojo/tree/master/java/withSpring/CountriesTheJPA/StartFiles">here</a>, and run it in MySQL Workbench.</p>
 
 <p><strong>World ERD:</strong></p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/CountriesTheJPA/screenshots/pic1.jpg"/>
 
 <p><strong>Display the data in 8 separate tables (one for each query):</strong></p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/CountriesTheJPA/screenshots/pic2.jpg"/>
 
 <p>Tasks:</p>
 <ol>
