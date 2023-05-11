@@ -10,7 +10,7 @@
     <li>Add CSS and JavaScript to your project.</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/DisplayDate/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
