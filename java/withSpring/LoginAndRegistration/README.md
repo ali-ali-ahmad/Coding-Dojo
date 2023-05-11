@@ -16,7 +16,7 @@
 
 <p>In this assignment, you're going to build a Spring application that allows for login and registration.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/LoginAndRegistration/screenshots/pic.jpg"/>
 
 <h2>Registration</h2>
 
