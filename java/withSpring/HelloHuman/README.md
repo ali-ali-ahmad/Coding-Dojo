@@ -12,7 +12,7 @@
 
 <p>Create an app that will show in the browser either a default value of "human" or the name provided in the URL query string. Please note, you may show simple text without any html formatting.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/HelloHuman/screenshots/pic1.jpg"/>
 
 <h4>Ninja Bonus (Optional):</h4>
 
@@ -20,7 +20,7 @@
     <li>Can you include a "last_name" as a parameter and print out both the first and last names?</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/HelloHuman/screenshots/pic2.jpg"/>
 
 <h4>Sensei Bonus (Optional):</h4>
 
@@ -28,7 +28,7 @@
     <li>Include a route that takes a parameter <code>times</code> and returns a string that repeats the greeting that many times on the page.</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/HelloHuman/screenshots/pic3.jpg"/>
 
 <p>To Do List:</p>
 <ul>
