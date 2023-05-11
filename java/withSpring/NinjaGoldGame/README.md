@@ -13,7 +13,7 @@
 
 <p>You should only need 2 methods to complete this task. Hint: Use hidden inputs to differentiate the forms.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/NinjaGoldGame/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
