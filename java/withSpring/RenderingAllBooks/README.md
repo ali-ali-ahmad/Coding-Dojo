@@ -37,7 +37,7 @@ public class BooksController {
 
 <p>Next let's show each book as a row in a table on the page that includes the ID, title, language and number of pages. Here's an example of what your page should look like, rendering book data, dynamically from your database.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/RenderingAllBooks/screenshots/pic1.jpg"/>
 
 <p>For a review of how to write JSTL for loops make sure to revisit the JSTL Loops And You lesson and review your Fruity Loops assignment.</p>
 
@@ -65,7 +65,7 @@ public class BooksController {
 
 <p>As an extra challenge, make the title for each book be an anchor tag that navigates to the details for the book using your "/books/2" route!</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/RenderingAllBooks/screenshots/pic2.jpg"/>
 
 <p>To Do List:</p>
 <ul>
