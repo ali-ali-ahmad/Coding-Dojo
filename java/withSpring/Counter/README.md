@@ -10,7 +10,7 @@
     <li>Use getAttribute and setAttribute to read and modify session</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/Counter/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
