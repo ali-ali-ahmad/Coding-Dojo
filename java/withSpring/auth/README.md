@@ -2,7 +2,7 @@
 
 <p>Your site was getting out of control, and you needed to allow an admin to moderate it. Extend your previous app so any time someone signs up and there isn't an admin, they become the admin. Admins should be redirected to a special admin dashboard on a separate page where they have the ability to see all users, delete non-admin users, and give users admin status.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/auth/screenshots/pic.jpg"/>
 
 <p>Goals:</p>
 <ul>
