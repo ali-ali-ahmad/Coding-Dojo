@@ -13,7 +13,7 @@
 
 <p>Create an app that will show in the browser either a welcome message or a fortune, based on which URL is typed in the browser. Please note, you may show simple text without any html formatting.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/DaikichiRoutes/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
