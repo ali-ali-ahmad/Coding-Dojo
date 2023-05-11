@@ -10,6 +10,6 @@
     <li>Use a nullable field in a relationship.</li>
 </ul>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/BookBroker/screenshots/pic1.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/BookBroker/screenshots/pic2.jpg"/>
