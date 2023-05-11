@@ -22,7 +22,7 @@
     <li>A route to render their fortune</li>
 </ol>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/OmikujiForm/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
