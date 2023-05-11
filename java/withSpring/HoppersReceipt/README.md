@@ -6,7 +6,7 @@
 
 <p>For this assignment we will take data from our controller and render it to show a receipt for a single item purchase.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/HoppersReceipt/screenshots/pic.jpg"/>
 
 <h2>Controller starter code:</h2>
 
