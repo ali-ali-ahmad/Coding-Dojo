@@ -17,7 +17,7 @@
 
 <p>For this assignment you'll be building this wireframe, dynamically rendering a list from your controller.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/FruityLoops/screenshots/pic.jpg"/>
 
 <p>We're going to start by making a new project. Don't forget to add all the dependencies! In addition to making a <code>controllers</code> package for our controllers, we will also be making a <code>models</code> package to house our models. A model is a just another name for a class. In Model View Controller (MVC) design patterns, classes are called models, because they model the data from the database, in order to manipulate it. For now, we do not have a database yet, but that doesn't stop us from implementing classes anyway!</p>
 
