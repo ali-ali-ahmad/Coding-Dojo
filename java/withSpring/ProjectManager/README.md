@@ -10,9 +10,9 @@
 
 <p>Note: The ninja bonuses are features that you would see as Black Belt features. Indeed, some functionality on the dashboard would also likely be a black belt feature. This assignment is more difficult than a belt exam, so if you complete this assignment, you should be able to earn a black belt.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/ProjectManager/screenshots/pic1.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/ProjectManager/screenshots/pic2.jpg"/>
 
 <p>To Do List:</p>
 <ul>
