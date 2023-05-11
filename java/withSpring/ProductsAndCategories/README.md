@@ -10,11 +10,11 @@
 
 <p><strong>ERD and Wireframe</strong></p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/ProductsAndCategories/screenshots/pic1.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/ProductsAndCategories/screenshots/pic2.jpg"/>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/ProductsAndCategories/screenshots/pic3.jpg"/>
 
 <h2>CategoryRepository</h2>
 
