@@ -12,7 +12,7 @@
 
 <p>First, create a second controller called BookController. Next, create a new .jsp file in webapp/WEB-INF called show.jsp. Don't forget to include the relevant JSP and JSTL dependencies (see the Spring Templating lesson). In this assignment, you will continue to build your CRUD web application by implementing the show method. For example, when the user visits '/books/1', you are to respond with a view page that has all the information about a specific book.</p>
 
-<img src=""/>
+<img src="https://github.com/alirabah93/Coding-Dojo/blob/master/java/withSpring/RenderingBooks/screenshots/pic.jpg"/>
 
 <p>To Do List:</p>
 <ul>
